@@ -1,2 +1,1152 @@
--- This script is totally free
-return({h=function(n,o)return function(b,g)local c,m,k,h,d,q,i,e,p,j,l,a h=0b1000010 repeat if h>0b10000111 then if h>0xce then if h<0xf4 then h,d=0x14d-h,d(p,q)p,q,i=o[0b10][0b10][o[0b10][0b11]],g,#g i,j=1,e%i j=j+i elseif h<=0b11110100 then h=c<=0 and 0x9f or 0b10011101 else h=e>a and 1 or 0x60 end elseif h>0b10100111 then if h>0xca then h=c>0 and 0x1c3-h or 0x60 else e=e+c h=c>0 and 0x14 or 0x83c6/h end elseif h<=0x9f then if h>0x9d then h=e<a and 1 or 0x9d else p,l,k,q,d=b,o[1][0b10][o[1][0b11]],o[0b11][0b10][o[0b11][0b11]],1,o[0b10][0b10][o[0b10][0b11]]h,q=0b11110000,e+q end else h=c<=0 and h+-0x20 or 0x106-h end elseif h>=0x5d then if h>0b1100000 then if h<=0x7a then h,l=h+-0b101010,n.c(l(d,n.d(p)))else h=e<a and 0b10000111/h or 0b1011111 end elseif h<=0b1011111 then if h<=0x5d then h,p=h+0x1d,n.c(p(q,j))else h=c~=c and 1 or 0b10011101 end else h=c~=c and 0b10011111 or 0b11110100 end elseif h>=0b1000010 then if h<=0b1000010 then k,l,e,m=#b,1,0,""c,a=l,k-l h=a~=a and 1 or 0b11001110 else h,k=0xca,k(n.d(l))m=m..k end elseif h>1 then h=e>a and 1 or 0xbb-h else return m end until false end end,f=function(a,b)return a.z(a.n(a.k"|F-%C073u|0RMXd3jl)x0y*CR#wk810wV(o{{X!s1Rem!D*rwy0IvoB7y$n(0P7nV0s!CtEd?<En+6L({{sMn1qM6-v;Q&!3o8r&uLu4FKsx}<2M9GP{{Vvo2|EBU3jYfo8~}R*4*>6j1_nL}0754K|HddlCjcoM8Gi)^2LS6F83~~OE(|gN9u@!q{{TS%-!2U@0Jk+16#)PaG6A3ussMoy0D%z%WJ3gC68Z(`69wfIG60Gd)h-5L76>2{2q70T{{Wi@2|@z^ivJid0KFv{AOQcyD?lj#Rs$M;4ix~sCK(|C;Qc`X;TsPY0KF&c86pGVLIL3%5Eowny(k$Y0pLRe;r|^G7y!K~86^4v;6wr89ugS<z1J!kB?I6^1K}SNzZw9&D;XvQ;70xh;UE+n0KF_3_8nj=M+e~{6&wJsy)79i3E)Tx;Ua$)9RR&987Tqa|4AtTg9jr;0RLehOgbb0uM_$xAT$8M8~{WBa(_z`KO_JiA|oKbq5$$2KRGhM3*P`%B_<d$VM{3f86YPZ9{?{X3%@HW0DCDNH$YMTE8$Qn0I@emPX7S0HAYMTy)gSKD-PgGDFBcp{WCh^%_}59H30js6b(Q(0CG$e^*{_@BMf3*L`^#GKSGKuItF1V0L^VJ1!2Z22f)TD0D%9fM=v-l0IwB(6u>nAgAOi81;bk}I~zbuC=h@c5P-i-DFEy;HWtAP_5lDmBs(Ar09Y~qBTE2Z5di>SwGRMb0|4L<0Rn&|t!o01B}N4&6$K;R|0@emG#3CKDY8VsJ`CVDU@286U<&^*Q2<ylDm(z|Ul<C&5(_{V0RZp4J25sbU{)vqe^@UlYye*q4j|nO4WKS5VGqJsF8eB60R$^H0ACIM5dbYLT>w}uEp0UbfG%kPATMnPV4pBd0AC*mU<3er^)ep7Cmz5y0DCgOEC7QeGg@SVue<_bHXtVe8UO=8G~NWF8vrl>0{|TW-#Gw#H7jX=4FKzVGzNwT17R8fH`f4rHVR@K1)zI3Un~HxC;$c`GX^2)3<IDH#s&jn8UUj74?+aMhXx?*GD<f7D*~EQTQmTgQ}0|g0ElQnKV~{#0N+$NSO9=I0D=8F0D(JL05UZRUt>6O0ADWwA};_xIyq$kUm-D|G9gwQ;9npCU?c(H9s*#h9$_W`;3xrLDK#Ts{Q?DG8vy}&Q#ZQ_K`tOXWB>v}Bm4+JG(cD}Jy`%>?JXr^UjzbxD**uig9|)o09Y<S?>zutE;4{oF--b0fNVsd0XYDJFx@=^U@t#k17cqYxdDTK13-fWJ_bTyeg;ffH9lAXUkYF_3}Q#23}G1nUoQ{<6Jf46fipio1cxvYhyuR>0o6EMBoTl@-Az5?E<-av129CdIRIZX7@#y4gIK>XMNt4>3K=9ZzDA)&F#ul%L}5q$Ktmu%VgOh<NiRPDUo0O$I3K_b0V)UqIUztd5vN}Y0TZGA7NIr)0Rs|XJzoG=GE6!r13V>U^*bhD1q*;LO;iB+Ujl&w0D}S)cL3|JL_xqjK*Fym0r!*t#6O@d0D~mIH(LNg|C_boN&f(YKs|Q=-BiyEcU>2_WCCPZHeXLe0AB|Ygf%k2;uC=#Gr$rB9w8h70RN9HQxs-c0Dk{G4SYxdgFiUGc>v#QIBx+UIjR96IRPO$0U<g9VLSc;VLNXCn=MCwZabhsJ$P?GP)A7P+(ls`AjT?vZlE?#FG2ucGC`m^LLf;Y1t&uwB}1T2AtvEVAx)rvSTRs&0ADr(1pWv_ia%}uy)Qs*Uw9yYDJCFON+u(4GyyGP2jK=ly<{;2LY{nqQ8xfzg#nAexBpK;O90<+LUgYHibHS#07L-*MYaI}Ms%TIE?^yC5C4Kp0E$O(0N=lHLUjNhS<e7Kz5!rJbpVP<0)a}ubpX9(OJM~8ga1tcicE3<-*VqVb^sn)1p{(OZ*~BRO#*>Rb_D_bVhSOIP5_D`bN>L}b3%6j9$S6|19M1s0E$imfvZY)3L#^^z=Ik9E&o<$0H<Y5Z%_XKicoa`-*rO2c>uj?QDwt`g;gj61yTb6Qv(510|MVE0H<b71|d~;{{Y{1Q+fcsYwJ{I$-ssQ;4es0_W)l=C}2kc0H^zBPXwV>cL3jae?ofzy=+lu&VcEM3g80+R|5ot0t|hH1VC7O0E$@!VcS}JV_;lXQ$pW&Wm^X!Tn8c#0BBGT0e@Y10N;2*e64_wT~h#GNx?f|J|N%!cw2k`y=`7-(%Ybj4FCnhUj@Z3UDH|sbb$oZU<Aiw0O?;lpaj!l38aGp4t<6Yz*u|$ied*Lomvs#E?qko!w}<Ksu1gA2PO{(C1eLDGO7nSWd|k@4rOKsCtltMHD>^dXbxn(ZK+Wahyws=5rz>M#cJvihe!%oYX>BI3s>I&g8~wVrJ#!`P9Y#{d;kJXBY|xSr&VSZ32qVVZwjgn3a?ZGM+%{E6=y^WxN#rV)p8%k6d%QNAH^_TFF^obJ%Io|s3S$hN;#--W#DuxF#`d00|BK|P~lWi=LR8m1~qr)2}Fu`3SlVVg8~*xGKG0EhgT=m5utiH#+4U2#d|r&G(<EQ;e4zW%zMCTQ5*q%tU!7DLVawYUP%C7OZuY#DtiOpd0Tw|FTHMFX>6d0dB6q0x=kQ{1;o8>Q3DHqssjO21|d`iCvlD-fb<420|9{sBsCOZ0Ds?kf_(rUVV&S+sX%#y2*;4XYElKEe}sAf-+DrR>HxoATL51c0Rf;}zkUF{Z(eGEpo;wbK~&&QJ%s>RHeX#(0AESGAWXcVR<qz=8oi(pz9165ptjH;Um3rn#wrHDgZl}E20$-fFaTfOO6eoLZ!ro)iiYob03KozU`PPH`zMD2fGmnB0I#1?02=^0<bdNP{_i6Iiio4YZ;5OCk>F%tuTuaT06gCS+GL3U0YD=F|3CnPPKt*BSidh|P5@s)&mcg*0RX*mF>IHhjBP0BqKb>3z;B5HBKiy<R16?J0E0t}`Gy0c2!cZZgHMX>hzNjTMF@v-F>PuHfQ<-*jiP{Wi2@@26u?ygC;%7$d;5-8tiWDX0AEA-0eB$|<F{HtRsjFsdyjtrijaHi0RWK!0FnU#lYanf9%C?oK?9(af6{>em1_Y13N9yle*k?73IK|hJHS_RiEbAFjv)Y63*i4o0E1DAiU3$YJ7YKiUqb4j>md^FK?3l^@<AUj<nO?^!s_PXFYq7@O@qC3G1YG&V2>eWmpY(wiTna0Az)Vk82{}6?}Ji`i}K)PPXL2oEB8POfd~N%f%4&X>oIT$0FWTy|G=030RjYcVRLH&{{(koX><YvXa8YsWdaCEb4>qlVPs`w213>UUPd%5Ie-EOe^6{;V`WKX1mXX3ZUP2#baH9`Zf61pW^ZzB|6z0jI$K0#Z2xI;X?1N~AVL3PZ*p{HWI7=J21FnzC37htY5#K|Zf|rTR%!olY-Mg^WgtZTX$V1MbS?r2bp3A$qzFNEbZ<ugVRCH(2uN>m{t6&rc>)kqWpej+WpV-FMQ&kY|7>Ms0u54SYS(XRZUMy*27yI*e`RBJbY)L&2H^h!2U2Bpa(PtePy!4A1PLP(O=16dMrm$ob7*Y;X>Mghd1Gv4$8!P~2cZ#Q3qeb1e{5`Jazkig6X5>>00ItGb7gY>S7l;oZ*OZ=&vI-65&`HDWeZ66baZeOA!%b}0`Ce(Wpn{$4^(C6Y-MmE00V^)Qf1$8Y-wX*BOp_B|8H_(XJrBjSD$ZkYjbca;48v;|7CJ>0tZ8Ha=&Fqb!h?+4WUW*Zg6!9Mha4OZuSjFb!h=*1ygik|8#Q#3rufgVfkz{zzE<119Ng?cLD`)G+=ZBA~R^;W@U6^Xg2^LX8&?;Z6HT!bV&boVlFN&0##`K7~pd{FE4UocmFPDX>@3HVs-u>pkr@tbY*UIe=cKhZ7)P&0bt)ubzyZcJw-2a|7B)#FKA_9WdCz7ZDDC{FJ%5YU@vTGVsc?}|9LKKbzuSnKl^k&OW<i^YXS$nB_SjL0tR7oD&TbY0ytYerB*~;AooULX**ybbZ;PaY)>E{2#6pkY#RapAS)npWo>VC&t)kB3Ist$L<~dwa%C!DS7~l!Z|8RcBnoO2<sfcpe{3LOW^`q83xfVg0d8bva#M6=^KfuU;4VOJZe?TrbS8j#ZUP5#WzTVSWpiObB0&NS`Xd2f0%ZnfY;}0=b#np{1VD9VU+-^jUvxag0tHO}Wp-t30tQoK|8iw_a{>iNW%Xe>zzj-i6Gd`zKW}nPWpi^sz)a!wXIa1nKp=N+0utUv1xapcbRnYx1iw^eVQm5!O2ANma&K^Da&&nHg#S}%XKrC^0toIgB?1I)cHtXVF@G*FARxlGAZ+jd0tj<;VsvSA|7>Lf2SjCNVgGe(bOHr*Xl43+zyxkW2V-w+b^mQ{a{>-*bz|RYWMw*VHo#$cZ)E}mX+XdN2`vNPRAFKQ2V#T*3w{M8b7gL10uTno|6*ZsEn{e5a^8u6Ol4+tQs8NJQ)M7jVJ83$HN#Uaz~5<aZUPqq!#W^79)W3LY-xImfKlPk1axJ12S5d*Okw?ED<Be5Z*^{D{~%OpZDn#gApb2bIxQ^%2t$5U0CI0^a{>u~q5MdohhPPEVQh6}{{jtRW_Dy>Vfu<7W{M#MW^7?+I|2w~Kx|@RQQ$`e?^JJRXCgopR8Y)MVS~pYPD#K^ghF+zbaWMf3Xvlqj6o9CkYgZIF2EoH;{p%#5JCiq5D+40Z*X5_WtT(?6rz{o0uuwm$#R*31SS(0;+e!CZ&_{)qZvkDWt{+D3PAq?1yX5eXmkQ)5)OeaexVS+baW@cmvaITp28rVXCY*AKBB>2bZ`O>1OuYNe;_DxDFO>{yP=n8Z){?~0v5vsgJjEPY_MPpY=e=a0u4&DKp+Q44jhIBV-Aob?;uZbbUYw)0vc2zqO2q!VZ$J-WDzt%{cEnmUuSh;a%AHI4|ay7;K<+tNJXD>V_|S*e}Ji>b6+4~a%CXSfOiFe$7N(7JHgN3s^DyF|9LJ7PH!M{Wq)*aa3F4FW!J#IC*gT-b#fq6;4a4k3|Rp|S7y5;AXU#&OadgI#h4&tZ~Jm&o&sTTX)kw{zr%AcQh^l}!lL0{Rs!T-b;95i!Gj<R%BdLzZ$O0%UWR0GfDi3c6M!I8jvydKZT(`~zywKdW^V%fg8>ueW@&O|bG;yofO2^tWg%iNe+o%%V{CO~0>G_vjiN7Sje#HlfNtMqWGo<Tks%;(_i}G%2Ox7S3SshQz;lj(ZXh6Yb#0Apv!MzK%i)Hh^C4sRWo~oM;A9|aZoeR5Y-}K95g~KWE&>fx2E@!m3QYX7V00u1a%p2|RQhzG2z6moX?kS>XA4qgFTj0ba{?5AUe|y^WoKckfKs<YUvmNsS7Do=Z|s0`X>2`!d4W}MWa5C^MRv^K0uJ-wWJbSfa&vS;XaoTbpHFT>Y-!LS1H%R0fI<QUQ)s<l1V=`mK?QJnA(<eXA{2n8?;uu0AQhoyWFg@Kn;_W2nIJ1c1ax`-aAg7rWOZ_3{!~E%22O8uX=XQh0ufguL1R||4g=#0a}6Lbz@>n500930RX(;D0IvuC02lx?0DTGy{{Vvl0XqPD0{;&Hg9ZUT0E7Pp13Umo00{v93_l?N>K+#l{X7ET1U&#H7DN94-!23)0Id-J3jnVO02u%`{s*G15DWl=1O?wa073u|0^t|{|1JP~1`GgLFaHxT0AB(C0AGIr0071+Kqv$N{{;pD2TNsnL;G)JvEW5+b!`Ig0ZRf1=mi1;Q~71Npdms40s;pC|F#4GJ|izKEB63{0~8>=BLW`(04W|B1qBBJ{sxQy00IO6wj2Kdnk_aD00kTW8!7<+y(9u3e*lLg78@)e5~F?{U<(QWdjkvuK>GwC5+Fe*0LCc)Kq~;y01W^T{XYzV2L(X@iU$8Q0Anl?H~_ER4ICgi0DT5viU<ER0KF*)B>=|PD@7?B!wn~ZH~{~92@(K<2?{_z0OT|)FB${E9D)B30J#7E03s=W8wvsgO<{0Bu5SiuaA8AW0uJH;`9xtrX8>VtbaMjh1Ww<93%7x8b7=Q$X>L29LSb`dy-?7B14(m1-2h>|Vr^gsX>N1qpa8!B0Sf@O12NzV-vHk$0WmpY0Rs6Ax<h$`WB>sH1Lpv?A2wnrfI0vr-xELpuLeItTtD{~0~S8u3jl)xdjmNHM}q<cIyM07J}CoW4Ld`3I2r#H1^_$*Aw47C03#O~9!I7N3w{KI13LhU2QEC}zbODC6&f7`BQ}o!iU=(M<3plOVJP<iiU|T{0to^H|5RmRZ2|^!bp3L^paKPKZ+B%~av@{{W@+*u2CF0g0tr)fa&~EU+i!B@z;kf#Kw)(MZ*l?$Ze?|JS8`!&A)o~zuM&g7{E$Q<N*(~HIwC9e0YgJSL7+b=0Nd{Z10EPdp&tOo^(+D51p({L0R}eyM8E|HJOHRYBl|80NMJ%K0Iv#v02%;603H=<AoV_AfC5WKDFD4C`w1W-W7`S~AR6oe;7=heK?5Kr2_pUn<J$}aAsYa_|0e_@04X0G1m6h;03H_!MGOLW2y|~FBmpb}T%dnvb9G_@0wqPDe#PKu0tIGlZy<oQ1fXevVkZCxa;!mf{zpJ4C1fRJC1n380s|#6ECK@mUMv6s00;oKe+B?A0RkEsbHMEqbHD)sbHe`$E&C=eU10(O1uZSlIxQ^%k^?G$0|7s_AOHm#8YN(G0-uj978NLCz&SxTp8$#jE&y`iCIBn+C;&WWIEr8cIsl5P1OuRO;l=~1IRl|P?0SGq;EDwVP1++qtTLkupaw5>fCnf*E7d@61PE^cHdX)#JI?^qG%}82m_P^u-3j&MM|Ekht_f5AMTP`)X>DZ!3jVd>a!g@jWo!ar3BO?hLu^7(pm=nN!2U^K2mq)%BP;>@T4SC77yvc^mNEYoLnJ}~1|J&#1UmpJ92o@&jR!v`3jsC3F$0(22G;<#LI^-22tcn1x`p69W21Wl4y<F{-x>@&A{eYd91j0J0JSYHHxfC&0OT?&Ef|RaL;ENIQ9u9yJ^<Fg00#g#K0_&DLjM2+0G2oxMJC@w0Mk4*t^#`k{}2F!2L(O=cTYPU7zPI+QXmVHpzk^Wdj|tS2tEM+;SWU(0N*VMKQ{p1FA6scqqTwR1P2WS0t*BLwJt9kHWR*}2MjSF31OWe;ta_R48uL54M8;k3C}x1F&w}H0s%z;|G7Oe2t)v#7X3J4fE^bAmmog>IXFfDlNvub|34f6l@~rG7VNM99DsWc7r_rc09RNv7R8_q#h?xVV5J38zy!x30N@M)U<$a%AtGQ*0j?ztogoh#V@QXFb#QQpfMmdj0zU;pK}1JIrmU>Q{{}&AZ*^{T0)GchWpi_3XJz32(544PQ$s;eMgK$s1ax6@YXbiTb8umIZU6$`4haFaTwx#?F#iDniUKVFwJxtIHV!#pAT3}Z1o0j=fTkd;LO%fJGqWWy10YwRB?VWcSko^QZQ&dM0@Hvc2G&}Hdj~0?DS`k(0Phk29utUWdj}8y0LCdpDF72K`!XCsV?hA204V<eDmNhjusi^N-~bx{H8UQHApZy=06YR9J|*`6uss5x9{@fy`5w~%`GE>O0E!FkFiSu!HcLQ?12NW&qsA+iqa>D~dkN+R1q?8m!SsOt_yB(sDKi-W9vKmW|JDEk06srN0RKKGFETIy>LLFa5kUam7!N-GCl~;)3jiJf|2+WOCOrT`|9$qB#|!}4CqPr6{{{dBARjOd09T3*Gb5lx<6#s6Lj4Z{Ne}>TH7z`@SfB_IK=PnOsvr#Re1h>GLJ%MpAprXx91$Qr0OAb*={ya<65>H$fC~VC_X|Wl@E{EnL;&B^IU^SoFkne3>@$E|VMr+Rz!d<4KMV>(03IG0K)iwe0)RpQ6#xYxAnPy{5MVSofG{={e?9>J3M?lyN}>M%7DWI203Q|q0v|<lV_|S*|70N`Lt$)Vb@yyxbkm?9a%Fe_VRB@1E-o$tbq4_;Zq_14Wnt1l?F{*#L3G%FVs&))Wda!isY7UCZvSUxWK(HpZef3H0tZ8HZf@70{!74VV`~BmL}~MLV*(~l0R(qpY5#NvKe?HinVFlJngIp^6%t0;1R(o!Wmq5xaBp*I$8>3SSU?tKkjDZD|446eL}hGYdEV?M24-(^$6x{xdIKPE8i8qUASD`O{|;1TY-Mn7a{L`(9AE$d2Mz(YwFkeUDpp`40$hnSzX0brB^5eWXAStrU?EVcU;_ZQ9su{P5(~Z{0XhIB_Y*(>WWqE6TtB}T0~P>#0s|ld+XFcSM}q>xAjT^GY2b<lEdXOA4A(ILug&2!0KppoT*CnZ#6kcJ0%ivSX#ZS57XudnlMw$uH9Q>vB@{uP2jeyXlMw<Y)q#C)3kwGVzCdAZBgXFqY;SjnU<6KK*2N$RbH_#s0Y-BI{|9bmb#!uJZ2tfN0|WrJ4FKn@6A2nc(SQKCIKMFlKLC3H8o>e|IRIEP5$zzE!hfOso57sG0{{Ri9T{&01qT9*>i`ArAbl+^VJ!gw9u{z5y;AHU9srLn?*}+m?*bkdbRbCY<Sg&x%;&}gU<5D7qXb|i0(y=BEa;>q6hi>gLjN}aRs{wQ6afFiD?305C;*vvDknc+qF65z7C`+2u%H3}0Noo4_dOyP$-oW(STJ7|F#ul$vLFNlVD1<|#wtR3!4Lqg-w+J|uL{oKIRKk`2#<jYJ(i{0KsKKeIsk(Pk>CVC8GisP0QU<l2nyx@LI4E{0tZrM|7~w{Wpe@ySN>msMsIRMXlZQ!WC90IaCB*JRc->nV`yS;0m1@gApdf10zO+yX>8wYWpYP#a$sE`_yj3+013e$Zf|rT{bs!2WFX>zlpy_Q1py#rX>(y>|7>Ms0tIkmVKZ!OFQjgQ0vEu6asYS)0Skk7VPj<g05ssAwg~{O5m=8tA$wl}3IJFxJi!4v$9M^q4+LWX1Oc`LYoxa|6BRteDIY?E3-dv2Q6Lb50t!ZH|8iwhWpZ|9a@PO=0Zw2Ea*kLp=@Lw!HNamGK)oXa{~iDu11beD4kqPc0|E)Elb>{3AW*>ie?lvNM8YgNK?eUR07w7@01Q1%A8TPVI{sr`U;+#)^r4D?BLhT03IN|LI{`8Gp#cIA8N-vnyG3p>;s5~wg#Zoj0G$yt&j1|~0Kb<TIW#jtXyUcsEGst;Inv-R8`l6H6uE+pfWRFL{}2F86(tlM0Jjn*H`SmpG;W{@R{$CT9{>!*AP@~h69jav0Ci&m_yL)KZ$s`7phtCS5dmpqW#1r0a&m7g!2$r^wip1d6+JVp5axYN13!wPAz`f)3WorL0)8PeVq?HDX0`t=DK-v00DA=g4FH1#1v>!Re<eTwg9QdWhd_M|KHvu)04X3o;r|B$4N_%lZ)xprB7_1GvPDU5X-{-UVQE(Z$R}r%fqw^3Y+++%Nm>BcN^fESz!$isRByfmBW`naVQyG~25$xdwg!{HFa(px-YMch0JSX?AUOczDIAh%(L%T*!2tmCtrjA0xgZ(<HUM7<Ha#pC@?Z^z!oQOkKQlTVqC-1YE+H-gmH;jDz&`Sz{RE=n1vvnU1}ypxqdN|y0Fx6xH1RvN;KV1X!37!_F8>DriU=(LemnmUJ_-Pv1_(j#2>`|^o&>EB3s(TI2#+8(6aWk>z+(YBKSBaxk)R0<1z`U|DF72JF&Y5grbO}#G%f^(Hvs#S6~e+n5+Ecf{;q>Q0M-Bm05<PDK>*BtU;qFteK=nr3jh&6AvlMBiV7|O#wtLd0RR8^00kTyE(`v$z%KwP9vKA(zXt$-13Wtszy*H|JOE2JCm9f+|0_W$0E!PU0N=GPEH)57-~<ryI~OC`0Eb|`B@!X{BtQg!vtS(nIsmQx7a745I{>{U6#BQIDz~Bs03{VfX01UT04P9?Kpq*yVAVkcU=;_TEDS(G0DTFp04)drdls<){}(*~G7Shp7PmM6U$%h8E4Bda^D-;PL1aU%5Dx(RuM8*T5CDS+0qH*@LjqwnGGRGD9o_;d2|PzK0t&M-{|O8)5CE?Y0H+xMH4j4pU>g`9gMSAYK>#HhM+d<D3@m{<K^*`=7u6*!fg9T(K8c_h0RJ6CCIIRo7Zd$KDS$;O0N*kh{WC0J699t>1wrosiW)RiKruEJe?$OfDit#iCxH9`fN3BM6aa$@4gW#_)Hfg%8vwtbJUI#-87rVQUMrw7HWohzpd9|7_YMFb5`YCEATCuM=0G%1AVoF7@<9XU1fT&P9iTVBZZ|O7J|7N1AVNAoMk$v7uMXK@I1u0r!3F<90No%ALMRvhm|zkBuMYqk0GBub9vC4*BLKp{7A_T_3jsnTqYvPqCgSrvLnOokBMCo8HT@t2M*sZ)l^aOQB^pQ|M`D2t<ccAGH2?x0LOKmi;r|H$3`HXV9vuFj0!lC|HUMroJ1{>KzzZTn2H_OI{|^8p06+k7BYy}O5+nc~9R(u)+zmBA1t|b~{|prXgA5Hr0AJKNAQmH7;1&a*|1CoRN-#7#05`@hNKt?!HgaGO!2d%3vjB|%B>>kS6cr7_L3v_;3;je`K@AN=0Mt3xAr~ch07(X*12^({AV?O03;`xX0F&<-Ks`mlVE?ox`vM5)K}KP6Z36!uL349yXKrQVWFYB7@M4>zX>MoFAp!+ut^x1q20!`W7yuYx0vl6hVdrvVXawN*;Bp{F|7mV%b7*X7ZvSO2E-nHFVPlVDWo~r$AiCfNXCnLrr~e2jF)(u=bpL5>Wp8zKDFW{Xb98bKfC2_)|8H__VRQl(Mt^U0Ze$=OWDH3ED03+S2ykz6|7mn-c4YzyL;q-Da$#e1Wpe)l5J+`xVQz2#X=GAwZ*)*$uX1z(4h}$M^I&uTbVF!qY-9os{so3XWMpMz0tCNTVQF*%3;>}<+i!9NV+C~G!2$%!b8iR$1_;0zK?XznMsm4e20y8png5xYnVJF`Msj~|dSz}PVRRpe{uJOZC1e5zQe}U1a(Prx0vH}B|7UM*Wgup9Z~tu|ZDDW*Kk)u31PF9*Zgp*9`WK)K2Bbt~Y+-r#20ytC1QShRc>X5`LwRFtWpe_V9}FTdp+-y&gD&78^C)8jp(TJR0ta{ZVRCLM0VzRjY&#%kGsbfuX4GOTAjx<=;``um1mHHo1#|y!VRvo-01Oc40k#WiAd`Rx0X}yCg8_~J6D=}Y!0QD9;s6kkWP<_$|3Cl}E;AqigZ~BsJpc?PFciN&6#@bXP%|QLzit8vO<`x^fOY?5WdH&J2>`bJ2nj(u0D}VpI@bVu0qp?;0iXf|?L6{;1wHd120j4)DIXgI2L=WL{4L}Or~__gcLD+bSONiA0s&e8{{a970JaJMt$z{<0N*PCG1)`!HvoGA%m4!eI==vu5I{6MULXLi690iTI{`ru-(dqg0vBKbL}_z8p<e^=LV)kUT?8Pc0Rsd8tF|N7APMBdH0J`j?>I3DKlA|uKLGa<COu&wFf;(6|2ZEU03Znq68{4Lnk_aD00wUy90@qz;65oH1N|O);XVLfH$W{H0Ivt(05kx>v?0g?yy4&kL}MllGPxiM{{TA+6DtA$-&ZaIGB3eA0U!YZA>{)BAp-(oCV<~A1b;FBAPNi@1iykSdj%gs1|L8XA42mW{wTmxV{&D8a{~VbOl5XuYyt({M|Pld0t_D4015vE0Jcv693DJoe4sct3nMjR0z2;m5kKldn*jPDH6!5rgd^kstq=?Vy(R-8{-i)VI|n-elNkR$Ha#5x>K+=q5I)4fE;kaJASty&qTma#g4!m)U<-P+!xYW}LI4y1<|03O0A4vnFxuk;A@4x|9vJBYvH(8s06sS#0mDB4+^+>OI|8%;5#vAw-#-9~1~R`xQUJFTFgCZqD@3UP2dy%qKtm`9V^XPLB!2)a5D@@L4>)1-2QkRt2gKAg9}?*Zr@#h*2?m5h|N1@+rUWrN0W3R!7-PR506hR66Bh&j|J(otA090V0QZUuGTeYJHWNO)1mW4i-T<u;X`u}LJ{jd006YMI2KPTY1QvtTG#(QD4Z9<R0247c8Fv82EEdT^01y{Le}n*y|LOo8aA4XEVGa#&$_}<E0t)X(Wpq%A0A+G>{;Q52Q*dQtbYcH=Z*m|gJ~3@wDS`zcX>P6{bBKre9;Cs&Wo~77bRbD`vcZmGC9$Bs1t1Cs;Z(XKjBd(f(1##QZ~J#36a*kBC1h}V5Uv^oDdK>XAeKk}000RK0JaAJU#L1FD*^5RKT805YymcxpbG%sEN8%wCm~@#lHjcd2%cc9f&eQ40epZ4hl4eR2Zmt#5I=@!000330@nbx1%5y{enT@D|2`-I02%=*1^+M&0Fx3wGdgt~i-7^&LjV8-1;F1x0PIjFLtzX6|Joux0OAG!I{yGN00}uiFB*RUuL%Gd06B_68<P-ZLW2aYKwkodApbf;FaWO#03Ch=KzjlX0D}d80N08HFB~92Nx%RVeglIo0D}YtK4qhR282QY3jh{9Rls=^P9zG4V<`_c3W56=0FS^502}~2egr}lJu5x|00V;N2Z5~-vf&Xx-!K6oG>YO^BMj#V_yq{<2B3%EFa-$dyg(d;5$*tT5#|OF?FOLVFa{Ce`~TINX9RR%b8B}31b6r#20zK=r2d@>0009B0Ja0j*+9gkqF@2@razzq0ROfS06roxE-U{4+W`U{7XY>YFDW(-Isl3TZ!7>F6_Mh`E4aY>uLhN%Hvm2(FuyJ=0NVrwks!uvEI%<p6as|?2LgxQ%>oAk7gK9sb#uQuAX8;-Wc6Wm=Vfzr?E&+K3{*w`Q&eA9MM6kV?@vnt83pKcAann9V`F7=b7pnFY;1V~2yp6xc9&%W914X-_~T*$WB+JnV{0H)QcU9l1#7|{;JBa;0Ig{g*Mwo=3hV#@IjQ5U8NprRGdj@05a-2}j}k#85wzeSfVAO0>`j5@q5%SSCIA2h>L$Py_#g^r1$zPt{tD+d09FA53lY#&VBg@D;U|JStRM;i|5z~*FaTc!0M`It0RUhE0N?`vd<6koffE3G1qy0K{&u7V0tRVwW@-OyWdaCtWnpCc0U{aq!A4<nZC3j<Un~K0Q(<;x|1N5CZ*BqwaPMPbY;1660k#<b0Du8HIspKR`vNZ3!6yK{BLlA<0LCafWi{)-1l>CE!5IKI{36pd^)c>11p;Ck05||W9@51N0Mj)CLF^#1_<$M(zynD(G4|jCj{tiI3&UWLz-eFy{1%@UfeK1fPfkStWn*t-WdaOz|8I0*Y(;ZpVc&3Na{>?nqD^oAZe@8zVRCL|?_>fHb3!0#Z*IOG;Bs_SX=7i&boc<Ejo_HzB>?FuB<}#}D<(5Q4ggr+G8HiZUo1fa0n{!)0AK+C-~*(gLMXrkp)mjgAp@l`f&-;774b3$U<PLh;eI;~LVpeb>L3;kK#<^G>R{h70yP2Q4guy>0|DX>0p<h);t&Dm{{=MwKOZU!0MC634h1!Zb_51f|6_7xcXI*-NBd=A)gTN@X>4r&WpYDkVQyn({{R322m`ic0AB?f8Z7}hAObiba&o3QT%cP-iUTbJsQOPvIs_mK0D}VoeL7$u133VS1O(Eyp}-RisvrS71z-c}1z`jQU<CzoHUPu_HY6heV<rqT(nn)8M`A+Y8@zy>5A8I>pd1qe<3a!o?*NJhE*9Y*0LGCkLt<_K)WJAUph>`rtp@|3Bmx7nJQ5%W&JrOAIsj8aV*$fAtPg0p!Uq5j;t&q*35pK#H(sC#3WZvL3W7SS3X~HHjtUBv3Kb<dUSYuy0K+&HG!Y7pEejPf|MGL-3m?U7VgLWj3jzsHY+?U-WpYP#X#x)aMrm$jMrm?$|8zrWX>4Qy3GY*IWn-?OZ*l_v1W9gYZvq5a|8I420tP~Fa_?kiaso|+1XN{Lcyt0zTLq{f4NgI=Do#Wi1O0#x0wM#bP=f*@1Y-mOC=di<1@ZzY4nv_{AWUU;W&dmf3`b>jL3Dp~a%p09bY&2|vaLWhUlUM&002;G142P|155#+z)T-o4h2jWK?MqhOa(!IX`p4e31y*t3WY&p;syc>Y{KB3Wk29ybaO$jiiTDXVQh6}Kc$RAreNe?&kz8u5aR^=Vm|<Ddjf!f1ApMH5P_z31mS=xx`2BE4TJ#tC7_BPz{V;-DFF9lB@106eG3W&eF940VQm5ib30&vZf61oY;Si?VBZ8zVQpno0CjTzc4>BRa&rIx{Q>iU2>^-#ECByV00jUHJs$wSlMz2OI~?<165Q1w0>J|S4FbS@3hxR4lMn+$4FUrH1yXNyZe#)s|4D9iWpZt4b6s=6KmY*(@xT|Lr~d82H2?`VJuDY){iz8yJ^~3l0R4ko#wz@vdjg~Y0;6D`ZZIu31f^g%fX4V9A(|lL1+^_HHV&d804W9Fnql9fK@1=ZX9WTX@@4N}VRO=;|94?&bOH!;Z|`n(ZDMZV2uN>ta71Nxpa1{`)gsoI!FvG?fdaAs11$W?Ao4{~0DA-q0QXog5!b*6003W?0RR9GLP6^Q_P~4j1vBCBfG-CK92@$X0X@;cK`8)x2(1o<fC@g-fI<PG52}YjKLMaa0ih5BU=0002_P^x6g>bw|0*ysGXS+LGygXiJ^+&!KR(|@9RS8NJRt-O;txO*<6z?9=b--zEx#u(07C!mya5aj8_5Pg;Jly!K-nce<^Kj|Z*py6bOQUa0e#{iASH7OeA}Y|K_DO?!nXi`$lT%sV%<X^-D3hG3gUy5fB--MqXB6G^#y<me?@a+VQ^)03PAm24aG%aa&Bd0{sJOWb#8QNZDr050!C0%1fdZnP-z=(X941Eb2dR&rImyJ^7{!50=5GHKJOzhE-Uij0UiLqDIOUG1qV_<Q`2R1_Q02*1*Rb@0sdIwHa#5xu_!sYKlnohLjnQ~T7n>bR1=_bIv@fA2P5`#U={#bML0h$8UFyU2ml%YHvspo5(@!A8vsK9_u3;qTmuLI9RU4610ua80U!W8{{kR9BLLGjGO`1p7<>SD;Q~8KKotHu=e;EZAOIQz?<@r}4hUlR3oHK!0|E*}X>()uZ*FeLU;+t9W#3_PbYf*WAO}PK0%HII0|f!L5_bTt5r$+X5<&mr?C@cAVTuCn!2=%vKZhe08!R9c;R8kUdjy9;qF~=G1~Kf2fB_;0F%zH*0N-~l2r)~+2m%Q}fcJ7?V|$<i5J+|ZZDDS2X=GAwXK!>+5g^@e2UZlo|8H_L0t9+xa{q4v7D01!Wo^G=Y<Wy+ZWka{|7C1%V`+4G0{s^P<w0&|b!=fhasvhiLq>9wKs3PqEr108J|r(LE&l*70RkT$0Nwu>3_m3p0I4ef3`ILK04X0Ce+35z0s;tA>mZ|bb2NZ^Ae@5$0-yj(wh4`(KaHR@;x^<!-5KV9iUKV`!~lD31AQR`Ih^1?Go0Y=C13;s5I*B>Z*=V-9w2FUv*2ZNa{BiHbcjI(b8umI?`{A91K=PD0J*O?Fa$p(fC)llIOYLDy(3N_J%BnP04LKlFgU_6paD3kP++?P08~J&5D8QS9X?b81XE~lcd<YNq+bdE-zxzyf&rO_mjD3)@4y4ZLIcMR|5bBka#v+yXuof7YgKY=1cP$-0Ie38paTIq02d__Koo;ChCvo*0mI+9I57i1z2P%D@f^)yuEbd(6*(t5{{#Tb3k5m=gSQ3-JyN232bSOm{|G(+)H56r38w(YE16(m;22=wivJ2S0I@ASJ^*jAD?CC4g9{L*!2K7dzy<*TUj+dF0FNvk7A`&j|E~@J7yvZ@+H)yHWupPZg9r?_fw>R^!zut05dZ>UL;nE1D-9+9k1f|86)+g!4{l;MJH8R1699t=4h<u(_5#5<00P1m0DBMm142Wu07okT&;Z{L024nl1A_<v`>zReU_}6f4iNuH03#$P900HX6aX#&O#s>@J4FBpz%c+&*C4e(rw0)}7lCvD2EJpx|0oh80JSbIHop@*0NNr$?%)vrK>)265&*p@e-k4B#w|lABq0AG0J%Ld14ID(dlV$$6+QqS8KSaaLB;?E;K3j%1fm-D55N{k0Du=s0P^=3Ksttl6aXFoeLVTV7DE6Y9=RaDKmaEtH%E#C51NVqIyb_D4hJ9xfG%zZg&Y7n8)E<6A>j2GBLNf(!94)lFa19Ug1G<Q00JrbA`)OCzzP*X0E+7wG}2&372yy7C3_S|G64VB05b@q|F0PW5L0DxcKc;=<UmDkVPb6GWn=;bXL8^I2merPVPj=UWCE`RN^fESzy!*GXnz6(Xmw|00?lpzOK5a-aC15@{VxY0b1rgkVr>6!crIgaZ7+5`F#=;RC1fvG01W{Db1zVJVr*$+|37nYa&%8}WdCJyJwbD0CT#y{ZE18pF)%Q{0thB!b#eoMJ^tGz1VV3Qc>)UmN>fixL}g=d|72wX1Y}`!VgCXKX>eg_a&!Lz0%>Fd5>#dPY-Ml?AW3d%bZ16kX&B+A<pLK2h5J-*8iQ_gbYX7!V+i1VVgz?#X>`8=2XJg*dC_13ZwhT;cm%+CWeY&>4sK<5pTK8jL;ey%20zJ}nVFgYnVJ9q2oeIe?FNGcdjV+y0yzNt9uzquwJj+&4lg+XDIC$E0`{rWgZT-#K#4>-0O1Tj@dvQvfIybP-z@_%e*h^R83Y9ecwzSg0t0;j0s}`y|5O47O=WawZ@pxS-~<4+6jxvh{=f;jIWY!60L||K0yQeUU;{e<-!B9O9UQ5_JtO}X0LCalCjhnoD=Ib*IRM5f-#;h-dj``$0|#$903H=k0>&x=fy)RB)j$%}L17>R0KO3c1qKHQ0wkbv{cb-l6I(%5R8RjPQbj{gPEJK%LsVTLCHTn%EC}BPaARR?mH-3>{{glI0Du8IIJp7QAmbpd5DfRg16=pOy&we#15gbJH^sumV*>esm*L)Fs9*sA&9(wi9RM<>zu~nkdn-2{;1ek?8-)PVJ}CpBAAtfNgAPt#0J;|^1c*RC10lTSVfG*%7XSbQAOZ6uA|yZoU;ugmy7w9=28{qfDF7b*7A9am0M-Bp0RJ{TKmdCL4gmjy1qD0+)G;0Z4+a3;8V)=p-xdIU2@L}&9uNHo(qJ3}2nGiN-f6=HW^8ZHVrgUjYb$OCC1hwICC_AS0s{bm#efF@_qG-Q{%EfU02}_XK>;lQV<ZeQ{(ry>09rXPGyvC%0xl{6AE@9M7LzGCprNorB!okvfEXT#z^FbWFCIa<fR^I_dH_cvAu<4{{P7?H#B(1jBMUtL09rdTGz0<#|1B*#EiD2IDBmSyD=9hvq5=i(f?#840`cH(b!~rQWpV%k00`aV{@N)JL3MO*MR<Q@V|8?8Pi~C>y4Hgk^&lE60VyL$K0qJ>9stHHGeG#_{W)Y{3IKxw0XeS#iUTb}-~<DpE0#9^LIB2q2FhTkpaJgHpja*ww!i@Z0MET71|QU5TL6j&Dj(ql0ir2n0U4d(MWLSs8yYGIJfWeX4DSd64^ovPP;zhoZE$o)b!h?&{a1lNMsIRMXlY+;WC9Iv0|HN$p#Fnk0uDxLZe&L4jv#ac!wLkVL1bk7reKX`3q^8rZ*u+$BLWpgcxiKV%8Gy>0-_)d19zbTw$BFug8}v6egQ}TzXkvdJ|F-S!2_BT#SnjE1WvJm3aS&V7NZJl0Re&_0xCcmJ1PNoVg&~QqOnNeF9HCz7h}BygF!2x-!BFM92{F90z6#+VZ^!@DPTcCWdTm-AO-?G-oj-9Bm|&T;6Y^o94!JuWdIn9fd6^`0V5<k04cv98UzLg24A0ap8^pjFfw1k0HAFpAOT@>7a&W30pjA7;J$v-5CD@BKZAj-^$@aP11ta~6F>m^N+L7|A_+D=EEo0y33~#!fde@J+vfxY9HgL3VQw%heK&Z37!5ih7Y3p81_D@ap)Sq|ARzr906-uha%FI3*I{%ZpFu9mK`1GIAa!nZX>1_lp}#swb4+hxMnEXrDGCM!Y;U6=Aa#FoY;zzzAbSGFt_i^<aV!DqBJCw||6zA7XK8e3b^Bs<>fmE<ZggeaZglQKL}3A7Om+WZbuUC^Y-w`uX?1Na1fVZ+W&dV#FKA_9WOM&7ZDDC{FGgYia&1;bE^KvS@gfXg3||aUR%vf+eP!(6B_%R2L}380a%p394)c8>W@i6yav)zUAax+uX>K6<<0vBmDInWqZy^e4W&~hiZvA8cpng3dA|fD<bZBL61S%)ND<f}zYb+pRZ)9aFp#IQeC}wqTV{~czZ*DUna%FUNa{X>ILr8RVa7ShTbSQNoE-oM<?>}@sA^`z(Z*$vpa(G}UbhLmdDL*MGAZ2c3H-|WdjuHTGYakLK4MGz^BR&p-J|HnLFcZ@hM+;_dKR|3l01adn!3=M}LLm&`1%Ms05k*fTb8tUlcWx+VZV0nWVE`XPCT>o_93Uxf0&M~518IIC0BLh(X>4U7g5h#bAOV6i?mZ-MVRZdyJ&1cEL}hkd&0JSSTwKS2RcRn1q5-IVLhd9)5F;oHfhia-eM8O`Wh@{E;v_OX-vCjsed|77gXKQUivv5xjlf`7A~sPuUzS5TQ36wqU+j%vjZ6XsZ~_1T1OC;Z+5!NI0Wbjn-Zdm28z=zX{}~KEBp3jb5dS|pKpg-+DK`H!G5~`J0zv@4wJkC?7C!-C1KmRbU^6!t0bvA0?gHR6Hy8n62LeTI1Yk8c83ADfMg`!vHa8jq;RHtqU^nYG8`J<I&|p3QNdEu@01Qhl0NVd2N&rFt5CD7s1sVW@5e7&A`yL|$;uAAJAprlzD@`c?)&K;505(TX0NODHBfB0X2m)g)8_9qc-vAf@HUI)dUO=l)I|+iX0>L>7U>n~6gAxWw1LYGl|3D`Ik1ZV)IQ>WtVp%jwNh}%H0IwGagCz>$UPJRxJP3mV!8HI%GyOISff4{-MNl&S1z{QhH~<_kKKu}X2*9rx02}~1djK8>V`DNLK?h~O8~`l<9wrJyH~UdN0>c;p8UQ!n024SoAq2n#0KeotEi5Ad2w)!j06QQc9RPzA2E9uLr4uwlA{C$}`xQDK;S>PcG)2A(U=je@D^3hx3?2l<V=Wy*2tgp?4dhKh4d)mDAmIxxDhnX}9t$H707^7CKK?KO9sq+C2223E9w#sZHA5pX08#HL03IkV11=v#=K!x7C1V0ZUP4pxKON%&!3_Z)0D~5L22BP<6E#FE7(h=S6+BD?!Uf<o2t(gB0NO852S-K#|87JqO9udh7yAfLOn^T(BRl~Atr8#rgBS@={{Y4+R4D*^3jZPigBc4@0E+7jLjoXG0wE&+gMS(eQ2>e!L<C^{RstXnBmjdO5C2jC)JHKT5CH!?10hs80Iv%EE?`OkN;Nt_0RKY&`vA8l5hDKp$~jC#5&*aVDibCE-%Auv?*NJwO922DPXPZOGXR@e^Z?5LJy1v&0DBHC{{Vv|4_g4#Q2#V87y#Wb4qN|27y#c*8BqZD+Cy9iAR12q+W$dX0EseBK0^Nh+CNwT-$xr?O90wERw95K2f+U(0D~P5Q~=cfNiruK01hu3{|qAl-5?BDK7SYh>N*=1S{oq$UMB#xD@Qje??3>|FGYbYQvm;7Qd>v>uOa~d9RNQ71vNA?{~Z9`G7VHa82<oyB@a3-0E7P@9##OaBLE=#06+{NCjf&U5C2sF_)Ql!9{~T|CJa|S7y$PFC<--A0LCm@Jt;F|A^;u$DZqN*|AQbPR{)A3O5Xq@Gd4Om10w*xApk)D9x+t|NZniyKqCMpbHIBJdJAYG3u6`l#wZG+{|5j*KsPx^0K^Ic6Tnsuz#rjxA=*7%Srg$Q06iceC>7v;4^{y9P8T;HVErN=Wg%Jsk1RHS6-Y|}#w}YE#Q!4z8vuX+eG6YF0NOrTC;$x`!2Kx<AP-jn_)i@FI3xf*Lo+W-{*XXRH!np1#wq_`Cjfpt3|%Py0JkkADFEM2`zBH^z$a1wH5C0d0iY;S0Dn+I|2qJRDNg|3Px~fQC15WAgC-CET>$u17d|QgU)?ASUqu<=Vh3Q?PbX6bz%~T{C{zCce^Em`0E#QWPypXhCR6}`C*M>6H4`@hpeR)T0Dn?MJphU<zfl0+Q6^O{z%l;-gD4MQ0Qgt`7eFll-6;%Vbw?yYWD&qoCsh$3{Wt{xC{+M|Q$;yG5g-%*QYKb5psAq$DGy)(_*fS~UJ)QF3}Q$I!DR-(_fjWT7yvl{-%@`lRsergMn4fCzf%C;QzlmcfG71=5g<ANpeR=Wf4@~nKmdv^6aZA+CQjf;Cs-7qI{^RRR47;ge^yBUK>&&`RRG^re<oP~-$^G~7$E&T0iY;Z0NP7r{{V?OQa(ih4!bcXW#G&*DSf~!eO9c%3;;Y@Up8xxFaX^wHeeH>G{OJ>zyO*}Rxbc<?@%#UF>>HvD**q{04o3{KS}`qw<{4R0Lng5|49-6hyYje#{FU`pimc70LnuDRYMj4-$XK2uK?OeVJcuV0%AwKG$6;+RWvheqG0VvYoJmY1tl6(0QcHPUu&RLK1Trm+C*Id-%J}&_W;^LYoPyk0DJv4FM&2+0Gll^|6mRPgDMYU0QZVFR6Jk_V*st&6*K_=IAw=mX(w7%fMx)JWGHgL9tQybEC7QeHd+Aj`#4>lARIgZw=erSD?OuoH822!|0g<L0C!tFHPt)M;A1&JP(UfhEd5^y!2jR?xc~hB02e7bI|2+;|3y<&Uspv!NdHeyO9BQ{V{-pxcXI*-M`dCCasa?gWp-t30{;YUVRUE$18x6dcmfD?Z*z42a%pa70tQuc|7CJXWC8?EVgGGq0s?Py0tEkLVRU5z2qk2{ASGfTC0PL=NdGz|O*$o00tW5|WoB=3319+QX#aF{aC15@FL(cUcP?^oVr*~!crIgaZ7*nL|6ycvXm4~abpL2|ZDMX=X>9*5X>DO=Wj}TP4Predb0&9bWdC$%Jv1^fCTO2!X=iA30YVDHJ^gSJzz9TTY-w^|X?1M^2nK;}6M_E>S7l;oZ*Ob=AXH^@bOHr*|7mn=Wdc87VE<rbX=Y{$D<J<vZ*Fd7V{~c%Z*Cw@OCaKa_mm)V5de80bZ`Cv0Apooc4Z)C-*aPOaAgAEaBuH&baM&^U;+zd?gD^vX>bPN0tI8gZ)|UJ0vZpcAifB|q97n8a{&ed{{(bpcys~=X8&(*bY*e^24(+kVr67=0!kzQBO@S1Q$s;e|3wO5C39dPAaBCAARqxD3JNiU_aH)L8{lOiASxd!C37k&1OqeT11$Rjc`C(ZX>((5`*LI|VqtJ;FL(YQ<8v=DH8V6Y|2Z`?HaR&pG5<0&I5jmmFD?IJFn3TlOJZyPZ7_9jP(nF0|3!CXL}xHhL;q27Gg?k=S4IC)R!n$xbTD84P-01JM_6`N|1?BbXh%acG5<AlaWr)^I9Q)%Oj!aFL7^<fMgMMLVr*q(0xJ3}CnY9A3My%CW9w{nCg31MfMQ`}|7T?&VsCDBbN4C&4hQH}a%=*(00IyPtpXSz1mgRKk|AbbD<x!LivlqtKx898G^8j(DvK&BCBk!BA||6Tz;ds3Zggo@01YdIMb}|+ZWUkzMFItO|6y!(Wda6iZvSj)Ze;=sRBu0YVQe5lW;OvnVf_ji;{pTXfQtg@3@~E|1P>j6W@&izNuUH|4rgK@P;zhoXL4n8a{>=j`~aX#K~r^YZDDfvc>)wU<SHm`Z~q`;Xkl(=Whvb%4`6U%X>ULSb#fq}31H?%;Av%SMd0HFbSr@rL1I930v5O8fTAIUIv^eZAl`Tc20?9a9UuY^{X#6Eb0Af2Y;XHxYaIXvV{dL_|6z0j0SW*F4gW0wwg&*HIwJck0gXUEDFCkr{{R>OHUO;<3*P|WECMp@VtoqB3Icw?ZgL=2;0#i~Wpr|RR8VZdVgGpm0RaR6wiAB<B@#mbuL%cW|1<#i3n~Zzd;b9q09Y>+FaUpF0s#PD0RiQ}?-&#-Is{`i0E4Fi0zCKQ24Oh`#W8mPUjqfh#wtObq5TjEq5=X1aARTrY-|DwQ)P5k|6y`zVQzE)1OEU80=5JIfC2wHH~|2Y5I{BmJsSYMBLW@(KPej-1qBBdB94UJ0|vkV00I>N0{~w>BQGv11pomB0QDXP0RalC00IL5|F#tX2{u417v})41{wk%-~hQe|1btW0F@FwCA|^&ASpHuI`|+ye*3@y0XhI46|ms_KF}gIJ3s(C3%?U90s!AGC%}W-0Rh(FE&=8M0R!p*Ap-#+1Oj0MG5}v73JekiEJXybNBpj1up|siX>4p|`*K4=z++_q00jR90JabSusHz#NB{%?3_TwJ_b>}Rz@R8L0L}ja0yQZB-53o2J0TbV+XDn2{}}+iB?TY=#=k5;DFE9B0qe&7Dm{fX0DTJ!0DB%37(zk-4F)|(_Pu8TEOGz@XLEJ`Vgdpsa{vJV?*;(2BtD=*0I&H7B!U3I8vr-}ioXFa0AnN#M*$4q0M!E{4GW+Q0AC3>J}wyrBQ*l2e|rK909Y{-L||@1;9mg%MPmX0MPSz%7Ai$x3NOGl0O#5zKt)3V!8ZVd{{#a*03I0t0RI670Anc+H30vw3IG`ZH30Xw4=M=(VHN-cX$tNHV?qE62LJ><0Kdl{7ZDaNTEGYS1R4NJ#&ltHb#wniZ)9Zx2UB(HV`FsS0A4@=whrF_;SN6sVZ$u}|1kiH0xbZ_AOA8c0|1HyF97e~F9kCbz&-%q|1AbF06rxzFx4$CKnE^BD=t9aE&m8H04W_A1O@K~2m%9|K?G1w|5H=~22EvjX#a0y0uW(vaBTT$aUg;~FKTmdZu<fZ(7<$MZgeeIRC#a_AV}e0Wq|<y3QAK?PDO5GJ`=$NLT_YwK%g(c^$TX83RGh|0DA%z3MpU_ZQukb;3;A$;L8I5dZ0dO19+kdcRzAzbY*5~-=Jzk{s}+=0k#VORspvH3lSZFK?)s!4*vk(FatCItr2Pg0R#a65&;1PG)dsK1{;DWY=i~^3J4khL3MO*MqzSo?^ZNlQz`&+Q(;$jWiA^7bg02a=py%X0uTYBO>b^x&3UIp5Obp=2EcN3pHyjMYXTl<6hH?z0Ja7lqF65+K}0~-MZvW#aNs#i015%fgamwm8K4S@z&*eM0=+pIU=09+1#cjO{{#d(0D}VsI^O`jBnBUyVJ86J8UQK<FjN2v3jYQI1Z`n-XaesAW^8ZxU<XcR-*k6xa%;9Ba(4S=av7pYbY*P<{|Q84bYUP+X&-K90tiQuVa0$BfU04DA7Ow&r^7U;p&RZ{z|0W~g8(cz0QX}i3}Pb$I}$zL0RYSq3IgCQH?DYNJ|F-B!2$xrF75)s2mlNMz#Jk#)(7A@JC(o#c;t!#|1JQ(9W)&R82tbPuzLg#0D}hq1w8;uHzyhb_W&Lm55PbG6E3YZQb9r~0s}n>!6W|w#w$Z90I@3jIzb8K1p)*rDt{^}0s$%l1AM{V2B(E`WpI7q2><"),b)end,g=function(f)local g,e,_,b e=string g,b,e=e.byte,e.char,bit32 _=e.bxor b={[0b11]=1,[1]=b}b[0b10]=b g={[0b11]=1,[1]=g}g[0b10]=g _={[0b11]=1,[1]=_}_[0b10]=_ e=f:h{_,g,b}return e end,R=function(a,...)a.k,a.g,a.n,a.i=a:k(),a:g(),a:n(),a:i()a.z=a:z()return a:f()(...)end,c=function(...)return{[1]={...},[0b10]=select("#",...)}end,G=function(f,d)return function(...)local b,e,g,h,_ h=f.H[0x7ac3]or f:J(0x253705,0x3ce1,0x7ac3)repeat if h<=0x9e then e,h,_=f.c(...),f.M[0x71ce]or f:N(0x1e1913,0x399b,0x71ce),{}f.e(_,1,f.d(e))e,_,b,g=f.c(...),"#",_,d[1][0b10][d[1][0b11]]else g=f.c(g(_,f.d(e)))return b,f.d(g)end until false end end,J=function(a,b,c,d)a.H[d]=a.a(b,0xa5db)/c return a.H[d]end,j=function(n,o)return function(b,g)local h,q,i,d,j,l,a,k,c,m,e,f,p h=0b10111010 while true do if h>0b1100001 then if h>0b10100010 then if h<0xbe then e,k,m,l=0,#b,"",1 c,a=l,k-l h=a~=a and 0b111000 or 0b1100000 elseif h>0b10111110 then h=e>a and 0b100000011-h or 0b1000001 else d=d(p,q)j,f,p,q=#g,#g,o[0b10][0b10][o[0b10][0b11]],g h,i=0b10000100,e%f j=j-i end elseif h<0b10000011 then if h<=0x62 then h,l=h+0x40,n.c(l(d,n.d(p)))else e=e+c h=c>0 and h+0b10 or 0b10101110-h end elseif h>0x84 then h,k=0b10000001,k(n.d(l))m=m..k elseif h>0x83 then h,p=0b1100010,n.c(p(q,j))else h=e>a and h+-0x4b or 0x2d end elseif h<=0b1000001 then if h>=0x2d then if h>0x38 then h=c~=c and 0x67-h or 0x61 elseif h<=0b101101 then h=c<=0 and h+0b101011 or 0b101101000/h else return m end elseif h>0b1000 then h=e<a and h+0b10010 or 0x42 else h=c~=c and 0x40-h or 0x42 end elseif h>0x60 then h=c<=0 and 0xe66/h or h+-0b11111 elseif h<0x58 then p,l,h,d,k,q=b,o[1][0b10][o[1][0b11]],0b100000000-h,o[0b10][0b10][o[0b10][0b11]],o[0b11][0b10][o[0b11][0b11]],1 q=e+q elseif h<=0x58 then h=e<a and 0b10010000-h or 0b1000 else h=c>0 and h+0x6b or 0b1000001 end end end end,P=function(a,b,c,d)a.M[d]=a.a(b,0x82a4)+a.a(c,0x2437)return a.M[d]end,o=function(n,o)return function(b)local d,s,i,f,j,v,a,c,q,k,e,m,p,u,g,h,_,r h=0x93 repeat if h>0x8f then if h>=0xe8 then if h>=0b11110000 then if h>0b11110000 then j=1 q,j=m+j,#b h=q<=j and 0x19 or h+-0b1000111 else q=#b h=m<=q and 0b110000 or h+-0b111101 end else k=k+d h=(d>0 and k>v or d<=0 and k<v or d~=d)and 0x49 or 0x18 end elseif h<0xb3 then m=o[0b111][0b10][o[0b111][0b11]]g=m[b]h=g and 0b11010 or 0b11000000 elseif h<=0xb3 then i,q,j=1,o[0b100][0b10][o[0b100][0b11]],c q=q(j,i)c=q h=p and 0b10000010 or 0xe8 else m,h,s=1,0x36c0/h,{}e,s=s,""end elseif h<=0x30 then if h>0b11010 then if h>0x28 then j,q,i,f=b,o[0b101][0b10][o[0b101][0b11]],m,m q=q(j,i,f)p,h,q=q,h+0b10000011,1 m=m+q else c,k=o[0b110][0b10][o[0b110][0b11]],e c=c(k)k=o[0b111][0b10][o[0b111][0b11]]k[b]=c return c end elseif h>=0x19 then if h<=0b11001 then q,j,i,f=o[0b11][0b10][o[0b11][0b11]],">I2",b,m q=q(j,i,f)j=0b10 _,m,r,f,i=0b101,m+j,q,o[0b100][0b10][o[0b100][0b11]],#s f=f(r,_)r,_,f,j=q,0x1f,o[0b10][0b10][o[0b10][0b11]],i-f f=f(r,_)r=0b11 _,f,r,i=j,o[0b101][0b10][o[0b101][0b11]],s,f+r h,a,u=0x117b/h,1,j+i u=u-a f=f(r,_,u)p=f else return g end else j,p,i,q=c,nil,1,o[0b10][0b10][o[0b10][0b11]]q=q(j,i)j=0 h=q~=j and 0b100001000-h or 0x1770/h end elseif h<=0x82 then if h<=0x49 then c=#b h=m<=c and 0xd8-h or 0b101000 else i,j=1,#e h,q=0b11101000,j+i e[q]=p j,i,q=s..p,-0x800,o[0b101][0b10][o[0b101][0b11]]q=q(j,i)s=q end else v,k,c=m,b,o[1][0b10][o[1][0b11]]c=c(k,v)k=1 m,v,d=m+k,0b1000,k h=(v~=v or d>0 and k>v or(d<=0 or d~=d)and k<v)and 0b1001001 or 0b11000 end until false end end,M={},C=function(xa,L)return function()local ka,oa,K,Na,Ba,Fa,s,W,Oa,ma,ra,Ga,Ea,i,Ka,Y,la,na,l,a,qa,Ca,ba,z,A,E,o,sa,za,k,P,Aa,ua,ia,b,Ia,R,c,U,v,F,q,h,S,m,va,Ja,O,X,d,x,pa,ga,T,ha,da,ta,t,e,_a,j,aa,fa,_,V,D,J,Ha,f,H,G,La,Q,C,M,ya,B,p,r,I,ca,Ma,w,y,g,u,N,wa,ea,ja,n J=xa.M[-0x4577]or xa:O(0x6e9c,0x3623,-0x4577)repeat if J<0x285 then if J>=0b100100011 then if J<=0x1dc then if J<0b101111000 then if J>0x152 then if J<=0b101100011 then if J>0x15d then if J<=0x161 then if J<0x15f then z=0b1111110 J=sa>z and(xa.M[0x4651]or xa:N(0x122353d,0x4118,0x4651))or xa.M[-0x55f0]or xa:N(0x43145d,0xddb,-0x55f0)elseif J>0b101011111 then J=za>0 and(xa.H[0xf81]or xa:K(0x22f4,0x4291,0xf81))or J+0x27a else G=0b111100 J=za<=G and(xa.H[0xd10]or xa:K(0x7c7e,0x1928,0xd10))or xa.M[0x3405]or xa:O(0x17b5,0x4d42,0x3405)end elseif J<=0b101100010 then J,G[0xa62d]=0x109116/J,aa T,i,q,ga=L[0b1001][0b10][L[0b1001][0b11]],L[1][0b10][L[1][0b11]],L[0b111][0b10][L[0b111][0b11]],"B"else G=0b101 J=za>G and(xa.H[0x7e8b]or xa:J(0xf9a8f7,0x41cc,0x7e8b))or xa.H[0x16a8]or xa:K(0x18fd,0x7a40,0x16a8)end elseif J>0x159 then if J<=0x15a then ga,T,q,J,i="B",L[0b1001][0b10][L[0b1001][0b11]],L[0b111][0b10][L[0b111][0b11]],xa.H[0x4059]or xa:J(0x15f53a5,0x226e,0x4059),L[1][0b10][L[1][0b11]]else J=P>s and(xa.H[-0x2f54]or xa:K(0x1978,0x7ac9,-0x2f54))or 0x32f3e/J end elseif J>=0b101011000 then if J<=0x158 then G[0xecdd]=aa ga,q,J,i,T="B",L[0b111][0b10][L[0b111][0b11]],0x3cf90/J,L[1][0b10][L[1][0b11]],L[0b1001][0b10][L[0b1001][0b11]]else J,z=0x53c-J,0b1111001 end elseif J>0x155 then J=z~=z and(xa.H[-0x3216]or xa:J(0x329a5b,0x3dd8,-0x3216))or J+0x80 else J,z=xa.H[0x3e1b]or xa:J(0x1487f8f,0x549c,0x3e1b),0xe0 end elseif J>0b101101110 then if J<0b101110100 then if J<=0b101101111 then G[0xecdd]=aa J=Ha<a and(xa.H[0x1227]or xa:J(0x3bf7a6,0x1151,0x1227))or J+0x23b else aa=0x4a J=z<=aa and J+0b110001011 or J+0x234 end elseif J<=0x174 then G=0b11101001 J=za<=G and(xa.M[-0x43fd]or xa:O(0x204a,0x45a0,-0x43fd))or xa.M[-0x5aa9]or xa:O(0x4f8e,0x15d1,-0x5aa9)else aa=0b10100010 J=z>aa and(xa.M[0x74ba]or xa:O(0x2716,0x78b3,0x74ba))or xa.M[0x4fa1]or xa:N(0x1013855,0x69e7,0x4fa1)end elseif J<=0b101101100 then if J<=0b101101011 then if J>=0b101101010 then if J<=0x16a then J=P<s and(xa.H[-0x3a44]or xa:K(0x21eb,0x432e,-0x3a44))or xa.H[0x37a9]or xa:J(0x16edb2,0x21c1,0x37a9)else z=0b11100000 J=K<z and(xa.M[-0x55f0]or xa:O(0x44ed,0x1a81,-0x55f0))or 0x2f3c7/J end else ga=0 T,i,fa=0b100,ga,1 J=T~=T and 0x401-J or xa.H[-0x697c]or xa:J(0x572af99,0x6ec3,-0x697c)end else ga=0 J=q==ga and 0x28f-J or xa.M[-0x65b0]or xa:N(0xdb2a23,0x60b2,-0x65b0)end elseif J>0b101101101 then i=0 J=ga==i and(xa.H[-0x3c86]or xa:K(0x575e,0x3652,-0x3c86))or 0x16e00/J else G=0x32 J=za>G and(xa.M[0x2990]or xa:O(0x758c,0x2fc7,0x2990))or 0x49f66/J end elseif J<0x13c then if J<=0x131 then if J<=0x12c then if J>=0b100100111 then if J>0x127 then G=0xb8 J=za>G and 0x45f-J or xa.H[-0x127d]or xa:K(0x2eca,0x4ed4,-0x127d)else aa=0x54 J=z>aa and(xa.M[-0x552f]or xa:N(0x571f33,0x90,-0x552f))or xa.M[-0x5fef]or xa:O(0x5c4,0x5fd8,-0x5fef)end elseif J>0x123 then G=0x4b J=za<G and J+0x81 or 0x3c018/J else J,aa=J+-0b1000010,""end elseif J<=0x12f then z=0xf2 J=Ea>=z and 0x2a9-J or xa.H[0x3e1b]or xa:K(0x5549,0x3363,0x3e1b)else J,z=0x4a173/J,0b10110111 end elseif J<=0x136 then if J>=0x134 then if J>0b100110100 then z=0xa2 J=V<z and(xa.H[0x3e1b]or xa:J(0x1b4c5c9,0x7046,0x3e1b))or 0xb338/J else z=0x7e J=X<z and(xa.M[0x61c3]or xa:N(0x1ae73a0,0x69b0,0x61c3))or J+0x2af end else J=z>0 and(xa.H[-0x7111]or xa:K(0x6380,0x392,-0x7111))or 0x289-J end elseif J<=0b100111001 then J,z=0x4c08b/J,0b1111001 else J,z=xa.H[0x3e1b]or xa:J(0x144e3d,0x562,0x3e1b),0xe0 end elseif J>=0x14a then if J>=0x14e then if J>=0b101010001 then if J>0x151 then z=0x79 J=wa<z and(xa.H[0xcdb]or xa:J(0x67976,0x377,0xcdb))or xa.M[-0x55f0]or xa:N(0x1d1cc06,0x6b5e,-0x55f0)else J,z=0x534-J,0b1111110 end else T,J,i,q,ga=L[0b1001][0b10][L[0b1001][0b11]],0xa3bd0/J,L[1][0b10][L[1][0b11]],L[0b111][0b10][L[0b111][0b11]],"B"end elseif J<=0x14b then if J<=0x14a then J,z=J+0x299,0b10100010 else J,z=0x50681/J,0xe0 end else J,z=J+0x296,0x64 end elseif J>=0x140 then if J>=0x143 then if J<=0b101000011 then J=za~=za and 0xe45f/J or xa.H[0x9fc]or xa:J(0x410599,0x5bce,0x9fc)else G[0xe79a]=aa i,ga,q,J,T=L[1][0b10][L[1][0b11]],"B",L[0b111][0b10][L[0b111][0b11]],xa.M[0x2de9]or xa:O(0x3c24,0x7402,0x2de9),L[0b1001][0b10][L[0b1001][0b11]]end else J,z=xa.H[0x3e1b]or xa:K(0x2da4,0x4bc4,0x3e1b),0b1111001 end elseif J>0x13c then G[0x2ace]=aa q,J,T,ga,i=L[0b111][0b10][L[0b111][0b11]],xa.M[0x6994]or xa:N(0xc84b7,0x1fd5,0x6994),L[0b1001][0b10][L[0b1001][0b11]],"B",L[1][0b10][L[1][0b11]]else J,z=0x4cc34/J,0b11100000 end elseif J<0x1a8 then if J>=0x18c then if J<=0x196 then if J>=0x193 then if J>0b110010100 then J,z=0x579-J,0xf2 elseif J>0x193 then J,z=0x577-J,0b1111 else J,z=xa.H[0x3e1b]or xa:K(0x480f,0x2629,0x3e1b),0x40 end elseif J>=0b110001101 then if J>0b110001101 then q,ga,J,i,T=L[0b111][0b10][L[0b111][0b11]],"b",xa.M[0x5cbe]or xa:O(0x74a9,0x3128,0x5cbe),L[1][0b10][L[1][0b11]],L[0b1001][0b10][L[0b1001][0b11]]else J=z<=0 and(xa.H[-0xab9]or xa:K(0x787a,0x14ff,-0xab9))or xa.H[-0x1557]or xa:K(0x1e53,0x7fdf,-0x1557)end else G[0xa62d]=aa T,ga,J,i,q=L[0b1001][0b10][L[0b1001][0b11]],"B",xa.H[-0x3c04]or xa:K(0x3eb1,0x4dd4,-0x3c04),L[1][0b10][L[1][0b11]],L[0b111][0b10][L[0b111][0b11]]end elseif J>0x19e then if J>0x1a5 then z=0b10100010 J=f>z and 0x39d50/J or xa.H[0x3e1b]or xa:J(0x4810a4,0x12b5,0x3e1b)else J,aa=J+-0b11000100,1/0 end elseif J>=0b110011010 then if J>0x19a then J,fa=xa.M[0x54a0]or xa:O(0x3434,0x6b4f,0x54a0),0 else J,z=0x57d-J,0b11100000 end else T,ga,J,i,q=L[0b1001][0b10][L[0b1001][0b11]],"B",0xeb7a0/J,L[1][0b10][L[1][0b11]],L[0b111][0b10][L[0b111][0b11]]end elseif J>=0x183 then if J>=0x185 then if J>=0x187 then if J<=0x187 then ga=0 fa,T,i=1,0b100,ga J=T~=T and 0x4d4-J or 0x67001/J else J,G[0xe79a]=xa.M[-0x21b5]or xa:N(0xcaa852,0x36e8,-0x21b5),aa q,ga,i,T=L[0b111][0b10][L[0b111][0b11]],"B",L[1][0b10][L[1][0b11]],L[0b1001][0b10][L[0b1001][0b11]]end else J,ga=xa.H[0x561b]or xa:J(0x69dc5b,0x23e8,0x561b),xa.c(ga(i,T))end elseif J>0b110000011 then G=0xbd J=za>=G and(xa.M[-0x4ebc]or xa:O(0x5b3c,0b100100011,-0x4ebc))or xa.M[-0x59d4]or xa:O(0x7230,0x354e,-0x59d4)else J,z=0x5e029/J,0xf2 end elseif J<=0b101111100 then if J>=0b101111010 then if J<=0b101111010 then J,z=xa.H[0x3e1b]or xa:K(0x4a46,0x2466,0x3e1b),0b10110100 else G=0b11011100 J=za>G and 0x2d1-J or 0x2b6-J end else J,z=xa.M[-0x55f0]or xa:N(0x1003515,0x5d63,-0x55f0),0xa2 end elseif J>0b101111101 then J=Aa<za and J+-0b10001011 or xa.H[-0x1557]or xa:J(0x262e7e,0x518d,-0x1557)else ga,J,T,i,q="B",J+0x9bd,L[0b1001][0b10][L[0b1001][0b11]],L[1][0b10][L[1][0b11]],L[0b111][0b10][L[0b111][0b11]]end elseif J>=0b111001010 then if J<0b111010110 then if J>=0b111001110 then if J>=0x1cf then if J>0b111001111 then G[0xe79a]=aa J,T,ga,q,i=xa.H[0x58fd]or xa:K(0x1015,0x6925,0x58fd),L[0b1001][0b10][L[0b1001][0b11]],"B",L[0b111][0b10][L[0b111][0b11]],L[1][0b10][L[1][0b11]]else J,z=0x5b2-J,0xa2 end else J=z~=z and(xa.H[-0xab9]or xa:J(0xa168db,0x6bde,-0xab9))or xa.H[0x692]or xa:J(0x6e2cc0,0x4747,0x692)end elseif J<=0x1ca then z=0b11110010 J=g>z and J+-0b11010101 or xa.H[0x3e1b]or xa:J(0x16891bc,0x5cad,0x3e1b)else J,i=0x105c9e/J,xa.H[-0x6766]or xa:I(xa.k"^`Z",xa.k"%K",-0x6766)i,ga=L[0b111][0b10][L[0b111][0b11]],i..q T,H,fa=ga,L[0b1001][0b10][L[0b1001][0b11]],L[1][0b10][L[1][0b11]]end elseif J<0b111011010 then if J>=0x1d7 then if J<=0x1d7 then G[0xecdd]=aa J,q,ga,T,i=xa.H[-0x4c8e]or xa:K(0x65b6,0x3502,-0x4c8e),L[0b111][0b10][L[0b111][0b11]],xa.M[-0x1374]or xa:Q(xa.k"1XB(",xa.k"Is",-0x1374),L[0b1001][0b10][L[0b1001][0b11]],L[1][0b10][L[1][0b11]]else J,G[0xecdd]=0x176480/J,aa T,i,q,ga=L[0b1001][0b10][L[0b1001][0b11]],L[1][0b10][L[1][0b11]],L[0b111][0b10][L[0b111][0b11]],"B"end else J=z<=0 and(xa.H[-0x3216]or xa:K(0xe1d,0x6f48,-0x3216))or 0x25c-J end elseif J>0b111011011 then J,i=xa.M[-0x3bcd]or xa:N(0xd44ea3,0x444a,-0x3bcd),L[0b10][0b10][L[0b10][0b11]]ga=i[q]za[z]=ga elseif J<=0x1da then J=z<=0 and(xa.H[-0x3c95]or xa:J(0xe5fc1b,0x518c,-0x3c95))or xa.H[-0x180b]or xa:J(0x22d025,0x3525,-0x180b)else G=0x99 J=za<=G and 0x3df-J or xa.M[0x7e1c]or xa:O(0x3631,0x68fd,0x7e1c)end elseif J<0b110111110 then if J<0x1af then if J<=0b110101000 then J,G[0xe79a]=0x515-J,aa else aa=aa(q,ga)G=not aa J=G and J+-0b11110100 or J+-0x19c end elseif J<0x1b6 then G[0xa6b8]=aa J=R<=La and(xa.H[-0x71e]or xa:K(0x2eb2,0x4c85,-0x71e))or 0x5c483/J elseif J>0b110110110 then J,z=xa.H[0x3e1b]or xa:J(0x16ee6ef,0x5e3c,0x3e1b),0b11100000 else J=Aa<=0 and J+0x1a6 or J+0x91 end elseif J<0b111000010 then if J<=0b110111111 then if J<=0x1be then J,z=xa.M[-0x55f0]or xa:O(0x53f6,0xb98,-0x55f0),0xe0 else J,z=0x5a2-J,0b11110010 end else J,z=J+0x223,0b1010100 end elseif J>0x1c4 then J,z=xa.M[-0x55f0]or xa:O(0x5f9b,0x33,-0x55f0),0b1111001 elseif J>0x1c2 then i="c"ga,i=i..q,L[0b111][0b10][L[0b111][0b11]]H,T,J,fa=L[0b1001][0b10][L[0b1001][0b11]],ga,xa.M[-0x25d9]or xa:N(0x45c2d47,0x47d0,-0x25d9),L[1][0b10][L[1][0b11]]else J,z=0x5a5-J,0b101110 end elseif J>0x231 then if J<=0x257 then if J>=0x249 then if J>0x251 then if J>0x254 then if J>0x256 then J,q=0x622-J,xa.c(q(ga,i))else J=Aa~=Aa and(xa.H[0x7c30]or xa:L(0x69,0x73cb,0x7c30))or xa.H[0x2329]or xa:K(0x6115,0x3fe1,0x2329)end elseif J<0x253 then J,G[0xa62d]=0x5bf-J,aa elseif J<=0x253 then G=0b10101101 J=za>G and 0x72529/J or xa.M[-0xec3]or xa:O(0x52d2,0xa50,-0xec3)else J=z>0 and J+-0x1a4 or 0x43398/J end elseif J<0x24f then if J<=0x24a then if J<=0x249 then aa=0b1011001 J=z<=aa and(xa.M[0x59a6]or xa:O(0x6f96,0x35e4,0x59a6))or xa.H[0x17e2]or xa:J(0xa6f2b5,0x5946,0x17e2)else J=z>G and 0x11bd8/J or 0xaf1-J end else J,G[0xecdd]=xa.H[0x1227]or xa:J(0x73ba24,0x219b,0x1227),aa end elseif J<=0x250 then if J>0x24f then J,z=xa.H[0x3e1b]or xa:J(0xdddeaf,0x38fc,0x3e1b),0b11100000 else aa=0x39 J=z<=aa and J+0x7c or xa.M[-0x690b]or xa:N(0x78dbdf,0x512d,-0x690b)end else i=i(T,fa)J,T=xa.H[-0x1c1d]or xa:J(0x1da5a11,0x2c17,-0x1c1d),0b111 T=Aa*T end elseif J<=0x241 then if J>0x23e then if J<=0x240 then J,G[0xecdd]=xa.H[0x1227]or xa:J(0x9b18e5,0x2d76,0x1227),aa else J,z=0x624-J,0xa2 end elseif J>0x235 then E=E(P)s,P=B,1 Aa=P J=s~=s and J+-0x17e or xa.H[-0x7c91]or xa:K(0x7523,0x164b,-0x7c91)elseif J>=0x234 then if J>0x234 then J=P<s and(xa.H[-0x2f54]or xa:J(0x1884e3,0x23ea,-0x2f54))or 0x254-J else J=s<Aa and(xa.H[-0x49b4]or xa:K(0x2cb7,0x4e07,-0x49b4))or xa.H[0x6511]or xa:K(0x3daa,0x5e62,0x6511)end else J,z=0x88856/J,0x79 end elseif J<0x244 then if J<=0x242 then J,z=xa.H[0x3e1b]or xa:K(0x1bca,0x75e2,0x3e1b),0x7e else G=0xeb J=za<=G and 0x44469/J or xa.M[0x2cf1]or xa:N(0xac341b,0x71e1,0x2cf1)end elseif J<=0x246 then if J<=0x244 then z=0xa2 J=Q>z and 0x627-J or 0x3fd-J else J,z=J+0b110011101,0x39 end else J=Aa~=Aa and(xa.H[-0x2f54]or xa:K(0x1f2d,0x7c84,-0x2f54))or 0x266-J end elseif J>=0x270 then if J>0x27c then if J<0x281 then if J<=0x27d then J=z~=z and 0x54d-J or 0x49b72/J else J,z=xa.M[-0x55f0]or xa:O(0x1157,0x56ff,-0x55f0),0b1111110 end elseif J>0x281 then G[0xe79a]=aa J,ga,i,T,q=J+0x66b,"B",L[1][0b10][L[1][0b11]],L[0b1001][0b10][L[0b1001][0b11]],L[0b111][0b10][L[0b111][0b11]]else J,z=xa.M[-0x55f0]or xa:O(0x24bb,0x7b53,-0x55f0),0b11100000 end elseif J<0x279 then if J>=0x271 then if J>0x271 then J=Aa~=Aa and(xa.H[-0x9e9]or xa:J(0xa4fd41,0x7439,-0x9e9))or 0x9c148/J else G=0x17a J=za<=G and(xa.H[-0x785b]or xa:K(0x1d3f,0x78c5,-0x785b))or 0x571-J end else J=Aa>za and 0x18600/J or xa.H[-0x20d9]or xa:J(0xf14685,0x6136,-0x20d9)end elseif J>=0x27b then if J<=0x27b then J,z=xa.H[-0xf33]or xa:J(0xc861a,0x1d99,-0xf33),z(G,aa,q)aa,G=0b10,q G=G+aa za,L[0b1001][0b10][L[0b1001][0b11]]=z,G else T[0x819f]=fa H,Ba=T[0x2ace],0 fa=H~=Ba J=fa and(xa.H[-0b100011101]or xa:J(0x1beddb,0x3690,-0b100011101))or 0x532-J end else G=0x5f J=za<=G and 0x32b-J or 0x669-J end elseif J>0x264 then if J<=0x26b then if J>0x269 then G[0x819f]=aa J,ga,i,T,q=0x18b2fd/J,"B",L[1][0b10][L[1][0b11]],L[0b1001][0b10][L[0b1001][0b11]],L[0b111][0b10][L[0b111][0b11]]elseif J<=0x267 then Aa=Aa+z J=z>0 and(xa.M[-0x4f84]or xa:N(0x2c698b2,0x7692,-0x4f84))or xa.H[0x314e]or xa:J(0x683cf6,0x69d,0x314e)else z=0b1001010 J=w>=z and 0x95e1b/J or J+-0x1a8 end else z=z+aa J=aa>0 and(xa.H[-0x53e2]or xa:K(0x4d02,0x28bd,-0x53e2))or J+0x638 end elseif J>0x262 then if J>0x263 then z=z+aa J=aa>0 and 0x11f0-J or J+0xc73 else J=P>s and(xa.H[-0x2f54]or xa:K(0x18b3,0x7a02,-0x2f54))or xa.H[0x7365]or xa:K(0x4a5d,0x2aa2,0x7365)end elseif J<0x260 then if J<=0x258 then q=0b10 J=G==q and(xa.M[-0x5c1]or xa:N(0x24e13a,0xb7e,-0x5c1))or 0x20f58/J else J=fa~=fa and(xa.M[-0x1574]or xa:P(0x82a1,0x2278,-0x1574))or xa.H[-0x6965]or xa:K(0x314c,0x40d8,-0x6965)end elseif J<=0x260 then J=s>Aa and(xa.H[-0x49b4]or xa:J(0x100f34,0x1793,-0x49b4))or J+0x17b else G[0xecdd]=aa J=D<ra and J+0b1011001 or xa.H[0x1227]or xa:K(0x798e,0x1424,0x1227)end elseif J>=0x207 then if J>0x21e then if J>0x22c then if J>=0x230 then if J>0x230 then aa=0b1111110 J=z>=aa and(xa.M[0x13f0]or xa:O(0x616e,0x5bf,0x13f0))or 0x53b-J else J,G[0x819f]=0x77e70/J,aa end elseif J<=0x22d then z=0b11110010 J=ua<z and(xa.H[0x3e1b]or xa:K(0x72f0,0xd08,0x3e1b))or 0x57b61/J else J,z=0x611-J,0x79 end elseif J<0x226 then if J<=0x222 then if J>0x21f then ga=ga+T J=T>0 and 0x114d-J or J+0x7c6 else G=0xe7 J=za>G and J+0b101111011 or J+-0b100000001 end else J,z=xa.H[0x3e1b]or xa:K(0x6833,0x655,0x3e1b),0x7e end elseif J<=0x22a then if J<=0x226 then J,z=xa.M[-0x55f0]or xa:N(0x117862a,0x548a,-0x55f0),0x79 else T,J,i,q,ga=L[0b1001][0b10][L[0b1001][0b11]],0xd76-J,L[1][0b10][L[1][0b11]],L[0b111][0b10][L[0b111][0b11]],xa.H[-0x17b0]or xa:I(xa.k"p2?H",xa.k"pa",-0x17b0)end else G[0x3a36]=aa i,J,q,ga,T=L[1][0b10][L[1][0b11]],xa.H[0x167d]or xa:J(0x24a8c6,0xcfb,0x167d),L[0b111][0b10][L[0b111][0b11]],xa.M[0x6a3c]or xa:Q(xa.k"3S9;",xa.k"Gy",0x6a3c),L[0b1001][0b10][L[0b1001][0b11]]end elseif J>=0x214 then if J<=0x217 then if J>0x216 then J=T<fa and(xa.H[0xc0e]or xa:K(0x417a,0x5c5e,0xc0e))or xa.M[0xaed]or xa:O(0x2d64,0x72c3,0xaed)elseif J>0x215 then J,z=0x5f9-J,0b1001010 elseif J>0x214 then J,z=xa.H[0x3e1b]or xa:J(0x28ac9c,0xa4d,0x3e1b),0xb4 else J=Aa>za and(xa.H[0x6a26]or xa:K(0x59f2,0x3b57,0x6a26))or xa.H[-0x5852]or xa:J(0xee7e67,0x4e65,-0x5852)end elseif J<=0x21c then q=1 J=G==q and(xa.H[0x7ba6]or xa:K(0x2885,0x449b,0x7ba6))or J+0x3c else J,z=0x83a9a/J,0b10100010 end elseif J>0x20b then if J<=0x210 then G=0b11110 J=za<=G and 0x4b060/J or 0x2d1e0/J else G=0xda J=za>G and(xa.H[0xbe6]or xa:K(0x1d3a,0x7945,0xbe6))or 0x34468/J end elseif J>0x209 then J,Na,Ba,N,Fa=0xc02-J,"B",L[0b111][0b10][L[0b111][0b11]],L[1][0b10][L[1][0b11]],L[0b1001][0b10][L[0b1001][0b11]]elseif J<0x208 then ga,q=B,1 i=q J=ga~=ga and 0x2dbdf/J or xa.M[-0x4c6f]or xa:N(0x53750,0x1cfe,-0x4c6f)elseif J<=0x208 then J,G[0xf08]=xa.H[-0x28fb]or xa:J(0xadd49e,0x3fe3,-0x28fb),aa i,ga,T,q=L[1][0b10][L[1][0b11]],"B",L[0b1001][0b10][L[0b1001][0b11]],L[0b111][0b10][L[0b111][0b11]]else J,z=0x5ec-J,0xe0 end elseif J>0x1ea then if J>=0x1fb then if J>=0x203 then if J>0x204 then q=0 ga,T,i=q,1,0b100 J=i~=i and 0x51699/J or 0xa32-J elseif J>0x203 then J,z=0x7d58c/J,0b10100010 else Ba,Fa,N,J,Na=L[0b111][0b10][L[0b111][0b11]],L[0b1001][0b10][L[0b1001][0b11]],L[1][0b10][L[1][0b11]],xa.M[0x24a]or xa:N(0x3551d21,0x4673,0x24a),"B"end elseif J<=0x1fb then G=0xf6 J=za>G and(xa.M[0x1769]or xa:O(0x6c91,0x318c,0x1769))or J+0b10010100 else G=0b11010000 J=za>G and(xa.M[0x156e]or xa:N(0x755113,0x37fb,0x156e))or xa.H[0x7a0]or xa:K(0xe74,0x6976,0x7a0)end elseif J>0b111110111 then if J>0b111111001 then J,z=xa.M[-0x55f0]or xa:N(0x6dad76,0b11001110,-0x55f0),0x59 else G=0b10110111 J=za<=G and(xa.M[0x3da1]or xa:N(0x91e31a,0x31a0,0x3da1))or J+0b100100010 end elseif J>0x1ef then G[0x819f],ra,D=aa,0xbb,0b10111110 J,T,i,q,ga=xa.M[0x209e]or xa:O(0x1ca2,0x5648,0x209e),L[0b1001][0b10][L[0b1001][0b11]],L[1][0b10][L[1][0b11]],L[0b111][0b10][L[0b111][0b11]],"B"elseif J<=0x1ed then G=0x48 J=za>G and 0x41a-J or xa.M[0x1594]or xa:O(0x3b20,0x633c,0x1594)else J,z=J+0b111110100,0xe0 end elseif J>0x1e5 then if J<=0x1e8 then if J>0x1e7 then J,z=0x5cb-J,0b101001 elseif J>0x1e6 then i,T,ga,J,fa="B",L[1][0b10][L[1][0b11]],L[0b111][0b10][L[0b111][0b11]],0xa5c-J,L[0b1001][0b10][L[0b1001][0b11]]else J,z=xa.H[0x3e1b]or xa:K(0x6242,0x3c5a,0x3e1b),0x79 end elseif J>0b111101001 then G[0xe79a]=aa J,i,T,ga,q=xa.H[0x4a4e]or xa:J(0x9c50b2,0x1669,0x4a4e),L[1][0b10][L[1][0b11]],L[0b1001][0b10][L[0b1001][0b11]],xa.H[-0x17b0]or xa:I(xa.k"a3^{",xa.k"P5",-0x17b0),L[0b111][0b10][L[0b111][0b11]]else J=Aa>za and J+-0b100111111 or xa.H[0x20a9]or xa:J(0x1dd9d7,0x1612,0x20a9)end elseif J<=0b111100011 then if J<0x1df then if J>0x1dd then i,J,ga,T,q=L[1][0b10][L[1][0b11]],xa.M[0x4b0c]or xa:N(0x17c45a5,0x6dc3,0x4b0c),xa.H[0x22ce]or xa:I(xa.k"1z!",xa.k"I{",0x22ce),L[0b1001][0b10][L[0b1001][0b11]],L[0b111][0b10][L[0b111][0b11]]else q,J,T,ga,i=L[0b111][0b10][L[0b111][0b11]],0x1179-J,L[0b1001][0b10][L[0b1001][0b11]],"B",L[1][0b10][L[1][0b11]]end elseif J>0b111011111 then z=0b10100010 J=va<=z and 0x75549/J or xa.M[0x2dfa]or xa:N(0x3b5761,0x31fb,0x2dfa)else J,G[0xf08]=0x54c-J,aa end elseif J<=0b111100100 then G[0x9848]=aa i,q,J,T,ga=L[1][0b10][L[1][0b11]],L[0b111][0b10][L[0b111][0b11]],xa.M[0x58e5]or xa:O(0x61fc,0x642,0x58e5),L[0b1001][0b10][L[0b1001][0b11]],"B"else i=i+fa J=fa>0 and 0xecd10/J or xa.M[-0x60cf]or xa:N(0x21fdedb,0x3134,-0x60cf)end elseif J<0b10100110 then if J>=0x60 then if J>=0x88 then if J<=0b10010111 then if J<=0b10010001 then if J<=0b10001101 then if J<0b10001100 then if J<=0b10001000 then i=0 H,T,fa=1,i,0b100 J=fa~=fa and 0x1a878/J or xa.H[0xdcd]or xa:J(0xc60847,0x310c,0xdcd)else G=0x93 J=za>=G and 0x43c-J or 0x18806/J end elseif J>0x8c then ga,G,q,J,aa=L[0b1001][0b10][L[0b1001][0b11]],L[0b111][0b10][L[0b111][0b11]],L[1][0b10][L[1][0b11]],xa.M[0x47f]or xa:O(0x25c3,0x4314,0x47f),"B"else O,wa,Ma,P,J,va,V,E=0b10100100,0b10100001,0x46,B,J+0b110110010,0x77,0x43,L[0b1000][0b10][L[0b1000][0b11]]end elseif J<=0x90 then if J>0x8e then J,z=J+0x353,0xb4 else G=0x30 J=za>=G and J+0b100 or xa.H[0x74c8]or xa:J(0x2246aa,0x2fc3,0x74c8)end else z=0xa2 J=_<z and(xa.H[0x3e1b]or xa:K(0x8141,0x1f5b,0x3e1b))or xa.H[0x4573]or xa:J(0x7203c2,0x218b,0x4573)end elseif J<0b10010101 then if J>0x92 then G=0b10111101 J=za>G and(xa.H[-0x2223]or xa:K(0x6926,0x56d,-0x2223))or xa.H[-0x115c]or xa:K(0x19cc,0x7a57,-0x115c)else G=0b110011 J=za>G and J+-0x3e or xa.H[0x56a0]or xa:J(0x5da101,0x7a1e,0x56a0)end elseif J<=0b10010110 then if J>0b10010101 then G=0b11101100 J=za<=G and 0x2d9-J or 0x219-J else ga=ga(i,T)J,i=xa.H[0x5d65]or xa:J(0x28215c,0x1151,0x5d65),0b111 i=s*i end else G=0b10011111 J=za<G and 0x23f19/J or 0x1cdd9/J end elseif J>0xa0 then if J>0b10100100 then G=0x61 J=za<=G and(xa.H[0x32b5]or xa:J(0x485ff,0x5803,0x32b5))or xa.H[-0x281b]or xa:J(0x81230,0x1e93,-0x281b)elseif J<0b10100010 then G=0x36 J=za>=G and 0x10e-J or 0x594e/J elseif J<=0b10100010 then J,z=xa.M[-0x55f0]or xa:O(0x4c6a,0x130c,-0x55f0),0b1011001 else G=0b11100010 J=za>G and(xa.H[0x21e9]or xa:J(0x2ca73b,0x2ef2,0x21e9))or J+0x5a end elseif J<0b10011101 then if J>0b10011010 then G=1 J=za<=G and(xa.H[-0x3359]or xa:K(0x5761,0x3412,-0x3359))or xa.M[-0xf28]or xa:O(0x33ad,0x6965,-0xf28)elseif J>0x98 then G=0b10110001 J=za<G and(xa.H[0x26a6]or xa:J(0x1928ca,0x8f9,0x26a6))or xa.H[-0x7973]or xa:J(0x11a5055,0x484b,-0x7973)else Ca,G=0b10111001,0b100011 J=za>G and J+0b1001 or xa.H[0x76fb]or xa:K(0x854,0x6a45,0x76fb)end elseif J>0x9f then J,P=xa.H[0x5fc1]or xa:J(0x57308f,0x7265,0x5fc1),s elseif J<=0x9d then z=0b1111110 J=d>z and J+0x346 or 0x146-J else G,la=0xa9,0b1001001 J=za<=G and 0x8943/J or J+0b110110100 end elseif J>0x78 then if J>=0x80 then if J<=0b10000011 then if J>=0x82 then if J<=0x82 then G=0b10110011 J=za<G and(xa.H[-0x1715]or xa:K(0x7051,0xdb2,-0x1715))or xa.H[-0x675a]or xa:J(0x5b6d0f,0x6f5c,-0x675a)else s=0 z,za,Aa=1,0b100,s J=za~=za and 0x51e0/J or xa.H[0x7f]or xa:K(0x1177,0x6c21,0b1111111)end else J,H=xa.H[-0x1698]or xa:J(0x14fc7c1,0x7bb7,-0x1698),T[0x2ace]fa=s[H]end elseif J<=0b10000110 then q,aa,i,J,ga="B",L[0b111][0b10][L[0b111][0b11]],L[0b1001][0b10][L[0b1001][0b11]],0x158f2/J,L[1][0b10][L[1][0b11]]else G=0xc3 J=za<G and(xa.H[0x5456]or xa:J(0x4c5cf,0x12ab,0x5456))or J+-0b1010 end elseif J<=0b1111100 then if J>0x7b then Aa=za J=m>j and(xa.H[0x1c8f]or xa:K(0x565b,0x30b7,0x1c8f))or xa.H[-0x28cf]or xa:J(0x5cd99a,0x5d95,-0x28cf)elseif J<=0x79 then q,ga,J,aa,i="B",L[1][0b10][L[1][0b11]],xa.H[-0x7531]or xa:J(0xead95,0x1186,-0x7531),L[0b111][0b10][L[0b111][0b11]],L[0b1001][0b10][L[0b1001][0b11]]else P,C=0,0b10100 za,s,Aa=1,P,0b100 J=Aa~=Aa and(xa.H[-0x49b4]or xa:J(0x1eb649,0x2a8a,-0x49b4))or xa.H[-0xde7]or xa:K(0x638,0x66d2,-0xde7)end elseif J<=0b1111101 then G=0xc7 J=za>G and 0xed4e/J or 0x18f-J else G=0xf7 J=za<=G and(xa.H[0x3a31]or xa:K(0x2e17,0x4941,0x3a31))or 0x244-J end elseif J<=0x6f then if J>0b1101001 then if J>0b1101101 then G=0b11100111 J=za>=G and(xa.M[0x4c0e]or xa:N(0x224197,0xb07,0x4c0e))or xa.H[-0x6f42]or xa:J(0x381f53,0x3a8f,-0x6f42)else Y,G=0x8d,0x3f J=za<=G and(xa.H[0x7396]or xa:J(0x75b48,0x2821,0x7396))or xa.H[0x5f5a]or xa:J(0x1b9074,0x1b51,0x5f5a)end elseif J<0x68 then if J>0x60 then aa,ga,G,i,q,J,z=L[0b11][0b10][L[0b11][0b11]],za,E,0x7f,L[0b100][0b10][L[0b100][0b11]],0x3ed-J,L[0b101][0b10][L[0b101][0b11]]else G=0x73 J=za>=G and 0x8d-J or xa.H[-0xd65]or xa:J(0x240df5,0x28cd,-0xd65)end elseif J<=0b1101000 then G,d=0b1100,0xa9 J=za>G and(xa.H[0x1c5e]or xa:J(0x226cae,0x38b9,0x1c5e))or xa.H[-0x621c]or xa:K(0x5b4a,0x3944,-0x621c)else n,l,G,Ea=0b10111111,0b11101100,0b10001111,0xae J=za<G and J+0x86 or 0x2e59/J end elseif J<=0b1110101 then if J>=0x74 then if J>0b1110100 then s="c"P,s=s..E,L[0b111][0b10][L[0b111][0b11]]z,J,Aa,za=L[0b1001][0b10][L[0b1001][0b11]],J+0x2ca,P,L[1][0b10][L[1][0b11]]else P=P+Aa J=Aa>0 and J+0x1ef or xa.H[0x7365]or xa:K(0x54f7,0x3144,0x7365)end else G,h=0xca,0b1000000 J=za<=G and J+0x49 or xa.H[-0x7e10]or xa:J(0xbb873,0x115a,-0x7e10)end elseif J<=0b1110110 then G=0x16 J=za>G and(xa.H[-0x28ef]or xa:K(0x4d89,0x299f,-0x28ef))or xa.M[0x1629]or xa:N(0xd8decf,0x211d,0x1629)else G=0x8a J=za<G and J+-0x71 or J+-0x21 end elseif J>0b110011 then if J>0b1000110 then if J<0x52 then if J>0b1001111 then G=0xd5 J=za>=G and 0x375f/J or xa.H[-0x6f]or xa:K(0x3d07,0x582a,-0b1101111)elseif J>=0x49 then if J>0b1001001 then fa,i,ga,J,q,aa,T=0b1111111,L[0b100][0b10][L[0b100][0b11]],L[0b11][0b10][L[0b11][0b11]],0x11e11/J,s,L[0b101][0b10][L[0b101][0b11]],G else G=0x65 J=za<=G and 0xc10d/J or xa.H[0x17cf]or xa:J(0xdcb365,0x64f9,0x17cf)end else J,z=0x42b-J,0x7e end elseif J>0b1010111 then if J<=0b1011000 then G=0b100 J=za<G and(xa.H[-0x6985]or xa:J(0x126903,0x1eda,-0x6985))or 0xe70/J else T,i,J,Ba,ga,H,fa=L[0b11][0b10][L[0b11][0b11]],za,xa.M[0xd4b]or xa:N(0x39478b3,0x7ba1,0xd4b),0x7f,L[0b101][0b10][L[0b101][0b11]],q,L[0b100][0b10][L[0b100][0b11]]end elseif J>=0b1010100 then if J>0b1010100 then G=0x8a J=za<=G and J+0b11110110 or J+0x311 else J,z=xa.M[-0x55f0]or xa:N(0x14bb5ae,0x49d6,-0x55f0),0b1111 end else G=0b11010 J=za>G and(xa.H[0x6b5d]or xa:J(0xa5db,0x7b0d,0x6b5d))or xa.H[0xad7]or xa:J(0xaa8b,0xf50,0xad7)end elseif J>=0x3c then if J<=0b1000000 then if J<=0x3e then if J>0b111101 then G=0b1110111 J=za<G and(xa.H[-0x661a]or xa:K(0x1f19,0x7cbc,-0x661a))or xa.H[0x13a4]or xa:J(0x2f4adf,0x37c7,0x13a4)elseif J<=0x3c then G=0b10111111 J=za<=G and 0b111000000-J or 0x187-J else b,E,F,ua,qa,M,o,p,U=0b11100,0,0b1000,0xd5,0x69,0b10110000,0xe0,0b11111000,0b1100 s,Aa,P=0b100,1,E J=s~=s and(xa.H[-0x2f54]or xa:J(0x5009c3,0x7812,-0x2f54))or xa.H[-0x25cb]or xa:J(0x12b0882,0x5c19,-0x25cb)end else G=0b1111111 J=za>G and(xa.M[0x5f5f]or xa:N(0xde4a1,0x16ca,0x5f5f))or 0x419-J end elseif J>0b1000011 then G=0xde J=za<G and(xa.H[-0x484]or xa:J(0xf1f93,0x3c18,-0x484))or 0x350c/J else G=0b11011100 J=za>=G and(xa.H[0x1662]or xa:K(0xe7f,0x6f06,0x1662))or xa.M[0x4b3]or xa:N(0x1ef8bb,0x124f,0x4b3)end elseif J>=0b111000 then if J>0b111010 then G,ia=0xb9,0xd2 J=za>G and 0x1f1d/J or xa.H[-0x1597]or xa:K(0x3df3,0x5f74,-0x1597)elseif J>0x38 then q=0b11 J=G==q and(xa.H[-0x116a]or xa:J(0x16c621f,0x5d03,-0x116a))or 0x386a/J else G=0x4a J=za<G and(xa.H[-0x2a1b]or xa:K(0x45d2,0x21e0,-0x2a1b))or xa.H[-0x4a92]or xa:J(0x68db55,0x5afd,-0x4a92)end elseif J>0x34 then G=0xff J=za<G and 0b10110011-J or 0b100100011-J else G,t=0b1110001,0b10010101 J=za>=G and(xa.H[0x7fa4]or xa:J(0x5f22f3,0x6969,0x7fa4))or J+-0b11000 end elseif J<0x14 then if J<=0b111 then if J<=0b11 then if J>0b10 then G=0b100111 J=za>=G and(xa.H[0x4311]or xa:K(0x806d,0x1fb4,0x4311))or xa.M[-0x271c]or xa:O(0x4911,0x1ea6,-0x271c)elseif J<=1 then if J<=0 then _,G,sa=0b10001111,0x20,0x73 J=za>G and J+0x91 or J+0xed else G=0x15 J=za<=G and J+0xd5 or 0b1110110/J end else Aa=Aa+z J=z>0 and 0x216-J or 0x618/J end elseif J>0b110 then G=0b10001000 J=za<=G and(xa.M[0x70fa]or xa:N(0x66c201,0x26e2,0x70fa))or xa.H[-0x4a36]or xa:J(0xd813cc,0x4049,-0x4a36)else G=0b110 J=za>G and(xa.H[0xc15]or xa:K(0xf3e,0x6cd3,0xc15))or 0x210/J end elseif J<=0b1101 then if J<=0b1100 then if J>0b1001 then G=0b1011110 J=za<G and 0x2bc-J or 0x3dd-J else G=0b1001 J=za<=G and(xa.H[0x396a]or xa:K(0x4145,0x5d06,0x396a))or xa.H[0x2712]or xa:K(0x81d2,0x1d87,0x2712)end else s=s+za J=za>0 and 0x323-J or xa.H[0x92]or xa:J(0x12eeead,0x694a,0b10010010)end elseif J>0b1110 then G=0b11101010 J=za>G and(xa.H[0x3251]or xa:K(0x948,0x6ab7,0x3251))or J+0b1011101 else J,aa=xa.H[0x4372]or xa:J(0x205b91,0x258a,0x4372),1/-0 end elseif J<=0x25 then if J<=0b11111 then if J<0x1e then if J<=0b10100 then G=0x12 J=za<G and 0x78/J or 0x668/J else G=0b1011010 J=za>=G and 0x120c/J or xa.H[-0x6bf7]or xa:J(0x9259b,0x4c02,-0x6bf7)end elseif J<=0x1e then J,B=xa.H[0x3e3b]or xa:K(0x6b30,0x8a8,0x3e3b),""else G,aa,q,J,z="B",L[1][0b10][L[1][0b11]],L[0b1001][0b10][L[0b1001][0b11]],xa.H[-0x6777]or xa:K(0x7069,0xd49,-0x6777),L[0b111][0b10][L[0b111][0b11]]end elseif J<=0b100000 then f,G=0x63,0x4d J=za>G and 0b1010010-J or J+0x18 else G=0b1111101 J=za>=G and(xa.H[0xea3]or xa:J(0x12ff8cd,0x76ee,0xea3))or J+0x34a end elseif J>0b101101 then if J>0x32 then G=0x3c J=za>=G and 0x280b/J or xa.H[-0x41b0]or xa:K(0x2965,0x4a7f,-0x41b0)else G=0b1011000 J=za>G and(xa.H[0x4822]or xa:J(0x4dc3eb,0x3eb4,0x4822))or 0x9cd6/J end elseif J>=0x2a then if J<=0b101010 then G=0b101 J=za>=G and 0x18d-J or 0x93fc/J else G=0b1110011 J=za<=G and(xa.M[0x5cf9]or xa:O(0x355f,0x6948,0x5cf9))or xa.H[0x2593]or xa:K(0x772a,0x17fc,0x2593)end else G=0xcd J=za<=G and 0x2c9-J or 0x22a-J end elseif J>=0b11011001 then if J>0xf1 then if J<0b100000011 then if J>=0xfd then if J<=0xff then if J<0b11111110 then z,J,Oa,za=Aa,0xa1b52/J,0b1111100,L[0b1000][0b10][L[0b1000][0b11]]elseif J<=0xfe then ta,G=0b100100,0b11011010 J=za>=G and(xa.H[-0x444f]or xa:K(0x2594,0x474b,-0x444f))or xa.H[0x5eb0]or xa:K(0x4fd3,0x2d0c,0x5eb0)else G=0x42 J=za<G and(xa.H[-0x4ac3]or xa:K(0x5260,0x301d,-0x4ac3))or J+-0b111110 end elseif J>0x100 then J,z=0x3e6e3/J,0xa2 else T="c"J,T,i=0xc7e-J,L[0b111][0b10][L[0b111][0b11]],T..ga Ba,fa,H=L[0b1001][0b10][L[0b1001][0b11]],i,L[1][0b10][L[1][0b11]]end elseif J>=0b11110111 then if J<0xf8 then J,z=J+0x2ec,0b1111 elseif J<=0b11111000 then G=0b11100100 J=za>G and J+0x14c or xa.M[0x121a]or xa:O(0x604a,0x6ee,0x121a)else q=0b110 J=G==q and(xa.H[0x3b9e]or xa:K(0x54cf,0x30f4,0x3b9e))or J+0x229 end elseif J>0xf4 then J,P=xa.H[0x29ae]or xa:K(0x3a37,0x5b7b,0x29ae),s else u,J,v,s,P,S,E,Ja,W,B,Ga,m,ka,y,ba,j,ha=0x4b,xa.H[0x3afb]or xa:J(0x18ec00f,0x7f54,0x3afb),0b111,L[0b1001][0b10][L[0b1001][0b11]],L[1][0b10][L[1][0b11]],0b10110101,"B",0b110,0b101011,L[0b111][0b10][L[0b111][0b11]],0b11100010,0b100011,0b11001001,0xb8,0b10100100,0b1011101,0xde end elseif J>0b100010010 then if J<=0b100011100 then if J>0x116 then z=0b11100000 J=ia>=z and(xa.M[0x7702]or xa:N(0x3c5317,0x304e,0x7702))or xa.M[-0x55f0]or xa:O(0x535f,0x14f7,-0x55f0)elseif J<=0b100010100 then G=G(aa,q,ga)aa,q=ga,1 aa=aa+q z,L[0b1001][0b10][L[0b1001][0b11]]=G,aa J=Ga<q and 0x1a9dc/J or xa.H[0x339d]or xa:K(0x5ee5,0x3ffe,0x339d)else i=i+fa J=fa>0 and J+0x6ab or 0x3b1-J end elseif J>0b100011101 then J,z=0x4579a/J,0x7e else J,z=0b101111110-J,z(G,aa,q)G,aa=q,1 G=G+aa za,L[0b1001][0b10][L[0b1001][0b11]]=z,G end elseif J>=0x110 then if J>0b100010001 then G=0b11000110 J=za<=G and(xa.M[0x6e2a]or xa:N(0x5f7303,0x748,0x6e2a))or 0x12ff8/J elseif J>0b100010000 then aa=aa(q,ga,i)q,ga=i,1 q=q+ga G,L[0b1001][0b10][L[0b1001][0b11]]=aa,q J=C<=ga and(xa.H[0x601c]or xa:J(0xc2553,0x4c34,0x601c))or xa.H[0x8ef]or xa:J(0x619eb2,0x7719,0x8ef)else z=0b11100000 J=Ka>z and 0x33aa0/J or J+0x2d3 end elseif J>=0b100000111 then if J<=0x107 then H=T[0x819f]J,fa=0x2f735/J,s[H]else J,G[0xecdd]=xa.M[-0x1cb]or xa:O(0x23f6,0x7b02,-0b111001011),aa end else ga,J,i=L[0b1000][0b10][L[0b1000][0b11]],xa.M[-0x3146]or xa:N(0x1864f26,0x7416,-0x3146),q end elseif J>=0b11100110 then if J<0xec then if J>0b11101001 then if J>0xea then G=0b110110 J=za<=G and(xa.H[0x3116]or xa:K(0x4d1f,0x2b5e,0x3116))or 0x11f53/J else G,i,T,aa,J,q,ga=L[0b101][0b10][L[0b101][0b11]],z,0b1111111,P,0b101111111-J,L[0b11][0b10][L[0b11][0b11]],L[0b100][0b10][L[0b100][0b11]]end elseif J<=0b11101000 then if J>0xe6 then G=0x7e J=za>G and 0b111000011-J or J+-0b10101010 else G=0x71 J=za<=G and(xa.M[0x79a]or xa:O(0x7308,0x2bd1,0x79a))or xa.M[-0x504]or xa:O(0x1d2d,0x47c4,-0x504)end else J,ga,T,fa,i=xa.H[0x72e1]or xa:J(0x16c2577,0x1e7c,0x72e1),L[0b111][0b10][L[0b111][0b11]],L[1][0b10][L[1][0b11]],L[0b1001][0b10][L[0b1001][0b11]],"B"end elseif J<=0b11101111 then if J>0xee then G,w=0x48,0x4c J=za<G and 0b110000111-J or xa.H[-0x1f9b]or xa:J(0x16b2db,0x6cc0,-0x1f9b)elseif J<0xed then z=0x7e J=Ca>z and J+0x2f7 or 0x149-J elseif J<=0b11101101 then G=0b11110 J=za<G and(xa.M[-0x5589]or xa:N(0xe13119,0x50a3,-0x5589))or xa.M[0x33d3]or xa:N(0xe4832f,0x738e,0x33d3)else G=0x17a J=za>=G and(xa.H[0x759c]or xa:K(0x276a,0x46fc,0x759c))or xa.H[0x5340]or xa:K(0x253c,0x43be,0x5340)end elseif J>0xf0 then J=za<=0 and(xa.H[0x45e6]or xa:J(0x165c593,0x62e8,0x45e6))or 0xac47/J else Q,G,X=0b11111111,0xf2,0xa6 J=za>=G and J+-0xbb or xa.H[0x6179]or xa:K(0x470e,0x24f9,0x6179)end elseif J>0b11011110 then if J<0xe1 then if J>0xdf then G=0b10000011 J=za>G and J+0xba or 0x1d260/J else G=0x96 J=za<G and 0x7915/J or 0xbd07/J end elseif J<=0b11100010 then if J<=0b11100001 then J,s[Aa]=J+0x186,aa else J,G[0xa62d]=xa.M[-0b111001011]or xa:N(0x103192d,0x5737,-0x1cb),aa end else z=0b1111 J=n>=z and J+0x2fe or J+0b110110100 end elseif J>=0xdc then if J<=0xdd then if J>0xdc then G=0b10101000 J=za>G and(xa.H[0x776e]or xa:K(0x6119,0x3c5f,0x776e))or xa.H[0x2080]or xa:K(0x4e10,0x2886,0x2080)else G=0b1111011 J=za>=G and J+-0b10110111 or xa.H[-0x3878]or xa:J(0x16f6c33,0x631c,-0x3878)end else z=0x79 J=r<z and 0x4c1-J or xa.H[-0x625d]or xa:K(0x1fbf,0x7ce0,-0x625d)end elseif J>0xda then G=0b10001000 J=za<G and J+-0b10000 or 0b101010011-J elseif J>0b11011001 then a,Ha,e,ja,I,ma,g,B=0xdb,0b110010,0x68,0xd6,0b111,0xb2,0b11011011,0xb6 J=ea~=B and(xa.H[-0x73d9]or xa:K(0x1296,0x701e,-0x73d9))or xa.H[0x4501]or xa:K(0x120f,0x73d7,0x4501)else G,Ka=0b10011001,0b1011101 J=za<G and 0x265b4/J or xa.H[0x3c1d]or xa:J(0xcfb142,0x6f9b,0x3c1d)end elseif J>=0b10111111 then if J<0xcb then if J>=0xc4 then if J>=0b11000111 then if J<=0xc9 then if J<=0b11000111 then i,ga,q,J,T=L[1][0b10][L[1][0b11]],"B",L[0b111][0b10][L[0b111][0b11]],xa.M[-0x3e6d]or xa:O(0x3022,0x707f,-0x3e6d),L[0b1001][0b10][L[0b1001][0b11]]else G=0x3e J=za<=G and(xa.H[-0x73bb]or xa:K(0x7b2d,0x1bcb,-0x73bb))or xa.M[0x66ee]or xa:N(0x18b5625,0x7b56,0x66ee)end else G=0xd3 J=za>G and 0x3fea/J or 0x205a/J end elseif J>0b11000100 then G=0xa7 J=za<G and(xa.H[-1]or xa:J(0x260e82,0x418f,-1))or J+-0x26 else s=0 J=P==s and(xa.H[-0x3664]or xa:K(0x2f66,0x4cb0,-0x3664))or xa.H[-0xda3]or xa:K(0x496a,0x2a96,-0xda3)end elseif J>0xc1 then if J>0b11000010 then G=0x32 J=za<G and(xa.H[0xd8e]or xa:J(0x7caa27,0x4e3a,0xd8e))or xa.M[-0x49a]or xa:N(0x252be1,0x6bb,-0x49a)else G=0b11100000 J=za<=G and 0x1e98c/J or xa.M[0x6640]or xa:N(0xc9e2fc,0x2238,0x6640)end elseif J>=0b11000000 then if J<=0xc0 then s=0 z,Aa,za=1,s,0b100 J=za~=za and J+0b110101 or xa.H[0x5d1b]or xa:K(0x1060,0x6c09,0x5d1b)else G=0b1000010 J=za>G and J+0x21c or xa.H[-0x7e4b]or xa:J(0x36221b,0x1f29,-0x7e4b)end else J,z=xa.H[0x3e1b]or xa:K(0x69b,0x60bd,0x3e1b),0b11100000 end elseif J<0b11010001 then if J<0b11001110 then if J>0b11001011 then J,aa=xa.H[-0x2a41]or xa:K(0x5d30,0x3ee4,-0x2a41),aa(q,ga,i)ga,q=1,i q=q+ga G,L[0b1001][0b10][L[0b1001][0b11]]=aa,q else G=0x83 J=za<G and(xa.H[0xc74]or xa:J(0x11ee9b,0x452d,0xc74))or xa.H[-0x7656]or xa:J(0x1f963b,0x23a9,-0x7656)end elseif J<0b11001111 then s,Aa={},0 s[0x412f]=Aa s[0x82c8]=Aa s[0x80c3]=Aa za={}Aa=za s[0x93f0]=Aa za={}Aa=za s[0xe8bc]=Aa za={}Aa=za s[0xa91a]=Aa s[0x6f14]=B s[0x9182]=E P=s return P elseif J>0b11001111 then J=Aa<za and 0b101111010-J or xa.H[0x3781]or xa:J(0x16aff9,0x2a1b,0x3781)else aa,q=nil,0b101 J=G==q and(xa.H[0x4cfe]or xa:K(0x11b8,0x73af,0x4cfe))or 0x109-J end elseif J<0b11010101 then if J<=0b11010011 then if J>0xd1 then G=0b10110111 J=za>=G and(xa.H[-0x76e6]or xa:K(0x5bd9,0x38a8,-0x76e6))or 0x482-J else i,T,J,ga,aa,q,fa=L[0b100][0b10][L[0b100][0b11]],G,xa.H[0x3865]or xa:J(0xa37ca7,0x46bc,0x3865),L[0b11][0b10][L[0b11][0b11]],L[0b101][0b10][L[0b101][0b11]],s,0b1111111 end else P=0 J=E==P and 0x18d8/J or xa.H[0x3ba2]or xa:J(0x1863e2,0x3635,0x3ba2)end elseif J>=0b11010110 then if J<=0b11010110 then G=0x13 J=za>G and(xa.M[0x52c0]or xa:N(0xb8982,0x1468,0x52c0))or J+0x2d5 else J,Aa=0x35c00/J,"c"s,Aa=Aa..P,L[0b111][0b10][L[0b111][0b11]]z,G,za=L[1][0b10][L[1][0b11]],L[0b1001][0b10][L[0b1001][0b11]],s end else J=Aa>0 and J+0x326 or xa.H[-0x66be]or xa:J(0xcfbd2b,0x546c,-0x66be)end elseif J>0b10110001 then if J>=0xb9 then if J>0b10111011 then if J<=0b10111100 then aa=0b111001 J=z>=aa and(xa.M[0x6639]or xa:N(0x353c64,0xb98,0x6639))or xa.H[0x6d73]or xa:K(0x7860,0x1433,0x6d73)else J,z=xa.M[-0x55f0]or xa:N(0xa3dba8,0x3690,-0x55f0),0x64 end elseif J>0xba then G=0x29 J=za<=G and(xa.H[-0x5c47]or xa:J(0x1e15a,0x6c2b,-0x5c47))or 0b101011101-J elseif J>0b10111001 then G=0b10101111 J=za<G and J+-0b1100 or xa.H[0x1721]or xa:J(0x16ad62,0x5f9b,0x1721)else s,J,Aa=L[0b1000][0b10][L[0b1000][0b11]],xa.H[0x5e33]or xa:J(0x808c6b,0x229c,0x5e33),P end elseif J<0xb5 then if J<=0b10110010 then J,z=xa.H[0x3e1b]or xa:J(0x780e7f,0x1f0c,0x3e1b),0b1111 else Aa=Aa+z J=z>0 and(xa.H[-0x4555]or xa:K(0x5b3a,0x2d1c,-0x4555))or xa.H[0x5610]or xa:J(0x2a77821,0x4333,0x5610)end elseif J>=0xb7 then if J>0b10110111 then J,z=xa.H[0x3e1b]or xa:J(0x6618b6,0x1a6f,0x3e1b),0b1111001 else J,G,aa,ga,q=J+0x5d,L[0b111][0b10][L[0b111][0b11]],"B",L[0b1001][0b10][L[0b1001][0b11]],L[1][0b10][L[1][0b11]]end else J,E=xa.H[-0x7e90]or xa:J(0x9c1d7,0xb57,-0x7e90),P end elseif J<0xab then if J<0xa8 then if J<=0b10100110 then J,q,aa,ga,i=J+0x6b,"B",L[0b111][0b10][L[0b111][0b11]],L[1][0b10][L[1][0b11]],L[0b1001][0b10][L[0b1001][0b11]]else na,i,ga,aa,pa,J,q=0b1000100,L[0b1001][0b10][L[0b1001][0b11]],L[1][0b10][L[1][0b11]],L[0b111][0b10][L[0b111][0b11]],0x7b,J+0x2cd,"B"end elseif J>=0xa9 then if J>0xa9 then za=0 aa,G,z=1,0b100,za J=G~=G and(xa.H[0x5db4]or xa:J(0xfb8eb,0x1f34,0x5db4))or xa.H[0x4f3b]or xa:J(0x1c905a4,0x7eed,0x4f3b)else J,q,aa,G,z,r=xa.H[0x6af6]or xa:J(0xf30a,0x23,0x6af6),L[0b1001][0b10][L[0b1001][0b11]],L[1][0b10][L[1][0b11]],xa.H[0x104c]or xa:I(xa.k"dkl8",xa.k"MF",0x104c),L[0b111][0b10][L[0b111][0b11]],0x3d end else G=G(aa,q)z=not G J=z and 0x70e0/J or J+-0b110100 end elseif J>0b10101111 then if J>0b10110000 then J,E=J+0b11101,""else J=Aa>za and J+0b1000101 or xa.H[0x2a0b]or xa:J(0x60f99d,0x3565,0x2a0b)end elseif J<=0xae then if J>=0xac then if J<=0b10101100 then ya,oa,ca,B,Ia=0x27,0xca,0xa5,E,0xc1 J=ja>ma and(xa.H[-0x7f05]or xa:K(0x6f7e,0xcf7,-0x7f05))or J+0x349 else G=0x9b J=za<G and 0x9792/J or xa.H[0x2c7f]or xa:K(0x389f,0x55df,0x2c7f)end else J,z=J+0x338,0b1111110 end else G,x=0xd5,0b1010 J=za<=G and(xa.M[0x2cd]or xa:O(0x5d13,0x20f,0x2cd))or xa.H[-0x4e88]or xa:K(0x2bf4,0x4bdb,-0x4e88)end elseif J<0x3db then if J>=0x337 then if J>=0x385 then if J<0x3af then if J>0x399 then if J>0x3a5 then if J>0x3aa then G=0b10010 J=za<=G and J+-0b111100001 or xa.M[-0x78a7]or xa:N(0x189ecc,0x45e,-0x78a7)elseif J<=0x3a9 then if J>0x3a7 then z=0b1111110 J=v<z and(xa.M[-0x55f0]or xa:O(0x3336,0x74d8,-0x55f0))or xa.M[-0x6cfb]or xa:O(0x7197,0x2aa9,-0x6cfb)else J,z=0xe3215/J,0x7e end else J,z=J+0b111001,0b10100010 end elseif J>0x39d then if J>0x39f then i,J,ga,T,q=L[1][0b10][L[1][0b11]],0xb5c-J,xa.M[0x6a3c]or xa:Q(xa.k"toxt",xa.k"k^",0x6a3c),L[0b1001][0b10][L[0b1001][0b11]],L[0b111][0b10][L[0b111][0b11]]else i=i(T,fa)J,T=xa.H[-0x6cfe]or xa:K(0x608e,0x3d0c,-0x6cfe),0b111 T=Aa*T end elseif J>0x39c then J=s<Aa and(xa.H[-0x49b4]or xa:J(0x493c76,0x6819,-0x49b4))or xa.H[0x9fc]or xa:K(0x4018,0x5d64,0x9fc)elseif J<=0x39b then if J<=0x39a then J,z=0xdff8e/J,0b1111 else J=aa>0 and 0x3196db/J or xa.H[-0x214b]or xa:J(0x161733,0x6d2,-0x214b)end else z=0b1001010 J=qa<z and(xa.M[-0x5290]or xa:N(0x15ca71f,0x68cb,-0x5290))or xa.H[0x3e1b]or xa:J(0x7bea35,0x1fba,0x3e1b)end elseif J>0x38f then if J>=0x392 then if J<=0x395 then if J<=0x392 then T=E[q]H,Ba=T[0x819f],0 fa=H~=Ba J=fa and(xa.H[0x4021]or xa:K(0x271b,0x4411,0x4021))or 0xa4e76/J else H,Fa,N,J,A,Na,Ba=L[0b101][0b10][L[0b101][0b11]],fa,L[0b100][0b10][L[0b100][0b11]],J+0x629,0b1111111,L[0b11][0b10][L[0b11][0b11]],q end else z=0xb4 J=l<z and(xa.M[0x14fd]or xa:O(0x4aca,0x1136,0x14fd))or 0xdfbab/J end elseif J<=0x390 then z=0b11100000 J=Ia<z and(xa.H[0x3e1b]or xa:K(0x392e,0x574e,0x3e1b))or xa.M[0b10111110]or xa:O(0x50fa,0x16fc,0xbe)else G[0xecdd]=aa J=ka<=W and(xa.H[-0x7f05]or xa:K(0x44e2,0x2653,-0x7f05))or xa.M[-0b111001011]or xa:N(0x115bed4,0x4d9a,-0x1cb)end elseif J>0x38c then if J>0x38d then z=0xa2 J=x<z and(xa.H[0x3e1b]or xa:K(0x4112,0x5f2a,0x3e1b))or 0x442-J else G=0b10100111 J=za<=G and(xa.M[0x4871]or xa:O(0x70bc,0x36fa,0x4871))or xa.H[-0x272c]or xa:J(0x4f7b30,0x1e1d,-0x272c)end elseif J>0x388 then J,q=xa.H[0x7709]or xa:K(0xd5a,0x6875,0x7709),q(ga,i)ga=0b111 ga=P*ga elseif J<0x386 then z=0x29 J=ba<=z and 0x65681/J or 0x768-J elseif J>0x386 then G=0b11011111 J=za<=G and J+-0x2f8 or 0x724-J else J,z=xa.M[-0x55f0]or xa:O(0xbfd,0x5391,-0x55f0),0x79 end elseif J>=0x3c4 then if J<0x3ce then if J<0x3c9 then if J<=0x3c4 then z=0b10110111 J=Y<z and(xa.H[0x3e1b]or xa:J(0x1b33f0,0x719,0x3e1b))or xa.M[-0x7d6e]or xa:O(0xcc6,0x5785,-0x7d6e)else G=0xcb J=za>G and J+-0x209 or xa.H[-0x2909]or xa:K(0x1ef0,0x7952,-0x2909)end elseif J>=0x3cb then if J<=0x3cb then J,G=0x574-J,G(aa,xa.d(q))q,ga,aa,P=z,0x80,L[0b110][0b10][L[0b110][0b11]],G else Na,Fa,N,J,A=L[0b111][0b10][L[0b111][0b11]],L[1][0b10][L[1][0b11]],"B",xa.H[-0x4a0e]or xa:K(0x2536,0x7b83,-0x4a0e),L[0b1001][0b10][L[0b1001][0b11]]end else J,z=J+0x1a,0x7e end elseif J<0x3d1 then if J<0x3cf then J,z=xa.M[-0x55f0]or xa:O(0x329a,0x753c,-0x55f0),0xa2 elseif J<=0x3cf then G=0b10011011 J=za>G and(xa.M[-0x308]or xa:N(0x664737,0x4ad5,-0x308))or xa.H[0x2d30]or xa:K(0x6254,0x3c5e,0x2d30)else J,z=xa.M[-0x55f0]or xa:N(0x64351e,0x546,-0x55f0),0x59 end elseif J<0x3d7 then G=0x5f J=za<G and 0x728-J or xa.M[-0x5cda]or xa:N(0xa4f225,0x5e07,-0x5cda)elseif J<=0x3d7 then J,z=0xeeca5/J,0x7e else J,z=J+0b1010,0b10100010 end elseif J>0x3b6 then if J>=0x3bb then if J<=0x3bc then if J>0x3bb then J,H=xa.H[0x418a]or xa:J(0x3bd37e2,0x7031,0x418a),L[0b1010][0b10][L[0b1010][0b11]]else ga=ga(i)i,T=1,q fa=i J=T~=T and(xa.M[-0x14e9]or xa:N(0xe534ff,0x2549,-0x14e9))or xa.M[0x6154]or xa:O(0x41b1,0x6e1d,0x6154)end else J,z=0x7a2-J,0x59 end elseif J<=0x3b7 then J,G[0xe79a]=xa.M[-0x2510]or xa:N(0xbd3edb,0xef2,-0x2510),aa i,q,ga,T=L[1][0b10][L[1][0b11]],L[0b111][0b10][L[0b111][0b11]],"B",L[0b1001][0b10][L[0b1001][0b11]]else z=0x7e J=O<z and(xa.M[-0x557]or xa:N(0x49353,0x492,-0x557))or xa.M[-0x55f0]or xa:O(0x7a5b,0x2df3,-0x55f0)end elseif J>0x3b4 then if J>0x3b5 then G=0b1110111 J=za>G and(xa.H[0x4c09]or xa:J(0x9bd97e,0x4881,0x4c09))or xa.M[-0x5329]or xa:O(0x1233,0x4b86,-0x5329)else G[0xf08]=aa T,ga,q,J,i=L[0b1001][0b10][L[0b1001][0b11]],"B",L[0b111][0b10][L[0b111][0b11]],xa.H[-0x7b46]or xa:K(0x54c7,0x2891,-0x7b46),L[1][0b10][L[1][0b11]]end elseif J>=0x3b2 then if J<=0x3b2 then Fa,A,Ba,c,J,N,Na=L[0b100][0b10][L[0b100][0b11]],H,L[0b101][0b10][L[0b101][0b11]],0x7f,xa.H[0x3d4a]or xa:J(0x199717d,0x3832,0x3d4a),L[0b11][0b10][L[0b11][0b11]],ga else s=s(Aa)za,Aa=P,1 z=Aa J=za~=za and(xa.H[-0x6d0c]or xa:K(0x3312,0x506d,-0x6d0c))or xa.H[0x6d33]or xa:K(0x38fa,0x55c2,0x6d33)end elseif J<=0x3af then G=0xb3 J=za>G and 0x77f27/J or xa.H[0x46ee]or xa:K(0x81b3,0x1c26,0x46ee)else G=0b10010011 J=za>G and 0x2773b/J or xa.M[-0b110010100]or xa:O(0x5623,0x8bf,-0x194)end elseif J>=0x35b then if J>0x36d then if J>=0x37e then if J>0x380 then if J>0x381 then G[0x819f]=aa J,q,ga,i,T=xa.H[0x5391]or xa:K(0x847e,0x144b,0x5391),L[0b111][0b10][L[0b111][0b11]],"B",L[1][0b10][L[1][0b11]],L[0b1001][0b10][L[0b1001][0b11]]else G=0b11111111 J=za>G and 0x76b1e/J or 0x728-J end elseif J>=0x37f then if J>0x37f then J,G[0xecdd]=0xc2780/J,aa q,i,ga,T=L[0b111][0b10][L[0b111][0b11]],L[1][0b10][L[1][0b11]],xa.M[0x6a3c]or xa:Q(xa.k"(uLj",xa.k">;",0x6a3c),L[0b1001][0b10][L[0b1001][0b11]]else G[0xecdd]=aa J,i,q,T,ga=J+0x17f,L[1][0b10][L[1][0b11]],L[0b111][0b10][L[0b111][0b11]],L[0b1001][0b10][L[0b1001][0b11]],"B"end else J,z=0x761-J,0b10100010 end elseif J<0x374 then if J>0x36f then J,T[0x2ace]=xa.H[0x51d5]or xa:K(0x3632,0x5121,0x51d5),fa else z=0x64 J=e>=z and 0xd586d/J or J+-0x8b end elseif J>=0x379 then if J<=0x379 then q=q(ga,i,T)ga,i=T,0b10 ga=ga+i aa,J,L[0b1001][0b10][L[0b1001][0b11]]=q,xa.M[-0xf8d]or xa:N(0xfb5388,0x7c22,-0xf8d),ga else G[0xe79a]=aa q,J,ga,T,i=L[0b111][0b10][L[0b111][0b11]],xa.M[-0x4781]or xa:O(0x76b0,0x36ec,-0x4781),"B",L[0b1001][0b10][L[0b1001][0b11]],L[1][0b10][L[1][0b11]]end else J,aa=xa.H[0x11f3]or xa:J(0x4e82a4,0x26b3,0x11f3),aa(q,ga,i)q,ga=i,1 q=q+ga L[0b1001][0b10][L[0b1001][0b11]],G=q,aa end elseif J>0x366 then if J<0x36b then if J<=0x368 then J,z=J+0b1111011,0x4a else T=T+H J=H>0 and(xa.M[0x23dc]or xa:O(0x615c,0xd02,0x23dc))or J+0xb0e end elseif J<0x36c then z=0xa2 J=M>=z and 0xd48e1/J or J+-0x38 elseif J>0x36c then P=P+Aa J=Aa>0 and(xa.H[-0x65a1]or xa:K(0x1756,0x72c3,-0x65a1))or xa.M[-0x41b6]or xa:N(0x435b0b6,0x49a2,-0x41b6)else G=0xc3 J=za>G and(xa.M[-0xaa9]or xa:N(0x179b4bd,0x6784,-0xaa9))or xa.M[-0x39ee]or xa:O(0x4f47,0x1726,-0x39ee)end elseif J<=0x362 then if J<=0x35f then if J>=0x35c then if J<=0x35c then J=P<s and(xa.H[-0x2f54]or xa:K(0xc23,0x6972,-0x2f54))or xa.H[-0x5e28]or xa:K(0x4d6b,0x2921,-0x5e28)else J,z=xa.M[-0x55f0]or xa:N(0x1baff0b,0x6d51,-0x55f0),0b1111110 end else q=q(ga,i,T)ga,i=T,0b1000 J,ga=J+-0x27a,ga+i aa,L[0b1001][0b10][L[0b1001][0b11]]=q,ga end else k,aa=0x1c,0b10110100 J=z>aa and J+-0x52 or xa.H[-0x59de]or xa:K(0x2c50,0x48df,-0x59de)end elseif J<=0x365 then J,G[0xecdd]=0x6d2-J,aa else J,z=xa.H[0x3e1b]or xa:K(0x493c,0x275c,0x3e1b),0b11100000 end elseif J>=0x34a then if J<0x352 then if J>=0x34d then if J>0x350 then aa=0b11100000 J=z>aa and(xa.H[-0x1910]or xa:K(0x2c2a,0x4966,-0x1910))or 0x453ae/J elseif J>0x34d then J,q=xa.M[0x3353]or xa:N(0x13d998b,0x47a9,0x3353),q(ga,i,T)ga,i=T,1 ga=ga+i L[0b1001][0b10][L[0b1001][0b11]],aa=ga,q else J,q=xa.M[0x7c34]or xa:N(0x592e3f,0x2255,0x7c34),ga end elseif J>0x34a then J,z=0x72e-J,0b1111001 else J=Aa<za and(xa.M[-0x9ab]or xa:O(0x7dc8,0x2695,-0x9ab))or xa.H[-0x6667]or xa:J(0xc331de,0x11f7,-0x6667)end elseif J<0x355 then if J>0x353 then J=aa~=aa and(xa.H[0b101000010]or xa:J(0xde0860,0x1523,0x142))or J+0xae4 elseif J>0x352 then J=z>0 and(xa.H[0x762]or xa:J(0x26ff9b,0xfbc,0x762))or xa.H[-0x20d9]or xa:J(0x10ae621,0x6b02,-0x20d9)else J=q>ga and(xa.H[-0x4f98]or xa:J(0x9e8324,0x7027,-0x4f98))or xa.M[-0x48f4]or xa:O(0x6b41,0x3e8c,-0x48f4)end elseif J<=0x357 then if J<=0x355 then J,fa=xa.M[-0x1082]or xa:N(0xba7c67,0x566f,-0x1082),0 else J,z=xa.H[0x3e1b]or xa:K(0x67ed,0x60f,0x3e1b),0b10100010 end else J,G[0xe79a]=0x6c5-J,aa end elseif J<0x33f then if J<=0x33a then if J<0x339 then G=0xe1 J=za>G and(xa.H[0x6258]or xa:J(0xa8c317,0x3ae5,0x6258))or xa.H[0x11d0]or xa:J(0x7a15d1,0x43d6,0x11d0)elseif J>0x339 then aa=0x7e J=z>aa and(xa.M[-0x5ae9]or xa:N(0x1f8999,0x9f3,-0x5ae9))or xa.M[0x7d93]or xa:N(0x1649640,0x6576,0x7d93)else J,z=xa.M[-0x55f0]or xa:O(0x1ba4,0x4c4a,-0x55f0),0xb4 end elseif J<=0x33b then J,z=0x21eb8/J,z(G,xa.d(aa))G,q,aa,E=L[0b110][0b10][L[0b110][0b11]],0x80,za,z else z=0xe0 J=ca>z and 0x4fc-J or 0xc99fa/J end elseif J>0x344 then if J<=0x345 then Na,Fa,c,A,J,_a,N=L[0b101][0b10][L[0b101][0b11]],L[0b11][0b10][L[0b11][0b11]],Ba,L[0b100][0b10][L[0b100][0b11]],0xe546a/J,0b1111111,i else J=z~=z and(xa.H[0x6a26]or xa:K(0x3a78,0x5bdd,0x6a26))or xa.H[-0x180b]or xa:K(0x75c1,0x171e,-0x180b)end elseif J<0x341 then s=s(Aa,za,z)Aa=z Aa=Aa+E L[0b1001][0b10][L[0b1001][0b11]],J,B=Aa,0x3c2-J,s elseif J>0x341 then G=0b1001011 J=za>G and 0xc8a1c/J or 0x72b48/J else J=Aa>0 and(xa.H[0x7f23]or xa:K(0x3063,0x4d03,0x7f23))or 0x597-J end elseif J<=0x2de then if J<0x2ad then if J>=0x298 then if J<=0x29f then if J>0x29b then if J<=0x29c then z=0xe0 J=t>=z and 0x37b-J or 0xa2454/J else G[0xecdd]=aa T,J,q,i,ga=L[0b1001][0b10][L[0b1001][0b11]],xa.H[0x7dfc]or xa:K(0x2b51,0x4747,0x7dfc),L[0b111][0b10][L[0b111][0b11]],L[1][0b10][L[1][0b11]],"B"end elseif J<0x29a then if J>0x298 then J,G[0x9848]=xa.H[0x7d48]or xa:K(0x628b,0x3632,0x7d48),aa T,q,ga,i=L[0b1001][0b10][L[0b1001][0b11]],L[0b111][0b10][L[0b111][0b11]],xa.M[0x6a3c]or xa:Q(xa.k"G-Eg",xa.k"3I",0x6a3c),L[1][0b10][L[1][0b11]]else q=ga J=ha<=u and(xa.M[-0x154a]or xa:N(0xafc8fd,0x6d6b,-0x154a))or xa.H[0x5043]or xa:J(0x3ffb32,0x3ea3,0x5043)end elseif J<=0x29a then J,z=0xa1c8e/J,0xa2 else J=fa<=0 and J+0xc9f or xa.H[0x2b82]or xa:K(0x28d8,0x43a5,0x2b82)end elseif J>0x2a5 then if J>0x2a7 then q=q(ga,i)aa=not q J=aa and 0x28da7/J or 0x1dd91/J else z=0b1111001 J=h>=z and 0x244dd/J or xa.M[-0x55f0]or xa:N(0x9c2c71,0x34b7,-0x55f0)end elseif J>0x2a4 then G=0x63 J=za<=G and 0x589-J or xa.H[-0x52e7]or xa:J(0x1737993,0x63ff,-0x52e7)elseif J>0x2a0 then J,G[0xf08]=0x221f30/J,aa i,ga,q,T=L[1][0b10][L[1][0b11]],"B",L[0b111][0b10][L[0b111][0b11]],L[0b1001][0b10][L[0b1001][0b11]]else G=0b11001100 J=za<=G and(xa.M[-0x732b]or xa:N(0x5c03bf,0x4f9,-0x732b))or 0x65f-J end elseif J<0x28f then if J>0x28a then if J<=0x28b then da,aa=0xe2,0b1000000 J=z<=aa and(xa.M[-0x6842]or xa:O(0x7f28,0x2718,-0x6842))or xa.M[0x1095]or xa:O(0xfd0,0x560c,0x1095)else G=0b1111101 J=za>G and(xa.M[-0x10cf]or xa:N(0xa44aff,0x306d,-0x10cf))or 0x372-J end elseif J<=0x286 then if J<=0x285 then J,aa=xa.H[0x2603]or xa:K(0x17f9,0x77f7,0x2603),q else G,K=0xdf,0b110101 J=za>=G and 0x8e930/J or J+-0x11b end else z=0b10100010 J=Ma>z and(xa.M[-0x6705]or xa:N(0xe485d3,0x51df,-0x6705))or xa.M[-0x55f0]or xa:N(0x154995a,0x4b3a,-0x55f0)end elseif J<=0x293 then if J>0x292 then J,aa=xa.H[-0x7e1f]or xa:K(0x5be9,0x391f,-0x7e1f),aa(q,ga,i)q,ga=i,1 q=q+ga G,L[0b1001][0b10][L[0b1001][0b11]]=aa,q elseif J>0x28f then J,z=xa.H[0x3e1b]or xa:K(0x78ef,0x1709,0x3e1b),0x7e else J,z=xa.H[0x3e1b]or xa:J(0x138068b,0x5070,0x3e1b),0x7e end elseif J>0x295 then G[0x79e4]=aa q,i,T,J,ga=L[0b111][0b10][L[0b111][0b11]],L[1][0b10][L[1][0b11]],L[0b1001][0b10][L[0b1001][0b11]],xa.H[-0x643f]or xa:K(0x6bd0,0x3e2b,-0x643f),"B"else aa=0x2e J=z>=aa and(xa.H[-0x4fad]or xa:J(0x5cb597,0x7d5d,-0x4fad))or xa.M[-0x601f]or xa:N(0x1a9131b,0x77eb,-0x601f)end elseif J<0x2cb then if J<0x2b7 then if J<0x2b0 then if J<=0x2ad then G[0xecdd]=aa J,i,T,ga,q=xa.H[-0x32f0]or xa:J(0x633254,0x1143,-0x32f0),L[1][0b10][L[1][0b11]],L[0b1001][0b10][L[0b1001][0b11]],"B",L[0b111][0b10][L[0b111][0b11]]else J,z=0xa6a4a/J,0b11100000 end elseif J>=0x2b2 then if J>0x2b2 then J=fa and(xa.M[0x54a0]or xa:N(0xf931f,0x182d,0x54a0))or 0x454-J else J,z=xa.H[0x3e1b]or xa:K(0x8fe,0x671e,0x3e1b),0b1111 end else G=0x5a J=za>G and(xa.H[0x7764]or xa:J(0xfc846b,0x6218,0x7764))or 0x65a-J end elseif J>=0x2bf then if J<0x2c3 then z=0xe0 J=la>=z and J+0xce or 0xaac5d/J elseif J<=0x2c3 then G[0xf08]=aa q,ga,i,J,T=L[0b111][0b10][L[0b111][0b11]],xa.H[-0x17b0]or xa:I(xa.k"By%n",xa.k"8U",-0x17b0),L[1][0b10][L[1][0b11]],0x14003a/J,L[0b1001][0b10][L[0b1001][0b11]]else q=q(ga,i,T)J,ga,i=xa.M[-0x21c0]or xa:N(0xce81e3,0x71fa,-0x21c0),T,0b10 ga=ga+i aa,L[0b1001][0b10][L[0b1001][0b11]]=q,ga end elseif J>=0x2bb then if J>0x2bb then G=0x27 J=za>G and(xa.H[0x2701]or xa:J(0x591c3d,0x3416,0x2701))or xa.H[0x2b4a]or xa:J(0xb1a334,0x3a2d,0x2b4a)else J,z=J+0x128,0b10100010 end else J,q=xa.H[0x3806]or xa:K(0x21d6,0x424e,0x3806),q(ga,i,T)i,ga=1,T ga=ga+i aa,L[0b1001][0b10][L[0b1001][0b11]]=q,ga end elseif J>=0x2d6 then if J>0x2dc then if J>0x2dd then J,i,q,T,ga=0x13f832/J,L[1][0b10][L[1][0b11]],L[0b111][0b10][L[0b111][0b11]],L[0b1001][0b10][L[0b1001][0b11]],"B"else J,z=0xb20f7/J,0b10100010 end elseif J>0x2d9 then J,z=J+0x107,0b101001 elseif J>=0x2d8 then if J>0x2d8 then G=0xaf J=za>G and(xa.H[-0x7e77]or xa:J(0x178afab,0x77bc,-0x7e77))or xa.H[0x5b5a]or xa:J(0x934c1b,0x4d98,0x5b5a)else z=0x79 J=ta>z and(xa.M[-0x308]or xa:N(0x4487f0,0x26cc,-0x308))or xa.M[-0x55f0]or xa:O(0x78cc,0x2f62,-0x55f0)end else q=q(ga,i,T)i,ga=1,T ga=ga+i L[0b1001][0b10][L[0b1001][0b11]],aa=ga,q J=k>i and J+-0b110010 or 0x32d-J end elseif J>=0x2d2 then if J<0x2d3 then G=0b10001111 J=za>G and 0x390-J or xa.H[-0x66d6]or xa:K(0x383e,0x5721,-0x66d6)elseif J<=0x2d3 then G=0b11110110 J=za<G and 0x44b-J or 0x597e1/J else G=0b10010110 J=za<=G and(xa.M[0x40f6]or xa:O(0x6385,0x3a8f,0x40f6))or J+-0x1c4 end elseif J>0x2cb then J=Aa<za and(xa.H[0x6a26]or xa:K(0x6179,0x2dc,0x6a26))or 0x1d2e0/J else i,q,J,ga,T=L[1][0b10][L[1][0b11]],L[0b111][0b10][L[0b111][0b11]],0x6e8-J,"B",L[0b1001][0b10][L[0b1001][0b11]]end elseif J<=0x30c then if J>=0x2f6 then if J>=0x302 then if J>=0x30a then if J>0x30b then J=z<=0 and(xa.H[-0xa36]or xa:K(0x3add,0x5678,-0xa36))or xa.H[0x9ff]or xa:K(0x59ba,0x3476,0x9ff)elseif J<=0x30a then J,ga,i,q,T=xa.M[0x77ca]or xa:O(0x6421,0x372,0x77ca),"B",L[1][0b10][L[1][0b11]],L[0b111][0b10][L[0b111][0b11]],L[0b1001][0b10][L[0b1001][0b11]]else J,z=xa.M[-0x55f0]or xa:N(0x77d224,0x244,-0x55f0),0xa2 end elseif J>0x306 then J,q=xa.M[-0b1010101]or xa:N(0x790abf,0x5dd5,-0b1010101),""elseif J<=0x302 then G[0xecdd]=aa ga,i,J,T,q="B",L[1][0b10][L[1][0b11]],0x7d3-J,L[0b1001][0b10][L[0b1001][0b11]],L[0b111][0b10][L[0b111][0b11]]else Ba,Na,J,H,N="B",L[1][0b10][L[1][0b11]],0x12d9-J,L[0b111][0b10][L[0b111][0b11]],L[0b1001][0b10][L[0b1001][0b11]]end elseif J>0x2fd then if J>0x300 then z=0x4a J=y>z and 0x6e4-J or xa.H[-0x79de]or xa:J(0x6bab50,0x505f,-0x79de)else z=0b10100010 J=ya>z and(xa.M[-0x65b0]or xa:N(0xaa3b8b,0x7cf8,-0x65b0))or xa.M[-0x55f0]or xa:O(0x6cca,0x336c,-0x55f0)end elseif J<=0x2fc then if J>0x2f6 then i,T,J,ga,q=L[1][0b10][L[1][0b11]],L[0b1001][0b10][L[0b1001][0b11]],0xaa4-J,xa.M[0x6a3c]or xa:Q(xa.k"mBN_",xa.k"s{",0x6a3c),L[0b111][0b10][L[0b111][0b11]]else G[0xe79a]=aa q,i,J,T,ga=L[0b111][0b10][L[0b111][0b11]],L[1][0b10][L[1][0b11]],xa.M[-0x232]or xa:N(0x3c887c9,0x578f,-0x232),L[0b1001][0b10][L[0b1001][0b11]],"B"end else J=i<T and(xa.H[0x325d]or xa:K(0x1952,0x775f,0x325d))or J+0x1b end elseif J>0x2ea then if J<=0x2f0 then if J<=0x2ef then if J>0x2ed then J,z=J+0xf4,0xe0 else i,ga,q,J,T=L[1][0b10][L[1][0b11]],"B",L[0b111][0b10][L[0b111][0b11]],xa.H[0x7640]or xa:K(0x33a3,0x4d15,0x7640),L[0b1001][0b10][L[0b1001][0b11]]end else J,aa=0x7d650/J,aa(q,xa.d(ga))ga,s,q,i=G,aa,L[0b110][0b10][L[0b110][0b11]],0b10000000 end elseif J>0x2f1 then J,z=xa.M[-0x55f0]or xa:O(0x73bc,0x3452,-0x55f0),0b11110010 else J,z=xa.M[-0x55f0]or xa:N(0x1070b1e,0x5f46,-0x55f0),0x4a end elseif J<=0x2e5 then if J>=0x2e4 then if J>0x2e4 then J,z=J+0b11111110,0x7e else J,z=0xb3c2c/J,0b10100010 end elseif J<=0x2df then J=za<=0 and 0x513-J or xa.H[0x6511]or xa:K(0xc3b,0x68fd,0x6511)else J=fa and(xa.H[0x2159]or xa:J(0x136f083,0x7cea,0x2159))or J+0b1110010 end elseif J<=0x2e6 then G[0xe79a]=aa q,J,ga,i,T=L[0b111][0b10][L[0b111][0b11]],J+0x9b2,"B",L[1][0b10][L[1][0b11]],L[0b1001][0b10][L[0b1001][0b11]]else J,aa=0x969ee/J,xa.c(aa(q,ga))end elseif J<0x31f then if J<=0x316 then if J>0x312 then if J>0x313 then J=s>Aa and(xa.H[-0x49b4]or xa:J(0x27d3cb,0x37d0,-0x49b4))or 0x8dc2a/J else J,z=0x6f6-J,0b1111 end elseif J>0x310 then J,z=0xbeef6/J,0b10100010 elseif J<0x30f then q=q+i J=i>0 and(xa.H[0x1637]or xa:J(0x19460e3,0x53d6,0x1637))or xa.M[-0x2e2a]or xa:O(0x334c,0x7fb5,-0x2e2a)elseif J>0x30f then aa=0xe0 J=z>=aa and(xa.M[0x43e8]or xa:N(0x9f6067,0x3375,0x43e8))or xa.H[0x3c74]or xa:J(0x8c954d,0x30e5,0x3c74)else G=0b10011111 J=za>G and 0x550-J or 0x675-J end elseif J>=0x31b then if J<=0x31b then J,z=0xc11f1/J,0b1001010 else q,J,i,ga,T=L[0b111][0b10][L[0b111][0b11]],0x1bff1c/J,L[1][0b10][L[1][0b11]],"B",L[0b1001][0b10][L[0b1001][0b11]]end elseif J<=0x318 then J=fa~=fa and 0x710-J or xa.H[-0x1a4d]or xa:J(0x190cd07,0x6b39,-0x1a4d)else J,z=xa.M[-0x55f0]or xa:O(0x7254,0x35fa,-0x55f0),0b11100000 end elseif J<0x325 then if J>=0x322 then if J<=0x323 then if J>0x322 then G=0b1010110 J=za<=G and(xa.M[0x2b5c]or xa:O(0xef6,0x50ad,0x2b5c))or J+0x5b else q=0b100 J=G==q and 0x4c7-J or 0x53e-J end else J,z=xa.M[-0x55f0]or xa:O(0x6653,0x39fb,-0x55f0),0xb7 end elseif J>0x31f then J,B=xa.H[-0x625d]or xa:J(0x657b9b,0x77a0,-0x625d),B(E,P,s)E,P=s,1 E=E+P L[0b1001][0b10][L[0b1001][0b11]],ea=E,B else J,ga=xa.H[0x22e9]or xa:J(0x7626bd,0x52e5,0x22e9),i end elseif J<=0x331 then if J<=0x32a then if J>0x325 then J,G[0x3a36]=xa.M[-0x1cb]or xa:O(0x470a,0x1816,-0b111001011),aa else N,A,Fa,Ba,J,Na,c=L[0b11][0b10][L[0b11][0b11]],H,L[0b100][0b10][L[0b100][0b11]],L[0b101][0b10][L[0b101][0b11]],0xf63-J,ga,0x7f end else J=Aa<=0 and(xa.H[0x7c30]or xa:L(0b101101000,0x72ca,0x7c30))or J+-0x312 end elseif J>0x333 then Ba=Ba(Na,N)H=not Ba J=H and(xa.H[-0x712c]or xa:K(0x6fc6,0xf44,-0x712c))or xa.H[0x5bfe]or xa:K(0x4413,0x23f4,0x5bfe)else z=0b1111110 J=p>z and(xa.H[0x3e1b]or xa:K(0x61be,0x3fde,0x3e1b))or xa.M[0x5a2b]or xa:O(0x6ce8,0x371a,0x5a2b)end elseif J<=0x9be then if J>=0x5cf then if J<0x7c1 then if J<0x6a9 then if J>=0x654 then if J>0x690 then if J>0x69e then J=i<T and(xa.M[-0x7652]or xa:N(0x6fc107,0x379c,-0x7652))or 0xd9938/J else J=i>T and 0xa96-J or 0x1446-J end elseif J<0x660 then J=i<T and J+-0x307 or xa.M[0x705c]or xa:O(0x761f,0x2f97,0x705c)elseif J<=0x660 then J=Aa<za and(xa.H[0x6a26]or xa:K(0x28c7,0x4a22,0x6a26))or xa.H[0x9ff]or xa:K(0xbb7,0x6a75,0x9ff)else J=P>s and(xa.M[-0xf05]or xa:N(0x25ba9f,0x2ee7,-0xf05))or xa.H[0x1f2e]or xa:K(0x12aa,0x6406,0x1f2e)end elseif J<=0x601 then if J>=0x5e0 then if J<=0x5e0 then q=q(ga,i,T)i,ga=1,T J,ga=xa.M[0x7e55]or xa:O(0x5ee9,0x7b7,0x7e55),ga+i aa,L[0b1001][0b10][L[0b1001][0b11]]=q,ga else J,H=0x134135/J,H(Ba,xa.d(Na))N,Ba,q,Na=0x80,L[0b110][0b10][L[0b110][0b11]],H,fa end else J=i<T and 0x91c-J or 0xffc-J end elseif J>0x60f then J=i~=i and J+0x7d4 or 0x222c52/J else J,q=xa.M[0x6025]or xa:O(0x51e9,0xbb1,0x6025),q(ga,i,T)i,ga=1,T ga=ga+i aa,L[0b1001][0b10][L[0b1001][0b11]]=q,ga end elseif J<=0x73e then if J<0x701 then if J>0x6b3 then q=q(ga,i,T)ga,i=T,1 ga=ga+i L[0b1001][0b10][L[0b1001][0b11]],J,aa=ga,0xa5c-J,q elseif J<=0x6a9 then J=i>T and(xa.M[-0x7652]or xa:O(0x2044,0x4627,-0x7652))or 0x140a-J else J=Aa>za and 0x472de/J or 0x69f523/J end elseif J<=0x738 then if J<=0x701 then q=q(ga,i,T)i,ga=0b100,T ga=ga+i aa,L[0b1001][0b10][L[0b1001][0b11]]=q,ga J=da<i and 0x10164c/J or xa.M[0x6294]or xa:O(0x36f4,0x6f29,0x6294)else J=fa~=fa and(xa.M[-0x7652]or xa:O(0x1acf,0x43bc,-0x7652))or xa.H[0b1001]or xa:J(0x64bedb,0x3100,0b1001)end else q=q(ga,i,T)ga,i=T,0b100 ga=ga+i L[0b1001][0b10][L[0b1001][0b11]],aa=ga,q J=F<i and(xa.M[-0x1a25]or xa:N(0x1b3333,0x2449,-0x1a25))or 0x8a0-J end elseif J<0x7b2 then if J>0x74b then q=q(ga,i,T)ga,J,i=T,0x9d4-J,0b10 ga=ga+i aa,L[0b1001][0b10][L[0b1001][0b11]]=q,ga else J,Fa=0xb8b-J,Fa(A,c)A=0b111 A=i*A end elseif J<=0x7b4 then if J<=0x7b2 then J=T>fa and 0x18048e/J or 0x157c-J else aa=aa(q,xa.d(ga))i,J,q,s,ga=0b10000000,xa.H[-0xdd5]or xa:K(0x5365,0x2ca7,-0xdd5),L[0b110][0b10][L[0b110][0b11]],aa,G end else q=q(ga,i,T)i,ga=0b10,T J,ga=xa.H[-0x6557]or xa:K(0x62f9,0x3d00,-0x6557),ga+i L[0b1001][0b10][L[0b1001][0b11]],aa=ga,q end elseif J>=0x901 then if J<0x961 then if J<=0x93c then if J>0x916 then J,q=0x205200/J,q(ga,i,T)ga,i=T,1 ga=ga+i aa,L[0b1001][0b10][L[0b1001][0b11]]=q,ga elseif J>0x901 then i=i(T,fa,H)T=H T=T+q aa,L[0b1001][0b10][L[0b1001][0b11]]=i,T J=b>U and J+-0x835 or 0x1bc134/J else q=q(ga,i,T)J,ga,i=xa.M[0xbe]or xa:O(0x17b0,0x4fa6,0b10111110),T,1 ga=ga+i aa,L[0b1001][0b10][L[0b1001][0b11]]=q,ga end elseif J<=0x949 then q=q(ga,i,T)i,ga=1,T ga=ga+i J,L[0b1001][0b10][L[0b1001][0b11]],aa=xa.H[-0x2e98]or xa:K(0xb61,0x6b6f,-0x2e98),ga,q else J=q<ga and J+-0x7ea or J+0x39b end elseif J>=0x9a2 then if J<0x9bb then J=aa<=0 and 0x989eb0/J or xa.H[0xf3b]or xa:J(0x2ccc0b,0x539a,0xf3b)elseif J<=0x9bb then J,Ba=0x1840-J,Ba(Na,xa.d(N))N,Fa,ga,Na=H,0x80,Ba,L[0b110][0b10][L[0b110][0b11]]else N=N(Fa,A)J,Fa=J+0x3bc,0b111 Fa=ga*Fa end elseif J<=0x979 then if J<=0x961 then Ba=Ba(Na,N,Fa)Na,N=Fa,1 J,Na=xa.M[0x277b]or xa:O(0x5e91,0b11100111,0x277b),Na+N L[0b1001][0b10][L[0b1001][0b11]],H=Na,Ba else Na=Na(N,Fa)Ba=not Na J=Ba and(xa.M[-0xe1c]or xa:O(0x7100,0x3638,-0xe1c))or xa.M[-0x4846]or xa:N(0x16f4a04,0x4042,-0x4846)end else J=ga<i and 0x1842a5/J or xa.H[-0x7cde]or xa:K(0x89b9,0x1dd2,-0x7cde)end elseif J>0x889 then if J>0x8e1 then if J<=0x8ed then q=q(ga,i,T)i,ga=1,T ga=ga+i J,L[0b1001][0b10][L[0b1001][0b11]],aa=xa.H[0x64e6]or xa:K(0x6f8e,0xc81,0x64e6),ga,q else J=z~=z and J+-0x7fd or xa.H[-0x1557]or xa:K(0x7b92,0x191c,-0x1557)end elseif J<0x8d3 then J=aa<=0 and(xa.H[-0x4415]or xa:J(0x26d0ba3,0x2cd8,-0x4415))or xa.H[-0x20a5]or xa:J(0x969e63,0x22b6,-0x20a5)elseif J>0x8d3 then J,fa=0x156a-J,fa(H,Ba)H=0b111 H=z*H else J=i>T and J+-0x586 or xa.H[-0x6291]or xa:J(0xe055ad,0x2e7a,-0x6291)end elseif J<=0x82d then if J>=0x7d8 then if J>0x7d8 then J=T>0 and 0x814790/J or xa.H[0x4ed5]or xa:J(0x5d3d86,0x701,0x4ed5)else q=q(ga,i,T)i,ga=1,T ga=ga+i aa,L[0b1001][0b10][L[0b1001][0b11]]=q,ga J=S>i and(xa.H[0x3b25]or xa:K(0x2256,0x4280,0x3b25))or J+-0x7d8 end elseif J>0x7c1 then J=i>T and 0x1f0180/J or 0x5ce540/J else J=i>T and J+-0x529 or 0x1433db/J end elseif J<=0x875 then J,ga=xa.M[0x43e5]or xa:N(0xd05af3,0x6f11,0x43e5),ga(i,T,fa)T,i=1,fa i=i+T L[0b1001][0b10][L[0b1001][0b11]],q=i,ga else H=H()ga[i]=H J=pa>na and(xa.M[0x6680]or xa:N(0x19ff18,0x11f6,0x6680))or J+-0x779 end elseif J<=0x42e then if J<=0x3f5 then if J<0x3e9 then if J>0x3e2 then if J>0x3e3 then J,z=xa.H[0x3e1b]or xa:J(0x6d273c,0x1c2d,0x3e1b),0b1111 else R,La,aa=0x84,0b10,{}aa[0x8341]=za q=0 aa[0xecdd]=q aa[0xe79a]=q aa[0xf08]=q aa[0x79e4]=q aa[0xa6b8]=q aa[0x819f]=q aa[0x2ace]=q aa[0xa62d]=q J,aa[0x72fd]=xa.M[0x1273]or xa:N(0xe1add5,0x3578,0x1273),q aa[0x9848]=q aa[0x3a36]=q aa[0xc4e]=q aa,G,q=L[0b1011][0b10][L[0b1011][0b11]],aa,E ga=G end elseif J>0x3df then G[0x72fd]=aa J,ga,i,T,q=xa.H[0xa9b]or xa:J(0x1a3bc9b,0x4756,0xa9b),"B",L[1][0b10][L[1][0b11]],L[0b1001][0b10][L[0b1001][0b11]],L[0b111][0b10][L[0b111][0b11]]elseif J<0x3de then J=za~=za and 0xdee4f/J or 0x3a12b/J elseif J<=0x3de then q,i,ga,J,T=L[0b111][0b10][L[0b111][0b11]],L[1][0b10][L[1][0b11]],"B",xa.M[0x2c74]or xa:N(0xc29bcf,0x2654,0x2c74),L[0b1001][0b10][L[0b1001][0b11]]else q=q(ga,i,T)ga,i=T,1 ga=ga+i J,L[0b1001][0b10][L[0b1001][0b11]],aa=0xba4be/J,ga,q end elseif J<0x3f0 then if J<=0x3ea then if J<=0x3e9 then G[0x79e4]=aa i,q,J,ga,T=L[1][0b10][L[1][0b11]],L[0b111][0b10][L[0b111][0b11]],xa.H[-0x43c2]or xa:J(0x1e763fe,0x31cf,-0x43c2),"B",L[0b1001][0b10][L[0b1001][0b11]]else G=0b10110001 J=za<=G and J+-0x2b4 or 0x6db-J end else J,aa=xa.H[0x4372]or xa:K(0x4253,0x2377,0x4372),0/0 end elseif J<=0x3f4 then if J>0x3f0 then J,G[0xc4e]=xa.M[-0b111001011]or xa:N(0x20918d,0x1517,-0b111001011),aa else z=0b1111001 J=I>z and(xa.H[0x601c]or xa:K(0x7df,0x65b0,0x601c))or xa.H[0x3e1b]or xa:J(0x33cdb5,0xd3a,0x3e1b)end else i=i+fa J=fa>0 and 0xcc8-J or xa.H[-0x6291]or xa:K(0x2aea,0x4416,-0x6291)end elseif J>=0x400 then if J>=0x41c then if J<0x41d then J=H~=H and(xa.M[-0x688a]or xa:O(0x828a,0x24e0,-0x688a))or J+-0b1001111 elseif J<=0x41d then q=q(ga,i,T)J,ga,i=xa.M[-0x4a3a]or xa:N(0x33d965,0b10011011,-0x4a3a),T,1 ga=ga+i aa,L[0b1001][0b10][L[0b1001][0b11]]=q,ga else q=q(ga,i,T)ga,i=T,1 ga=ga+i aa,J,L[0b1001][0b10][L[0b1001][0b11]]=q,xa.M[0x7df]or xa:N(0x1c843e6,0x6642,0x7df),ga end elseif J>0x400 then J=H>0 and 0xbbf-J or xa.M[0x5d3b]or xa:O(0x356b,0x7c2a,0x5d3b)else Aa=Aa(za,z,G)za=G za=za+P E,J,L[0b1001][0b10][L[0b1001][0b11]]=Aa,xa.H[0x499]or xa:K(0x49f9,0x2b2e,0x499),za end elseif J<0x3f9 then if J>0x3f6 then T={}T[0x412f]=aa T[0x82c8]=z T[0x80c3]=G T[0x93f0]=E T[0xe8bc]=ga T[0xa91a]=za fa=0 T[0x6f14]=fa T[0x9182]=fa i=T return i else aa=0b1111 J=z<=aa and(xa.H[-0x63c5]or xa:K(0x718a,0x1235,-0x63c5))or J+-0x25e end elseif J>0x3fa then J=P>s and J+-0x33b or xa.H[-0x66be]or xa:J(0xe514b3,0x5da2,-0x66be)elseif J>0x3f9 then J=Aa<=0 and 0x59f84/J or xa.H[0x37a9]or xa:J(0xb639d,0x11d6,0x37a9)else J,z=0x7dc-J,0x79 end elseif J<0x4d1 then if J>=0x462 then if J>0x4c3 then if J<=0x4c9 then q=q(ga,i,T)ga,i=T,1 J,ga=0x8b2-J,ga+i L[0b1001][0b10][L[0b1001][0b11]],aa=ga,q else J=T<=0 and(xa.H[-0x2f78]or xa:K(0x4ef9,0x216d,-0x2f78))or xa.M[-0x2daa]or xa:N(0x10682c3,0x4a77,-0x2daa)end elseif J<=0x493 then if J<=0x462 then A=A(c,_a)J,c=xa.H[0x3377]or xa:J(0x16af5b3,0x460e,0x3377),0b111 c=T*c else q=q(ga,i,T)J,ga,i=0x69b-J,T,1 ga=ga+i aa,L[0b1001][0b10][L[0b1001][0b11]]=q,ga end else q=q(ga,i)aa=not q J=aa and J+-0x423 or 0x4c5-J end elseif J>0x440 then if J<=0x44b then J,N=0x321faf/J,xa.c(N(Fa,A))else J=aa~=aa and(xa.H[0x5db4]or xa:K(0x1e8d,0x7c14,0x5db4))or 0x3f074/J end elseif J<=0x437 then if J>0x433 then J=fa>0 and J+0x6f2 or 0x9e51f/J else q=q(ga,i,T)ga,i=T,1 ga=ga+i L[0b1001][0b10][L[0b1001][0b11]],J,aa=ga,0xa87e6/J,q end else J,N=0xdfb-J,xa.c(N(Fa,A))end elseif J>=0x52c then if J>=0x57d then if J>=0x5a7 then if J>0x5a7 then J,q=J+-0x3db,q(ga,i,T)i,ga=1,T ga=ga+i L[0b1001][0b10][L[0b1001][0b11]],aa=ga,q else J=i<T and 0x166ec8/J or 0x963-J end else J=i<=0 and 0x138b-J or 0x90f-J end elseif J>=0x562 then if J>0x562 then J,ga=xa.H[-0x5d5b]or xa:K(0x674c,0x391f,-0x5d5b),ga(i,xa.d(T))i,za,T,fa=L[0b110][0b10][L[0b110][0b11]],ga,q,0b10000000 else aa(q,ga)aa=0x64 J=z<=aa and 0xdb036/J or 0x123584/J end else J,Fa=0x4aab40/J,xa.c(Fa(A,c))end elseif J<0x4d7 then if J<=0x4d1 then q=q(ga,i,T)ga,i=T,1 ga=ga+i J,L[0b1001][0b10][L[0b1001][0b11]],aa=0x101ad8/J,ga,q else J=q>ga and(xa.M[-0x7444]or xa:O(0x5e1c,0x738,-0x7444))or xa.M[-0x2e2a]or xa:O(0x1cbb,0x5626,-0x2e2a)end elseif J>=0x4f5 then if J>0x4f5 then q=q(ga,i,T)ga,i=T,1 J,ga=xa.H[0x7a8c]or xa:K(0x7b23,0x1b41,0x7a8c),ga+i L[0b1001][0b10][L[0b1001][0b11]],aa=ga,q else q=q(ga,i,T)ga,i=T,1 ga=ga+i aa,J,L[0b1001][0b10][L[0b1001][0b11]]=q,xa.H[0x5c3b]or xa:K(0x2d3a,0x48a1,0x5c3b),ga end else J=fa<=0 and J+0b11111000 or xa.H[0x664e]or xa:K(0x492f,0x5d07,0x664e)end elseif J>=0xcaa then if J<0xe4c then if J>0xd61 then if J>=0xdca then if J>0xe0e then if J>0xe30 then J=aa<=0 and J+-0x3af or 0xf21-J else q=q(ga,i,T)ga,i=T,1 J,ga=xa.H[0x1be3]or xa:K(0x10d8,0x6d9f,0x1be3),ga+i L[0b1001][0b10][L[0b1001][0b11]],aa=ga,q end elseif J<0xddd then J=H~=H and(xa.H[-0x2117]or xa:K(0x3767,0x4819,-0x2117))or 0x1a8b-J elseif J>0xddd then J=q<ga and J+-0xca5 or xa.M[0x5589]or xa:O(0x224f,0x4536,0x5589)else J=z<G and J+-0xd61 or xa.H[-0x20a5]or xa:K(0x3cf8,0x5aa1,-0x20a5)end elseif J>=0xda2 then if J>=0xda8 then if J>0xda8 then J=z>G and(xa.H[0x5db4]or xa:K(0x3d42,0x5ec3,0x5db4))or xa.H[-0x214b]or xa:J(0x327123,0xf46,-0x214b)else J=fa~=fa and 0x4d3098/J or 0x1b07-J end else J=Aa<za and(xa.H[0x5489]or xa:J(0x2ca873,0x2e08,0x5489))or J+-0x4b0 end elseif J>0xd6e then J,Na=xa.M[0x486]or xa:O(0x5a2f,0xfa5,0x486),xa.c(Na(N,Fa))else J=Aa~=Aa and 0xe2e-J or 0xe17-J end elseif J<=0xcee then if J>=0xceb then if J>0xcec then J=i~=i and 0x123b9e/J or xa.M[0x5589]or xa:N(0x2dbc49,0x105e,0x5589)elseif J>0xceb then q=q(ga,i,T)i,J,ga=1,0x109b4c/J,T ga=ga+i L[0b1001][0b10][L[0b1001][0b11]],aa=ga,q else q=q(ga,i,T)J,i,ga=xa.M[0b110111011]or xa:O(0x340a,0x6b00,0b110111011),1,T ga=ga+i L[0b1001][0b10][L[0b1001][0b11]],aa=ga,q end elseif J<0xcb0 then J=aa~=aa and(xa.H[-0x11ea]or xa:J(0x1378bbb,0x13a4,-0x11ea))or J+-0x308 elseif J>0xcb0 then J=H<=0 and(xa.H[-0x2117]or xa:K(0x2001,0x70b3,-0x2117))or xa.M[-0x1a23]or xa:N(0x1d77a5,0x1b2f,-0x1a23)else q=q(ga,i,T)ga,i=T,1 ga=ga+i aa,J,L[0b1001][0b10][L[0b1001][0b11]]=q,xa.H[0x7ee1]or xa:K(0x6ee1,0xf3c,0x7ee1),ga end elseif J>0xd5d then if J<=0xd5f then J=fa<=0 and(xa.M[0x5cf4]or xa:N(0x20e3682,0x4196,0x5cf4))or J+-0x9a3 else J=fa~=fa and 0x590da8/J or xa.M[0x47a0]or xa:O(0x889f,0x25dc,0x47a0)end elseif J>0xd4b then J=T~=T and(xa.M[-0x1c7b]or xa:O(0x6f53,0x3849,-0x1c7b))or xa.M[0x4f24]or xa:N(0x36505b,0x17c1,0x4f24)elseif J<=0xd24 then G=G(aa,q,ga)J,q,aa=J+-0xc7d,1,ga aa=aa+q z,L[0b1001][0b10][L[0b1001][0b11]]=G,aa else J=T<fa and 0x106a-J or 0x1118-J end elseif J>=0xf0e then if J<0xfa2 then if J>0xf3a then if J<=0xf8c then J=z>G and 0x8901c/J or xa.M[0x440c]or xa:O(0x8772,0x2310,0x440c)else q=q(ga,i,T)ga,J,i=T,0x1207-J,1 ga=ga+i L[0b1001][0b10][L[0b1001][0b11]],aa=ga,q end elseif J<0xf2b then J=i<=0 and(xa.M[-0x6a27]or xa:O(0x26e1,0x4605,-0x6a27))or J+-0x220 elseif J>0xf2b then J=i<T and(xa.H[0x4962]or xa:K(0x677e,0x6e3,0x4962))or J+-0x802 else J=ga>i and(xa.H[-0x712c]or xa:K(0x1418,0x7396,-0x712c))or J+-0x543 end elseif J>=0xfd3 then if J>0xfd8 then J=z<G and 0x8bc2c/J or xa.H[-0x5496]or xa:J(0x44681b,0x4d0,-0x5496)elseif J>0xfd3 then J=z<G and J+-0xf4b or xa.H[0xf3b]or xa:K(0xdfc,0x6f71,0xf3b)else H=H(Ba,Na,N)Ba,Na=N,1 Ba=Ba+Na L[0b1001][0b10][L[0b1001][0b11]],fa=Ba,H J=o>Na and(xa.M[-0x7a5f]or xa:N(0xae89fd,0x2c57,-0x7a5f))or 0x12a6-J end elseif J>0xfd0 then J=z<=0 and(xa.H[0x3808]or xa:J(0x18e7929,0x7945,0x3808))or 0xac3053/J elseif J<=0xfa2 then q=q(ga,i,T)i,ga=1,T ga=ga+i L[0b1001][0b10][L[0b1001][0b11]],J,aa=ga,xa.H[-0x7fd3]or xa:K(0x48ef,0x273f,-0x7fd3),q else J=ga>i and(xa.M[-0x6d2b]or xa:N(0x10ff1cb,0x7749,-0x6d2b))or xa.M[0xee8]or xa:N(0x104c525,0xf0f,0xee8)end elseif J>=0xe78 then if J>=0xed7 then if J>=0xedf then if J<=0xedf then q=q(ga,i,T)ga,J,i=T,J+-0xc7d,1 ga=ga+i aa,L[0b1001][0b10][L[0b1001][0b11]]=q,ga else q=q(ga,i,T)ga,i=T,1 ga=ga+i L[0b1001][0b10][L[0b1001][0b11]],aa=ga,q J=oa<i and(xa.H[0xcdb]or xa:J(0x442b31,0x229e,0xcdb))or xa.M[-0x4824]or xa:N(0x18e1a7,0x11d8,-0x4824)end else J=aa<=0 and(xa.H[-0x7f20]or xa:L(0x1c5,0x7c10,-0x7f20))or J+-0x8b end elseif J>0xe85 then q=q(ga,i,T)ga,i=T,0b100 ga=ga+i J,aa,L[0b1001][0b10][L[0b1001][0b11]]=xa.M[-0x935]or xa:O(0x7db7,0x275e,-0x935),q,ga elseif J<=0xe78 then J=H<=0 and(xa.H[-0x4ca2]or xa:K(0x33ee,0x53d2,-0x4ca2))or xa.H[-0x69b]or xa:J(0x155b9e3,0x5302,-0x69b)else Na=Na(N,Fa)Ba=not Na J=Ba and(xa.H[0x4962]or xa:J(0xf59683,0x5e89,0x4962))or 0xf9b-J end elseif J<0xe61 then if J<=0xe4c then J=aa~=aa and J+-0xdbf or xa.H[0xf3b]or xa:J(0x211c3b,0x3f7c,0xf3b)else q=q(ga,i,T)ga,J,i=T,0x117e-J,0b10 ga=ga+i L[0b1001][0b10][L[0b1001][0b11]],aa=ga,q end elseif J<0xe6f then N=N(Fa,A)Na=not N J=Na and(xa.M[-0x688a]or xa:O(0x141b,0x4b77,-0x688a))or 0x31172a/J elseif J<=0xe6f then J=fa<=0 and 0x5b566c/J or xa.M[0x705c]or xa:N(0x8eb1f7,0x5a75,0x705c)else Na=Na(N,xa.d(Fa))N,A,J,i,Fa=L[0b110][0b10][L[0b110][0b11]],0b10000000,0x1cd1-J,Na,Ba end elseif J>=0xb3a then if J>=0xc1b then if J<=0xc3e then if J<=0xc37 then if J<0xc32 then if J>0xc1b then J=Aa>za and J+-0xb2c or xa.H[0x5610]or xa:K(0x3e3e,0x5625,0x5610)else J=fa>0 and J+-0x57d or xa.M[0x18b2]or xa:O(0x4739,0x621a,0x18b2)end elseif J<=0xc32 then i=i(T,fa)ga=not i J=ga and 0x5e838/J or 0x1dadae/J else J=P<s and(xa.M[-0xf05]or xa:N(0x37df,0x1cd4,-0xf05))or 0x19a5-J end elseif J<=0xc38 then i=i(T,fa,H)T=H J,T=xa.H[0x4372]or xa:K(0x7a3b,0x1b5f,0x4372),T+q L[0b1001][0b10][L[0b1001][0b11]],aa=T,i else Fa=Fa(A,c)J,A=J+-0x7f3,0b111 A=i*A end elseif J>0xc98 then if J>0xc9b then J=Aa<=0 and J+-0x70 or 0xa9eac2/J else q=q(ga,i,T)i,J,ga=1,xa.H[0x590]or xa:J(0x91153b,0x429a,0x590),T ga=ga+i aa,L[0b1001][0b10][L[0b1001][0b11]]=q,ga end elseif J<=0xc96 then if J>0xc89 then J=fa>0 and(xa.M[-0x259a]or xa:N(0x107b8e3,0x3b11,-0x259a))or xa.M[0x5b2b]or xa:O(0x7455,0x3d7f,0x5b2b)else J,T=xa.H[-0x49c6]or xa:J(0x290068f,0x798c,-0x49c6),xa.c(T(fa,H))end else q=q(ga,i,T)ga,i=T,1 J,ga=0x1029-J,ga+i L[0b1001][0b10][L[0b1001][0b11]],aa=ga,q end elseif J<=0xbb0 then if J<=0xb91 then if J<=0xb7e then if J<=0xb4c then if J<=0xb3a then q=q(ga,i,T)i,ga=1,T ga=ga+i J,L[0b1001][0b10][L[0b1001][0b11]],aa=xa.M[-0x6705]or xa:N(0x501e79,0x7a4,-0x6705),ga,q else q=q(ga,i,T)i,ga=0b100,T ga=ga+i J,L[0b1001][0b10][L[0b1001][0b11]],aa=xa.M[0xd5f]or xa:O(0x4a17,0x1300,0xd5f),ga,q end else T=T(fa,H,Ba)J,fa=xa.H[0x3b7b]or xa:K(0x807,0x642e,0x3b7b),Ba fa=fa+ga q,L[0b1001][0b10][L[0b1001][0b11]]=T,fa end else J=ga<i and(xa.M[-0x6d2b]or xa:O(0x3465,0x6a6b,-0x6d2b))or J+-0x88b end elseif J<=0xbad then J,Ba=0x1526-J,Ba(Na,xa.d(N))N,Na,Fa,ga=H,L[0b110][0b10][L[0b110][0b11]],0b10000000,Ba else Na=Na(N,Fa,A)Fa,N=1,A N=N+Fa Ba,L[0b1001][0b10][L[0b1001][0b11]]=Na,N J=Oa>=Fa and J+-0x86b or 0xca9-J end elseif J>=0xbf5 then if J>0xbf5 then q=q(ga,i,T)ga,i=T,1 J,ga=0x112cd5/J,ga+i aa,L[0b1001][0b10][L[0b1001][0b11]]=q,ga else ga=ga(i,T,fa)i,T=fa,1 i=i+T L[0b1001][0b10][L[0b1001][0b11]],q=i,ga J=Ja<=T and J+-0x959 or 0x45801/J end elseif J<=0xbb5 then J=i>0 and J+-0x863 or xa.M[-0x48f4]or xa:O(0x1746,0x4a87,-0x48f4)else J=fa<=0 and(xa.H[-0x4dac]or xa:K(0x6d1e,0x824,-0x4dac))or 0xefc-J end elseif J<=0xa39 then if J<=0xa1a then if J<0x9f7 then if J<=0x9e2 then if J<=0x9cb then q=q(ga,i,T)ga,i=T,1 J,ga=xa.H[0x1e72]or xa:K(0x1b3f,0x7af6,0x1e72),ga+i L[0b1001][0b10][L[0b1001][0b11]],aa=ga,q else J=T~=T and(xa.H[-0x712c]or xa:J(0x6f9ce2,0x2c25,-0x712c))or 0x1de14c/J end else J=T<=0 and 0x1389-J or xa.H[-0x7cde]or xa:K(0x4447,0x5860,-0x7cde)end elseif J<=0xa06 then if J<=0x9f7 then Ba=Ba(Na,N,Fa)Na,J,N=Fa,xa.M[-0x53d4]or xa:O(0x45d1,0x1994,-0x53d4),1 Na=Na+N L[0b1001][0b10][L[0b1001][0b11]],H=Na,Ba else J,q=0x26eb4c/J,q(ga,i,T)i,ga=1,T ga=ga+i aa,L[0b1001][0b10][L[0b1001][0b11]]=q,ga end else J=aa>0 and(xa.H[0x470d]or xa:J(0x47b9d93,0x6b94,0x470d))or 0x7fed44/J end elseif J>=0xa33 then if J>0xa37 then q=q(ga,i,T)i,ga=1,T ga=ga+i J,L[0b1001][0b10][L[0b1001][0b11]],aa=0xd1f-J,ga,q elseif J<=0xa33 then q=q(ga,i,T)ga,i=T,1 J,ga=0xcd2-J,ga+i aa,L[0b1001][0b10][L[0b1001][0b11]]=q,ga else q=q(ga,i,T)i,ga=1,T ga=ga+i J,L[0b1001][0b10][L[0b1001][0b11]],aa=J+-0x7f7,ga,q end elseif J<=0xa1e then J=z<=0 and(xa.H[-0x16c8]or xa:J(0x1aa4b99,0x1f51,-0x16c8))or J+-0b100101100 else J=fa~=fa and 0x219689/J or 0x147887/J end elseif J<0xac6 then if J<=0xa48 then if J<=0xa3c then if J<=0xa3a then za=za(z)z,G=1,Aa aa=z J=G~=G and 0x5a1f2/J or 0x1454-J else q=q(ga,i,T)ga,i=T,1 ga=ga+i J,aa,L[0b1001][0b10][L[0b1001][0b11]]=J+-0x779,q,ga end else J=fa<=0 and(xa.H[0x66e3]or xa:J(0x113d18b,0x2962,0x66e3))or xa.H[0b1001]or xa:J(0xcde8b1,0x647e,0b1001)end elseif J<=0xa89 then J=z<G and(xa.H[0x5db4]or xa:J(0x3cdf4b,0x7cdc,0x5db4))or J+-0x9a0 else J=z>G and(xa.H[-0x5320]or xa:K(0x5a8c,0x3bfa,-0x5320))or J+0x200 end elseif J>=0xae3 then if J>0xb28 then J=i>T and 0x24d655/J or xa.H[-0x5371]or xa:J(0x331d13,0x1608,-0x5371)elseif J>0xae3 then q=q(ga,i,T)ga,i=T,1 ga=ga+i aa,J,L[0b1001][0b10][L[0b1001][0b11]]=q,xa.H[-0x1319]or xa:K(0x3a55,0x5af8,-0x1319),ga else J=z~=z and J+-0xa39 or J+-0xa5d end elseif J<=0xac6 then J,ga=J+-0x312,xa.c(ga(i,T))else J=T>fa and J+-0x7b4 or 0x9c9ce8/J end until false end end,i=function(f)local g,e,_,b e=string e,g,b=bit32,e.byte,e.char _=e.bxor b={[0b11]=1,[1]=b}b[0b10]=b g={[0b11]=1,[1]=g}g[0b10]=g _={[0b11]=1,[1]=_}_[0b10]=_ e=f:j{_,g,b}return e end,a=bit32 .bxor,A=function(j,i)return function(b,g)local h,_,a,c,k,e h=0b10110011 while true do if h>0b10100011 then if h>0b10101010 then _=b e=_ e={[0b11]=1,[1]=e}e[0b10]=e a=1 a={[0b11]=1,[1]=a}a[0b10]=a c=nil c={[0b11]=1,[1]=c}c[0b10]=c h,c[0b10][c[0b11]]=0x80,j:C{e,i[0x15],i[0x13],i[0b1001],i[0x14],i[0b10010],i[0b10110],i[0b110],a,c,i[0b1000]}k=c[0b10][c[0b11]]else h,_=0b10100011,i[0b1011][0b10][i[0b1011][0b11]]end elseif h>=0b10000000 then if h>0x80 then _=_()_={[0b11]=1,[1]=_}_[0b10]=_ e[0b10][e[0b11]]={[0b11]=1,[1]=e[0b10][e[0b11]]}h,e[0b10][e[0b11]][0b10]=0x2b4c/h,e[0b10][e[0b11]]e[0b10][e[0b11]]=j:B{i[0b10],i[0b1101],i[0b10001],_,i[0b1100],i[0b1001],i[0b1010],i[0b11],i[0b111],i[0b1110],i[0b1111],i[1],i[0b110],i[0b101],i[0b10000],i[0b100],e}k,a[0b10][a[0b11]],c[0b10][c[0b11]]=g,e[0b10][e[0b11]],b else k=k()h,b=0x5500/h,k end else a[0b10][a[0b11]]=a[0b10][a[0b11]](c[0b10][c[0b11]],k)return a[0b10][a[0b11]]end end end end,m=function(n,o)return function(b)local g,e,h,m,l,j,k,i,a,p,_,d,c h=0x34 repeat if h>=0b1111001 then if h<=0b1111001 then l=0x55 i,j,_,l,p,k=m,m,b,"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!#$%&()*+-;<=>?@^_`{|}~",b.sub,g*l p=p(_,j,i)h,j,l,_,d=0xc5,true,l.find,1,l l=l(d,p,_,j)k,c=1,k+l g=c-k else m=m+a h=(a>0 and m>e or a<=0 and m<e or a~=a)and 0b1001 or 0b1111001 end elseif h>0b1001 then m,g,e=1,0,0b101 a=m h=(e~=e or a>0 and m>e or(a<=0 or a~=a)and m<e)and 0b1001 or 0x79 else e,a,c,m=o[1][0b10][o[1][0b11]],g,0x18,o[0b11][0b10][o[0b11][0b11]]e=e(a,c)c,l,k,a=o[1][0b10][o[1][0b11]],0x10,g,o[0b10][0b10][o[0b10][0b11]]c=c(k,l)k=0xff a=a(c,k)k,c,d,l=o[1][0b10][o[1][0b11]],o[0b10][0b10][o[0b10][0b11]],0b1000,g k=k(l,d)l=0xff c=c(k,l)k,l,d=o[0b10][0b10][o[0b10][0b11]],g,0xff k=n.c(k(l,d))m=n.c(m(e,a,c,n.d(k)))return n.d(m)end until false end end,D=function(n,o)return function(...)local m,h,b,e,k,f,l,d,g,_,c,a h=0xf9 repeat if h<=0x6c then if h>0x4f then if h>=0b1100000 then if h<=0b1100000 then l,c,e,h,k,a=m,o[0b110][0b10][o[0b110][0b11]],o[0b11][0b10][o[0b11][0b11]],0b11000,g,o[0b100][0b10][o[0b100][0b11]]else c=o[0b1001][0b10][o[0b1001][0b11]]k,a=1,c[0x82c8]e,c,l=a+k,b.n,o[0b1001][0b10][o[0b1001][0b11]]h,k=0x21c/h,l[0x82c8]a=c-k m[0x4cea]=a f,k,_,l,c=e+a,b,1,e,o[0b101][0b10][o[0b101][0b11]]_,f,d=m[0xad7c],_,f-_ end else h,d,k,c,l=0b10110110,a,e,o[0b1000][0b10][o[0b1000][0b11]],0b10 end elseif h>=0b11111 then if h<=0b11111 then b=b(n.d(g))h,g,m=0b11101110,o[1][0b10][o[1][0b11]],o[0b1001][0b10][o[0b1001][0b11]]m=m[0x412f]else e(a,c,k,l,d)a=o[0b1001][0b10][o[0b1001][0b11]]c,e=b.n,a[0x82c8]h=e<c and 0x6c or 0b1100000 end elseif h<=0b101 then h=0b1100000 c(k,l,d,f,_)else h,a=0x1098/h,n.c(a(c,k,l))end elseif h<0b11101110 then if h<0xb1 then c,k=e[0b10],o[0b10][0b10][o[0b10][0b11]]d,h,l=0,0xf3,c elseif h>0b10110001 then c=n.c(c(k,l,d))return n.d(c)else e,a=e(n.d(a))c=e[1]h=c and h+-0b1010101 or 0x5bf5/h end elseif h>0b11110011 then g,h,b=n.c(...),0b11111,o[0b111][0b10][o[0b111][0b11]]elseif h>0b11101110 then k=n.c(k(l,d))return n.d(k)else g=g(m)e,c={},{}a=c e[0xad7c]=a a=0 e[0x4cea]=a c,h,e,l,a,m=1,h+-0x9f,o[0b101][0b10][o[0b101][0b11]],o[0b1001][0b10][o[0b1001][0b11]],b,e l,k,d=c,l[0x82c8],g end until false end end,I=function(a,b,c,d)a.H[d]=a.i(b,c)return a.H[d]end,L=function(a,b,c,d)a.H[d]=b+a.a(c,0x7207)return a.H[d]end,H={},e=function(e,f,...)local h={...}local d=select("#",...)for i=1,d do e[f+i-1]=h[i]end end,b=(function()local q,i,s=type,getmetatable,pairs return function(u,v,w)if q(u)~="function"then local p=i(u)if p~=nil and p.__iter~=nil then return p.__iter(u)elseif(p and p.__call)==nil and q(u)=="table"then return s(u)end end return u,v,w end end)(),l=function(j,i)return function(b)local h,a,g,_,l,c,k,e h=0xed while true do if h<0b11100000 then if h<=0xb2 then if h>0b10000010 then _,e=_.sub,_ _=j.c(_(e,a,c))return j.d(_)else h=c and 0x134-h or 0x6388/h end else h,c=0x8848/h,-1 end elseif h<=0b11101101 then if h<=0xe9 then if h<=0xe0 then _,c,a,e=i[0b100][0b10][i[0b100][0b11]],j:m{i[1],i[0b10],i[0b11]},".....",b _=_(e,a,c)a,c=1,0 c=g>c h=c and 0xe9 or 0x162-h else l=0b101 h,k=0b10000010,l-g c,k=-k,1 c=c-k end else e,_=0b101,#b _,g=0,_%e h=g>_ and 0xfd or 0xe0 end else a,_=0b101,"~"e,_,a=_,_.rep,a-g _=_(e,a)h,b=0xe0,b.._ end end end end,B=function(j,i)return function(b,g)local e,a,_,c b={[0b11]=1,[1]=b}b[0b10]=b g={[0b11]=1,[1]=g}g[0b10]=g _=j:G{i[0x10]}_={[0b11]=1,[1]=_}_[0b10]=_ e=nil e={[0b11]=1,[1]=e}e[0b10]=e e[0b10][e[0b11]]=j:F{e}a={[0b11]=1,[1]=a}a[0b10]=a a[0b10][a[0b11]]=j:E{i[1],i[0b1001],i[0b101],i[0b1111],i[0b100],i[0b110],i[0b1000],i[0b1011],b,e,i[0b10],g,_,i[0b1101],i[0x11],i[0b1100],i[0b1010],i[0b11]}c=j:D{i[0b1101],i[0b1000],_,i[0b111],i[0b1010],a,i[0b1110],e,b}return c end end,z=function(w)local m,s,i,d,y,z,u,k,A,l,b,c,p,r,t,j,x,q,f,B,v,a,n,e,_ b=w b={[0b11]=1,[1]=b}b[0b10]=b B=type B={[0b11]=1,[1]=B}B[0b10]=B m=pcall m={[0b11]=1,[1]=m}m[0b10]=m e=error e={[0b11]=1,[1]=e}e[0b10]=e s=tonumber s={[0b11]=1,[1]=s}s[0b10]=s x=pairs x={[0b11]=1,[1]=x}x[0b10]=x k=select k={[0b11]=1,[1]=k}k[0b10]=k z=setmetatable z={[0b11]=1,[1]=z}z[0b10]=z d=getmetatable d={[0b11]=1,[1]=d}d[0b10]=d q,y={},w.H[-0x6be]or w:I(w.k"Q&s",w.k"B>",-0x6be)q[w.H[0x18e8]or w:I(w.k"P}&k;;Ti",w.k"e}xY",0x18e8)]=y p=q p={[0b11]=1,[1]=p}p[0b10]=p y=string q=y[w.H[0x3e57]or w:I(w.k"qNcRAtFH",w.k"#K_k",0x3e57)]q={[0b11]=1,[1]=q}q[0b10]=q i=y y=i[w.H[0x4601]or w:I(w.k"NB~|O",w.k"c`5",0x4601)]y={[0b11]=1,[1]=y}y[0b10]=y f=i r,i=f,f[w.H[0x39ca]or w:I(w.k"j+Km$",w.k"{p|",0x39ca)]f=r[w.H[0x3cd5]or w:I(w.k"tqcji0ss",w.k"Xkp3",0x3cd5)]f={[0b11]=1,[1]=f}f[0b10]=f _=table r=_[w.H[-0x77ea]or w:I(w.k"5%~)9",w.k"mV5",-0x77ea)]r={[0b11]=1,[1]=r}r[0b10]=r u=_ _=u[w.H[0x4dae]or w:I(w.k"bXR9x",w.k"HUt",0x4dae)]_={[0b11]=1,[1]=_}_[0b10]=_ a=u u=a[w.H[-0x43c4]or w:I(w.k"=~XrBQ#A",w.k"P$!B",-0x43c4)]u={[0b11]=1,[1]=u}u[0b10]=u t=a a=t[w.H[0x5f90]or w:I(w.k"pn~VDp5O",w.k"l<dg",0x5f90)]a={[0b11]=1,[1]=a}a[0b10]=a t=getfenv t={[0b11]=1,[1]=t}t[0b10]=t A=bit32 l=A[w.H[0x75f6]or w:I(w.k"`1R-",w.k"ng",0x75f6)]l={[0b11]=1,[1]=l}l[0b10]=l c=A A,j=c[w.H[-0x1437]or w:I(w.k"GlxEn",w.k"|4{",-0x1437)],c c=j[w.H[-0x77e]or w:I(w.k"AEgtZ",w.k"#C-",-0x77e)]c={[0b11]=1,[1]=c}c[0b10]=c v=j j=v[w.H[-0x3069]or w:I(w.k"l+cscf&",w.k"r1k",-0x3069)]j={[0b11]=1,[1]=j}j[0b10]=j n=v v=n[w.H[0x495]or w:I(w.k"xIK!!D3$",w.k";!e~",0x495)]v={[0b11]=1,[1]=v}v[0b10]=v n=w:A{z,p,e,k,_,u,x,a,c,m,t,s,d,r,y,f,B,j,v,l,b,q}return n end,K=function(a,b,c,d)a.H[d]=b-a.a(c,0x6205)return a.H[d]end,k=function(f)local _,e,a,g,b _=string g,b=_.gsub,_.char b={[0b11]=1,[1]=b}b[0b10]=b g={[0b11]=1,[1]=g}g[0b10]=g a=bit32 e,_=a.band,a.rshift _={[0b11]=1,[1]=_}_[0b10]=_ e={[0b11]=1,[1]=e}e[0b10]=e a=f:l{_,e,b,g}return a end,E=function(xa,Xa)return function(ea,B)local da,Va,q,Ra,Wa,S,Ya,Y,I,W,na,z,m,va,L,l,t,K,aa,v,G,La,Ta,g,M,P,ga,R,ra,X,n,o,Pa,Oa,c,Sa,ia,Ga,wa,F,x,Ia,Ca,Ua,Ma,b,T,ca,Ka,la,ha,a,ya,Ha,qa,_a,u,k,E,ja,A,C,j,za,e,i,h,p,Ba,Ea,r,Q,s,w,D,Fa,ma,y,Ja,_,ba,Da,ua,ka,O,V,Na,d,J,Qa,U,f,oa,Aa,fa,sa,pa,ta,H J=0b1101 while true do if J<=0x25a then if J>0b100001110 then if J>0x1b9 then if J>=0x215 then if J<=0x239 then if J<0x224 then if J<0x21c then if J>0x219 then if J>0x21a then fa,H=ga[0xecdd],0x34 T,H,Ba=fa-H,ga[0xa62d],0b101000 fa=H-Ba ea[T]=fa H,fa=0b1001,ga[0xe79a]H,T,Ba=ga[0xf08],fa-H,0b111011 fa,Ba=H-Ba,1 H,Ba,Na=fa-Ba,nil,-1 J=H==Na and J+-0x78 or 0x54e-J else T=0b111100 J=i>T and 0x3d9 or 0x14b end elseif J<=0x218 then if J>0x215 then H,fa=0x3b,ga[0xecdd]T,H,Ba=fa-H,Xa[0b101][0b10][Xa[0b101][0b11]],ga[0x819f]fa=H[Ba]ea[T]=fa H,fa=0x30,ga[0xe79a]Na,Ya,T=ga[0xf08],0b11,fa-H Ba=Na-Ya H=ea[Ba]fa=#H ea[T]=fa J=Ea>=Ya and 0b11111110 or 0x3ce else T=0x88 J=i<=T and 0x2d7-J or 0b101110101 end else Ya=H<=fa Na=not Ya J=Na and 0x2ffbe/J or 0x3dc end elseif J>=0x21f then if J<0x220 then c,_a=fa+A,1 J,E=J+-0x8d,c-_a elseif J<=0x220 then fa,H=ga[0xecdd],0x16 Ya,Na,T=0b110100,ga[0xe79a],fa-H Ba=Na-Ya Fa,H,J,Ya=0b11001,ea[Ba],J+-0x122,ga[0xf08]Na=Ya-Fa Ba=ea[Na]fa=H==Ba ea[T]=fa Ba,fa,Na=ga[0xa6b8],Xa[0b1100][0b10][Xa[0b1100][0b11]],0x21 H=Ba-Na T,Ba,H=fa[H],0x1e,ga[0x79e4]Ba,Na,fa=T[0b10],T[0b11],H-Ba H=Ba[Na]ea[fa]=H else J,A=J+0x8b2,xa.c(A(c,_a,Ga))end elseif J<=0x21c then _a,c,Na,J,Ya,Fa=1,fa+H,Xa[0x11][0b10][Xa[0x11][0b11]],0x5a8,ea,fa c,_a,A=Ba,ea[T],c-_a else fa,H=ga[0xecdd],0b111 Na,Ya,T=ga[0xe79a],0b11010,fa-H Ba=Na-Ya Fa,Ya,H=0x1d,ga[0xf08],ea[Ba]Na=Ya-Fa Ba=ea[Na]fa=H+Ba ea[T]=fa H,fa=0b100111,ga[0x79e4]H,Ba,T=ga[0xa6b8],0x3a,fa-H Ba,fa=1,H-Ba Ba,Na,H=nil,-1,fa-Ba J=H==Na and J+-0b11010111 or 0x3c5 end elseif J<=0x230 then if J>0x22b then if J>0x22f then T=0b11000010 J=i>T and 0x560-J or 0x12a else J,Ya,Na=0x37c,1,E-T Ba=Na+Ya end elseif J<=0x226 then if J<0x225 then J,P=0x21fb8/J,P+Ba elseif J>0x225 then J,Na=0b110010111,E-fa else T=0xea J=i<=T and 0x78a14/J or 0x35586/J end else fa,H=ga[0xecdd],0b10000 Na,Ya,T=ga[0xe79a],0x3b,fa-H Ba=Na-Ya H=ea[Ba]fa=#H ea[T]=fa Na,T,Ba=0x35,ga[0xf08],ga[0x79e4]Ba,fa,Na=ga[0xa6b8],Ba-Na,0x17 Na,H=0,Ba-Na Ba=fa==Na J=Ba and 0x4039e/J or 0b100001101 end elseif J>=0x238 then if J<=0x238 then J,ja,Ga=0xcbd90/J,A,Xa[0b1011][0b10][Xa[0b1011][0b11]]else Fa=Ya[0b11]J=Fa>=T and 0x3e1 or 0b111101001 end elseif J>0x231 then J,A=0x167,1 Fa=H-A else Ba=Ba+Ya J=Ya>0 and 0x1027-J or 0x77e-J end elseif J<0x24a then if J<=0x244 then if J>=0x23f then if J>0x242 then Ya=1 J,Na=0x35a-J,H-Ya elseif J<=0x23f then H,fa=0b10110,ga[0xecdd]T,Ba,Na=fa-H,ga[0xe79a],0b110111 Ba,H=1,Ba-Na fa=H==Ba ea[T]=fa H,fa=0x27,ga[0xf08]T,Ba,Na=fa-H,ga[0x79e4],0b1001 J,H,Ba=0b11111110,Ba-Na,1 fa=H==Ba ea[T]=fa else A,c=T+Fa,1 J,E=0x10e,A-c end elseif J<=0x23b then Ga={}Ga[0b11]=c Ga[0b10]=ea J,_a=J+0b1111010,Ga s[c]=_a else T=0b1111001 J=i>T and 0b101001111 or 0x2c2 end elseif J<0x248 then if J<=0x246 then J,Na,Ya=0x38c,E-T,1 Ba=Na+Ya else T=0xe2 J=i<=T and 0x41c22/J or 0x5fc-J end elseif J<=0x248 then _=m(j,d)d=_ J=d==nil and 0x430-J or J+0b100 else J,Ba=0x3c8,E-T end elseif J>0x255 then if J<0x259 then if J<=0x256 then c,A=Ya[0b11],Ya[0b10]Fa=A[c]Ya[1]=Fa Ya[0b10]=Ya Fa=1 Ya[0b11]=Fa J,Fa=0x90894/J,nil s[Na]=Fa else Y=Y(ba)J,ta,Oa=0x5fb,Oa+Y,4294967295 end elseif J<=0x259 then J,Ba=0x3d1,E-T else fa,H=ga[0xecdd],0b11100 H,Ba,T=ga[0xe79a],0x2e,fa-H fa,Ba,Na=H-Ba,ga[0x9848],0x31 H,Na,Ya=Ba-Na,ga[0x3a36],0b1111 Na,Ba,Ya=ea[T],Na-Ya,ea[fa]J=Na~=Ya and 0x2a540/J or 0x2ba end elseif J>=0x24d then if J>0x253 then fa,H=ga[0xecdd],0x36 T,Ba,H=fa-H,0b111000,ga[0xa62d]fa=H-Ba ea[T]=fa fa,H=ga[0xe79a],0x1c Ba,Na,T=ga[0xf08],0b111011,fa-H H=Ba-Na J,fa=0b11111110,ea[H]ea[T]=fa elseif J<=0x24d then J,Ya,Na=0xa6b,Xa[0b1101][0b10][Xa[0b1101][0b11]],ea[T]A,Ga,c,Fa=Xa[0b1010][0b10][Xa[0b1010][0b11]],1,ea,Na Ga,_a=T+Ba,T+Ga else Ya=1 J,Na=0x4cc-J,H-Ya end elseif J<0x24b then Na=1 Ba=fa-Na J=ha<=Na and 0x598f4/J or 0x298 elseif J>0x24b then wa,J,Oa=0b110011,0x42f,Xa[0b110][0b10][Xa[0b110][0b11]]wa,Va,ba=Xa[0b1000][0b10][Xa[0b1000][0b11]],_,Ja*wa else H,fa=0b1010,ga[0xecdd]Ya,Na,T=0x23,ga[0xe79a],fa-H Ba=Na-Ya H,Ya,Fa=ea[Ba],ga[0xf08],0b101110 J,Na=0xfe,Ya-Fa Ba=ea[Na]fa=H==Ba ea[T]=fa end elseif J<=0x1e9 then if J>=0x1d0 then if J<0b111100001 then if J>=0x1da then if J>=0b111011100 then if J>0b111011100 then Ya,T,Na=0b11,ga[0xecdd],ga[0xe79a]Ba=Na-Ya Ya,Fa,H=ga[0xf08],0x35,ea[Ba]Na=Ya-Fa Ba=ea[Na]fa=H+Ba J,ea[T]=0x2de-J,fa Ba,Na,fa=ga[0xa6b8],0x24,Xa[0b1100][0b10][Xa[0b1100][0b11]]H=Ba-Na T,Ba,H=fa[H],0x2b,ga[0x79e4]fa,Ba,Na=H-Ba,T[0b10],T[0b11]H=Ba[Na]ea[fa]=H else Fa=Ya[0b11]J=Fa>=T and J+-0x46 or J+0b11101010 end else Ba=E-T J=I<=h and 0b11111 or 0x10d end elseif J<=0x1d0 then Ya=fa<=H Na=not Ya J=Na and 0x19260/J or 0x5ac-J else J,Ba,Na=0xa8ed0/J,Xa[0b111][0b10][Xa[0b111][0b11]],""end elseif J<0b111100110 then if J<=0b111100001 then J,H=0x207,Na else Na=1 J,Ba=0x301,fa-Na end elseif J<0b111101000 then Ba,Na,fa=ga[0xe79a],0b1111,Xa[0b1100][0b10][Xa[0b1100][0b11]]H=Ba-Na Ba,T,H=0x39,fa[H],ga[0xecdd]fa,Ba,Na=H-Ba,T[0b10],T[0b11]H=Ba[Na]ea[fa]=H Ya,Na=0b110010,ga[0xf08]fa,Na,Ya=Na-Ya,ga[0x79e4],0b111110 H,Na,Ya=Na-Ya,ga[0xa6b8],0x1b Ba,Ya=Na-Ya,0 Na=H==Ya J=Na and 0x226 or 0x37d-J elseif J>0b111101000 then Na,Ya=fa(H,Ba)Ba=Na J=Ba==nil and 0x2e7-J or J+0x50 else ma=Ja J=t>ya and 0x108 or 0x443-J end elseif J<=0b111000101 then if J>0x1bd then if J<=0b111000000 then Na(Ya,Fa,A,c,_a)Ya=0b10 A,Na=0b11,T+Ya Fa=T+A Ya=ea[Fa]ea[Na]=Ya Fa=0b10 Ya=T+Fa Na,Ya=ea[Ya],nil J=Na==Ya and 0x214 or 0x3ce else fa,H=ga[0xecdd],0x20 T,Na,Ba=fa-H,0x2d,ga[0xe79a]H=Ba-Na fa=ea[H]ea[T]=fa H,fa=0b10111,ga[0xf08]T,H=fa-H,{}fa=H J,ea[T]=J+-0xc7,fa end elseif J<0b110111100 then if J>0x1ba then A=1 J,Fa=J+0x21a,H-A else Ba=E-T J=va<X and 0x5ab-J or 0x369 end elseif J<=0b110111100 then J,A,c=0x2c3a0/J,T+Fa,1 E=A-c else H,fa=0b101001,ga[0xecdd]Ba,fa,T,H=nil,s,fa-H,nil fa,H,Ba=xa.b(fa,H,Ba)Na,Ya=fa(H,Ba)Ba=Na J=Ba==nil and 0x2a0 or 0x605db/J end elseif J<=0x1cd then if J<0x1cc then Ya,Fa=H(Ba,Na)Na=Ya J=Na==nil and 0b11111110 or 0x324-J elseif J<=0x1cc then Ya=Ba<=fa Na=not Ya J=Na and 0x54574/J or 0x38f04/J else fa,H=ga[0xecdd],0b111110 T,Ba,Na=fa-H,ga[0xe79a],0b110000 H,Ba=Ba-Na,1 fa=H==Ba ea[T]=fa fa,Na,Ba=Xa[0b1100][0b10][Xa[0b1100][0b11]],0b10,ga[0x79e4]H=Ba-Na T=fa[H]fa,Fa,H,Ya=T[0b10],0b110111,T[0b11],ga[0xf08]Na=Ya-Fa Ba=ea[Na]fa[H]=Ba J=y<=Fa and 0x12921/J or J+-0xcf end else H,fa=0b101,ga[0xecdd]T=fa-H Ba,fa=Xa[0b10010][0b10][Xa[0x12][0b11]],ea[T]J,Na=0x1748e2/J,fa end elseif J>0x201 then if J>0x20e then if J<=0x213 then if J>=0x212 then if J>0x212 then J=Ba and 0x460-J or 0x73e5a/J else Ba,Na=ga[0xecdd],0x27 Na,T,Ba=0x2a,Ba-Na,ga[0xe79a]fa,Na,Ba=Ba-Na,0b10011,ga[0xf08]H,Na=Ba-Na,0 Ba=fa==Na J=Ba and 0x81c86/J or 0x213 end else J=Ba and 0x35c or 0x3bb-J end else Fa,Ya=0b1011,ga[0x3a36]J,Na=0xfe,Ya-Fa P=P+Na end elseif J>0x207 then if J<=0x208 then Ya=fa<=Ba Na=not Ya J=Na and 0x19c or 0b111111011 else fa,Ba,Na=Xa[0b1100][0b10][Xa[0b1100][0b11]],ga[0xe79a],0x18 H=Ba-Na T=fa[H]H,Fa,Ya,J,fa=T[0b11],0b110111,ga[0xecdd],0xfe,T[0b10]Na=Ya-Fa Ba=ea[Na]fa[H]=Ba Na,H,Ya=ga[0x79e4],Xa[0b1100][0b10][Xa[0b1100][0b11]],0b11 Ba=Na-Ya Ba,Na,fa=ga[0xf08],0b11011,H[Ba]Na,Ya,H=fa[0b10],fa[0b11],Ba-Na Ba=Na[Ya]ea[H]=Ba end elseif J>=0x204 then if J>0x204 then Ba=3335376910 J=H~=Ba and 0x28e-J or 0b100110111 else Na,Ya=E-T,1 Ba=Na+Ya J=oa<Ya and J+0x1d6 or 0x55ea8/J end else Ba,Na=ga[0xecdd],0b1101 T,Na,Ba=Ba-Na,0b101011,ga[0xe79a]Ba,fa,Na=ga[0xf08],Ba-Na,0b110101 H,Na=Ba-Na,0 Ba=fa==Na J=Ba and 0x145 or 0x364 end elseif J<=0b111111010 then if J<=0b111110101 then if J>=0x1f3 then if J>0b111110011 then A=1 Fa=H-A J=k>A and 0x136 or 0x92c7/J else c,A=1,T+Fa E=A-c J=da>=c and 0x2a1 or 0x98 end elseif J>0b111101011 then C=ma[0b11]J=C>=A and 0x268aa/J or 0x188f4/J else fa,H=ga[0xecdd],0b11100 Ya,Na,T=H,ga[0xe79a],fa-H J,Ba=0xfe,Na-Ya Fa,Ya,H=0x2b,ga[0xf08],ea[Ba]Na=Ya-Fa Ba=ea[Na]fa=H*Ba ea[T]=fa end elseif J>0b111111001 then fa,H=ga[0xecdd],0b101 Na,T,Ba=0b10100,fa-H,ga[0xe79a]H,Ba=Ba-Na,1 fa=H==Ba ea[T]=fa H,fa=0b11111,ga[0xf08]Ba,Na,T=ga[0x79e4],0x2b,fa-H H=Ba-Na J,fa=0b11111110,ea[H]ea[T]=fa else J,Ya=J+0xbd1,0b10 Na=T+Ya Ya,Ba=Xa[0b10010][0b10][Xa[0b10010][0b11]],ea[Na]Fa=Ba end elseif J<0x200 then if J>0b111111011 then H,fa=0b111011,ga[0xecdd]T,Na,Ya=fa-H,ga[0xe79a],0b100001 Ba=Na-Ya Ya,H,Fa=ga[0xf08],ea[Ba],0b1111 Na=Ya-Fa Ba=ea[Na]fa=H<Ba ea[T]=fa fa,H=ga[0x79e4],0b101101 Ba,T,H=0x13,fa-H,ga[0xa6b8]Ba,fa=1,H-Ba Na,Ba,H=-1,nil,fa-Ba J=H==Na and 0x3e4 or 0x7ec08/J else J,Fa,Ya=0xfe,0b1101,ga[0x9848]Na=Ya-Fa P=P+Na end elseif J>0x200 then J,A=0x8f8,xa.c(A(c,_a,Ga))else fa,Na,Ba=Xa[0b1100][0b10][Xa[0b1100][0b11]],0b101001,ga[0xe79a]H=Ba-Na T=fa[H]Fa,fa,H,Ya=0b100011,T[0b10],T[0b11],ga[0xecdd]Na=Ya-Fa Ba=ea[Na]fa[H]=Ba Ba,H=0x3c,ga[0xf08]fa,Na,H,Ba=H-Ba,nil,s,nil H,Ba,Na=xa.b(H,Ba,Na)Ya,Fa=H(Ba,Na)Na=Ya J=Na==nil and 0b11111110 or 0b101011010 end elseif J<=0b101100111 then if J<=0x13d then if J<=0b100101000 then if J<=0b100011111 then if J<0b100010111 then if J>0b100010101 then _a,J,Fa,c,Ya,A=1,0xed6,ea,fa+Na,Xa[0b1010][0b10][Xa[0b1010][0b11]],fa c=c-_a elseif J<=0x112 then J=Ba and J+0x268 or 0x40d-J else A,Ya,Fa,J,c,Na=T+Ba,ea,T,0x8ee,1,Xa[0b1010][0b10][Xa[0b1010][0b11]]A=A-c end elseif J<=0x118 then if J<=0x117 then Na,Ba,fa=0b1111,ga[0xe79a],Xa[0b1100][0b10][Xa[0b1100][0b11]]H=Ba-Na Ba,T,H=0b1000,fa[H],ga[0xecdd]Na,fa,Ba=T[0b11],H-Ba,T[0b10]J,H=0x215-J,Ba[Na]ea[fa]=H else Ba,H=0x24,ga[0xe79a]H,Ba,fa,Na=s,nil,H-Ba,nil H,Ba,Na=xa.b(H,Ba,Na)Ya,Fa=H(Ba,Na)Na=Ya J=Na==nil and 0x216-J or 0x3a2c8/J end else J,Na,Ba=0xef905/J,H,Xa[0b11][0b10][Xa[0b11][0b11]]end elseif J>=0x125 then if J<=0b100100110 then if J>0b100100101 then Na,Ya=ea[T],Xa[0b1101][0b10][Xa[0b1101][0b11]]J,Ga,c,A,Fa=0xc3a,1,ea,Xa[0b1010][0b10][Xa[0b1010][0b11]],Na _a,Ga=T+Ga,T+Ba else A,c,ma,ja,Ga,J,_a=Xa[0x11][0b10][Xa[0b10001][0b11]],Ya,ea,T,Fa,0x105a-J,1 end else J,fa,H=0b10001100,ga[0xecdd],0b11000 Ba,H,T=0b100111,ga[0xe79a],fa-H Ba,Fa,fa,H=ea[T],1,H-Ba,Xa[0b1101][0b10][Xa[0b1101][0b11]]Ya=T+Fa Fa,Na=0b10,ea[Ya]Ya=T+Fa Ya=ea[Ya]end elseif J>0b100100000 then Ya,Fa=H(Ba,Na)Na=Ya J=Na==nil and 0x220-J or 0x353 else J,P=0x11dc0/J,P+H end elseif J>=0b100110110 then if J>0b100111011 then if J<=0x13c then Ba=E-T J=l>o and J+-0x6c or 0x467-J else Ja,m=ma[0b10],ma[0b11]C=Ja[m]ma[1]=C ma[0b10]=ma C=1 ma[0b11]=C C=nil s[ja]=C J=O<=L and 0xfa22/J or 0x418d3/J end elseif J<0x137 then J,_a,ma,Ga,c,A,ja=0xbd48e/J,1,ea,Fa,Ya,Xa[0x11][0b10][Xa[0x11][0b11]],T elseif J<=0x137 then Na=1 J,Ba=J+0xebc,T+Na H,Na=ea[Ba],Xa[0b10010][0b10][Xa[0x12][0b11]]Ya=H else Na,Ya=E-fa,1 J,H=0x21c,Na+Ya end elseif J<0x12d then if J>0x12a then Fa=Ya[0b11]J=Fa>=T and 0x3cb or 0x3cc else Na,Ba=0b101,ga[0xecdd]T,Na,Ba=Ba-Na,0x29,ga[0xe79a]fa,Na,Ba=Ba-Na,0x3f,ga[0xf08]H,Na=Ba-Na,0 Ba=fa==Na J=Ba and 0x2bb9a/J or 0x3d1 end elseif J<0b100101110 then H,fa=0x20,ga[0xecdd]Ba,T,Na=ga[0xe79a],fa-H,0b11 Ba,H=1,Ba-Na fa=H==Ba ea[T]=fa H,fa=0b1100,ga[0xf08]Ba,fa,H,T=nil,s,nil,fa-H fa,H,Ba=xa.b(fa,H,Ba)Na,Ya=fa(H,Ba)Ba=Na J=Ba==nil and 0x22b-J or 0x239 elseif J<=0b100101110 then fa,J,H=ga[0xc4e],0x22c-J,0x10 T=fa-H P=P+T else fa,H=ga[0xecdd],0b110101 T,Na,Ya=fa-H,ga[0xe79a],0x10 Ba=Na-Ya H=ea[Ba]fa=#H ea[T]=fa H,fa=0b111,ga[0xf08]Ba,J,T,H=0x2c,J+-0x33,fa-H,ga[0xa62d]fa=H-Ba ea[T]=fa end elseif J<=0b101010101 then if J>=0x14b then if J>0b101010010 then if J<=0x153 then c,A=1,T+Fa E=A-c J=a<=c and 0b11110011 or 0x185 else Na,Ya,J,Fa=A,c,J+0b100110011,_a end elseif J<=0b101001111 then if J>0b101001011 then fa,H=ga[0xecdd],0b1001 Ba,T,H=ga[0x819f],fa-H,Xa[0b101][0b10][Xa[0b101][0b11]]fa=H[Ba]J,ea[T]=J+-0x51,fa else Ba,Na=ga[0xecdd],0x20 Ba,T,Na=ga[0xe79a],Ba-Na,0b11110 Na,fa,Ba=1,Ba-Na,ga[0xf08]Na,H=0,Ba-Na Ba=fa==Na J=Ba and 0x19894/J or 0x41899/J end else A,c=Ya[0b10],Ya[0b11]Fa=A[c]Ya[1]=Fa Ya[0b10]=Ya Fa=1 Ya[0b11]=Fa Fa=nil s[Na]=Fa J=v<n and 0x3e5 or 0x39b end elseif J<0x145 then if J>0x143 then _a,c=Fa[0b11],Fa[0b10]A=c[_a]Fa[1]=A Fa[0b10]=Fa A=1 Fa[0b11]=A A=nil s[Ya]=A J=u<ka and 0x122 or 0x327 else H,fa=0b110,ga[0xecdd]H,T={},fa-H fa=H ea[T]=fa H,fa=0b1001,ga[0xe79a]fa,T=ga[0x819f],fa-H ea[T]=fa J=Q>H and 0x241-J or 0x185 end elseif J>0b101000111 then J,A=0x3d4,1 Fa=H-A elseif J<=0x145 then Ba=E-T J=Ma>=qa and 0x44df4/J or J+-0x14 else Ya,Na=1,E-T J,Ba=0x2bd-J,Na+Ya end elseif J>=0b101011101 then if J>=0b101100011 then if J<=0b101100100 then if J>0x163 then J,fa,H=0x16138/J,ga[0xecdd],0x36 Na,Ya,T=ga[0xe79a],0x24,fa-H Ba=Na-Ya Ya,Fa,H=ga[0xf08],0b111110,ea[Ba]Na=Ya-Fa Ba=ea[Na]fa=H..Ba ea[T]=fa H,fa=0b110,ga[0x79e4]Ba,Na,T=ga[0xa6b8],0x30,fa-H H=Ba-Na fa=ea[H]ea[T]=fa else Na,Ba,fa=0b101111,ga[0xe79a],Xa[0b1100][0b10][Xa[0b1100][0b11]]H=Ba-Na H,Ba,T=ga[0xecdd],0b11111,fa[H]fa,Na,Ba=H-Ba,T[0b11],T[0b10]H=Ba[Na]ea[fa]=H H,Ba=ga[0xf08],0b111111 Ya,Fa,fa=ga[0x79e4],0b10000,H-Ba J,Na=J+-0b1100101,Ya-Fa Ba,Fa,A=ea[Na],ga[0xa6b8],0b111111 Ya=Fa-A Na=ea[Ya]H=Ba+Na ea[fa]=H end else _a,J,c,Ga,ma,ja,A=1,0x11c802/J,Ya,Fa,ea,T,Xa[0b10001][0b10][Xa[0b10001][0b11]]end elseif J<=0b101011101 then T=0b10110101 J=i>T and 0x2a0-J or 0x35f-J else H,fa=0b101010,ga[0xecdd]J,T,fa=0xfe,fa-H,ga[0x819f]ea[T]=fa end elseif J<=0b101011010 then if J<0b101011001 then fa,H=ga[0xecdd],0b10000 H,T,Ba=Xa[0b101][0b10][Xa[0b101][0b11]],fa-H,ga[0x819f]fa=H[Ba]ea[T]=fa H,fa=0x2c,ga[0xe79a]Na,T,Ya=ga[0xf08],fa-H,0b111101 J,Ba=0x254-J,Na-Ya H=ea[Ba]fa=not H ea[T]=fa elseif J<=0b101011001 then H,fa=0b101110,ga[0xecdd]H,T,Ba=Xa[0b101][0b10][Xa[0b101][0b11]],fa-H,ga[0x819f]fa=H[Ba]ea[T]=fa Na,fa,Ba=0x29,Xa[0b1100][0b10][Xa[0b1100][0b11]],ga[0xf08]H=Ba-Na Ba,T,H=0x34,fa[H],ga[0xe79a]fa,Ba,Na=H-Ba,T[0b10],T[0b11]H=Ba[Na]ea[fa]=H J=Qa>=M and 0x13344/J or 0x1564e/J else A=Fa[0b11]J=A>=fa and 0x3e5 or 0x324-J end else Ba,Na,fa=ga[0xe79a],0b1010,Xa[0b1100][0b10][Xa[0b1100][0b11]]H=Ba-Na Ba,H,T=0b111110,ga[0xecdd],fa[H]fa,Na,Ba=H-Ba,T[0b11],T[0b10]H=Ba[Na]J,ea[fa]=0xfe,H H,Ba=ga[0xf08],0b101 fa,Ba=H-Ba,{}H=Ba ea[fa]=H end elseif J<0x194 then if J>0b101111011 then if J<0b110000011 then if J<0b101111110 then if J<=0b101111100 then Na=1 Ba=fa-Na J=na<=Na and 0x88 or 0x2eb else H,fa=0b110011,ga[0xecdd]Ba,H,T=0x30,ga[0xa62d],fa-H fa=H-Ba ea[T]=fa fa,Na,Ba=Xa[0b1100][0b10][Xa[0b1100][0b11]],0x34,ga[0xf08]H=Ba-Na T=fa[H]J,Fa,H,Ya,fa=0b11111110,0x25,T[0b11],ga[0xe79a],T[0b10]Na=Ya-Fa Ba=ea[Na]fa[H]=Ba end elseif J>0x17e then T=0b1100011 J=i<=T and 0x372cb/J or 0x37b-J else J,H=0x4c31e/J,H(Ba)Na,Ya=ga[0xecdd],0b1111 Na,Ya,Fa,Ba=Xa[0b1111][0b10][Xa[0b1111][0b11]],T,H,Na-Ya end elseif J>0b110001100 then if J>0x18e then ja,_a,J,c,Ga,C,ma=A,Fa,J+0xe56,Xa[0b10001][0b10][Xa[0x11][0b11]],1,ea,fa else J,fa,H=0x18ae4/J,ga[0xecdd],0x16 T,H=fa-H,{}fa=H ea[T]=fa fa,H=ga[0xe79a],0x18 T,Ba,Na=fa-H,ga[0xf08],1 H,Ba=Ba-Na,Na fa=H==Ba ea[T]=fa end elseif J>0b110000101 then H,fa=0b111011,ga[0xecdd]Ba,T,Na=ga[0xe79a],fa-H,0x21 H=Ba-Na fa=ea[H]J,ea[T]=0xfe,fa elseif J<=0b110000011 then c,A=1,T+Fa J,E=J+0x21f,A-c else J,ma,A,Ga,_a,c,ja=0x434-J,ea,Xa[0x11][0b10][Xa[0b10001][0b11]],Fa,1,Ya,T end elseif J<=0x175 then if J>=0b101101110 then if J>0x174 then H,fa=0x24,ga[0xecdd]Ba,H,T=0b110000,ga[0xe79a],fa-H fa,Na,Ya=H-Ba,ga[0xf08],Ba Ba,Na=Na-Ya,1 Na,Ya,H=ga[0x79e4],0b111101,Ba-Na Na,Ba=-1,Na-Ya J=H==Na and 0b100111011 or 0x312cc/J elseif J<=0x16e then Ya,J,Fa=ga[0x3a36],0b11111110,0b110000 Na=Ya-Fa P=P+Na else H,fa=0b110010,ga[0xecdd]T,Na,Ya=fa-H,ga[0xe79a],0b11001 Ba=Na-Ya H,Fa,Ya=ea[Ba],0b110001,ga[0xf08]Na=Ya-Fa Ba=ea[Na]fa=H+Ba ea[T]=fa fa,Ba,Na=Xa[0b1100][0b10][Xa[0b1100][0b11]],ga[0xa6b8],0b111110 H=Ba-Na T=fa[H]H,Ya,Fa,fa=T[0b11],ga[0x79e4],0x38,T[0b10]Na=Ya-Fa Ba=ea[Na]fa[H]=Ba J=f>Fa and 0x272-J or 0b111000101 end elseif J<=0b101101010 then if J<=0b101101000 then A,c,Fa,Na,Ya=T+Ba,1,T,Xa[0b1010][0b10][Xa[0b1010][0b11]],ea J,A=J+0xc7f,A-c else J,fa,H=0xfe,ga[0xecdd],0b110011 H,T,Ba=Xa[0b101][0b10][Xa[0b101][0b11]],fa-H,ga[0x819f]fa=H[Ba]ea[T]=fa H,fa=0b100110,ga[0xe79a]Ba,H,T=ga[0x2ace],Xa[0b101][0b10][Xa[0b101][0b11]],fa-H fa=H[Ba]ea[T]=fa end else J,P=J+-0b1101110,P+fa end elseif J>=0b101111010 then if J>0b101111010 then H,Ba=H(xa.d(Ba))A,_a,J,Na,Ya,Fa=fa,0b11,0x33b-J,Xa[0b10001][0b10][Xa[0x11][0b11]],H,1 _a,c=ea,T+_a else H,fa=0b110001,ga[0xecdd]fa,T=ga[0x819f],fa-H ea[T]=fa H,fa=0b10011,ga[0xe79a]T,Na,Ya=fa-H,ga[0xf08],0b100110 Ba=Na-Ya J,H=0x278-J,ea[Ba]fa=#H ea[T]=fa end elseif J<=0x176 then Na,Fa,Ya,J,c,A=Xa[0b1010][0b10][Xa[0b1010][0b11]],T,ea,J+0x2eb,1,T+Ba A=A-c else Ba,fa,Na=ga[0xe79a],Xa[0b1100][0b10][Xa[0b1100][0b11]],0b1110 H=Ba-Na T,Ba,H=fa[H],0b10000,ga[0xecdd]fa,Na,Ba=H-Ba,T[0b11],T[0b10]H=Ba[Na]ea[fa]=H H,Ba=ga[0xf08],0x30 J,fa,Na,Ba=0xfe,H-Ba,0b11100,ga[0xa62d]H=Ba-Na ea[fa]=H end elseif J<0x1a2 then if J<0b110011010 then if J<=0x196 then if J>=0x195 then if J>0x195 then c,A=Ya[0b11],Ya[0b10]Fa=A[c]Ya[1]=Fa Ya[0b10]=Ya Fa=1 Ya[0b11]=Fa Fa=nil J,s[Na]=J+0x130,Fa else H,fa=0x2e,ga[0xecdd]fa,T=nil,fa-H ea[T]=fa H,fa=0b110111,ga[0xe79a]H,Ba,T=ga[0xf08],0b110010,fa-H fa,Ba=H-Ba,1 Na,H,Ba=-1,fa-Ba,nil J=H==Na and 0b110101011 or 0x3c7 end else Ba,fa,Na=ga[0xe79a],Xa[0b1100][0b10][Xa[0b1100][0b11]],0b100011 H=Ba-Na T=fa[H]Ya,H,Fa,fa=ga[0xecdd],T[0b11],0x39,T[0b10]Na=Ya-Fa Ba=ea[Na]fa[H]=Ba Ba,H=0b110111,ga[0xf08]fa,Na,Ba=H-Ba,0x14,ga[0x79e4]Na,H=1,Ba-Na Na,Ya,Ba=nil,-1,H-Na J=Ba==Ya and 0x2d6 or J+0x113 end elseif J<=0b110010111 then J=Na and 0x279 or 0x3b1f5/J else ma,J,c,Ga,_a,A,ja=ea,0xe21,Ya,Fa,1,Xa[0b10001][0b10][Xa[0b10001][0b11]],T end elseif J<=0b110011100 then if J<=0x19b then if J>0b110011010 then C,J,ma=nil,0x59679/J,Ga.__iter ja=ma~=C else A=1 Fa=H-A J=R>A and 0b110000101 or J+-0x177 end else Fa,J,Ya=0x25,0b11111110,ga[0x3a36]Na=Ya-Fa P=P+Na end elseif J>0x19d then Na,Ba=0x2f,ga[0xecdd]T,Na,fa,Ba=Ba-Na,0b11,ga[0xe79a],ga[0xf08]H,Na=Ba-Na,0 Ba=fa==Na J=Ba and 0x3ac or 0b100001000 else T=0x9f J=i>T and J+0b111000100 or 0x22b end elseif J>=0x1b2 then if J>=0x1b6 then if J<=0x1b8 then if J>0x1b6 then Ya,A,Fa,J,Na,c=ea,T+Ba,T,0x8f3,Xa[0b1010][0b10][Xa[0b1010][0b11]],1 A=A-c else J,P=0x2b4-J,P+Ba end else Ga,_a=Fa[0xe79a],Xa[0b1100][0b10][Xa[0b1100][0b11]]J,c=0x29f,_a[Ga]H[Ba]=c end elseif J<=0b110110010 then fa,H=ga[0xecdd],0x25 Na,T,Ba=0x19,fa-H,ga[0xe79a]H=Ba-Na fa=ea[H]ea[T]=fa H,fa=0b1010,ga[0xf08]Ba,T,H,fa=nil,fa-H,nil,s fa,H,Ba=xa.b(fa,H,Ba)Na,Ya=fa(H,Ba)Ba=Na J=Ba==nil and 0b11111110 or 0x32f else fa,H=ga[0xecdd],0x1b T,Na,Ba=fa-H,0x28,ga[0xe79a]J,H=J+-0b10110111,Ba-Na fa=ea[H]ea[T]=fa H,fa=0b110111,ga[0xf08]Ya,Na,T=0x39,ga[0x79e4],fa-H Ba=Na-Ya Ya,Fa,H=ga[0xa6b8],0b10000,ea[Ba]Na=Ya-Fa Ba=ea[Na]fa=H<=Ba ea[T]=fa end elseif J>0x1a7 then if J<=0x1ab then Na,Ya=E-T,1 J,Ba=0x115,Na+Ya else Na=1 J,Ba=J+0b110110000,fa-Na end elseif J>0x1a3 then Na,Ba,fa=0b111100,ga[0xe79a],Xa[0b1100][0b10][Xa[0b1100][0b11]]H=Ba-Na T,H,Ba=fa[H],ga[0xecdd],0x15 fa,Ba,Na=H-Ba,T[0b10],T[0b11]H=Ba[Na]ea[fa]=H Ba,H=0x35,ga[0xf08]fa,Fa,Ya=H-Ba,0b101010,ga[0x79e4]J,Na=0x1a3b2/J,Ya-Fa Ba=ea[Na]H=not Ba ea[fa]=H elseif J>0x1a2 then Na,Ya=E-T,1 J,Ba=0x655fd/J,Na+Ya else ja=1 J,Ga=0x517-J,c-ja end elseif J<=0x9c then if J<=0x4e then if J<=0x25 then if J<0x15 then if J>0b1100 then if J>0b10001 then T=0b10 J=i<T and 0x381 or 0x2cb elseif J<0b1111 then r,P,oa,za,e,L,O,g,W,s,E,Ta=0x3f,1,0xe8,{},0x90,0b1101110,0x2f,0x6e,0x76,Xa[0x10][0b10][Xa[0x10][0b11]],-1,0x41 Aa,J,za=za,0xa7,Xa[1][0b10][Xa[1][0b11]]elseif J<=0b1111 then T=0b11010011 J=i<T and J+0x263 or J+0x2cc else T=0x7b J=i<=T and 0x23e or 0x35a end elseif J<=0b111 then if J>=0b101 then if J>0b101 then T=0b10110000 J=i>=T and 0x15 or 0x5f6/J else T=0b11010 J=i<T and 0xcf or 0b100000100-J end elseif J<=1 then T=0b11111111 J=i>T and 0x341-J or 0x3a7 else T=0x88 J=i<T and 0xb0/J or 0b110001010/J end elseif J>0b1001 then T=0b11011110 J=i<T and 0x69 or 0x58-J else T=0b11111111 J=i<T and 0x42 or 0x213/J end elseif J<0b11011 then if J>0b10111 then if J>0x19 then T=0b10101001 J=i<T and 0b11001110 or 0x80-J else T=0b1111101 J=i>T and J+0b110010 or 0x11 end elseif J>=0x16 then if J>0b10110 then T=0b10001111 J=i<=T and 0x212 or 0x4a64/J else fa,Na,Ba=Xa[0b1100][0b10][Xa[0b1100][0b11]],0b100111,ga[0xe79a]H=Ba-Na J,T=J+0xe8,fa[H]Fa,Ya,H,fa=0x17,ga[0xecdd],T[0b11],T[0b10]Na=Ya-Fa Ba=ea[Na]fa[H]=Ba H,Ba=ga[0xf08],0x3d fa,Ba,Na=H-Ba,Xa[0b101][0b10][Xa[0b101][0b11]],ga[0x819f]H=Ba[Na]ea[fa]=H end else T=0xb0 J=i<=T and 0b11010110-J or 0x3b0 end elseif J<=0b100011 then if J>0b11111 then T=0x32 J=i<=T and 0b1000010-J or 0x302/J elseif J>0b11100 then T=0x30 J=i<=T and 0x3f5 or 0x342 elseif J>0x1b then T=0b10100001 J=i>T and 0x6d44/J or 0b110011101 else T,Ea=0x75,0b10100 J=i>=T and 0x12c6/J or 0b1000111-J end elseif J<=0b100100 then T=0xde J=i<=T and 0x220 or 0x2dc-J else V,T=0x86,0b11000110 J=i>T and 0x4f-J or 0x17b4/J end elseif J<0x3b then if J<=0x2e then if J>=0b101100 then if J<0x2d then T=0b1110010 J=i>T and 0x21e or 0x218 elseif J>0x2d then T=0b1011100 J=i>T and J+0x2ac or 0x33f-J else T=0x27 J=i>=T and 0x9a or J+0b10100100 end elseif J<0b101010 then T=0x9b J=i>=T and 0b111110 or J+0xbe elseif J>0b101010 then X,va,T=0xf8,0x38,0xdc J=i<=T and 0x50a0/J or J+0x2de else H,fa=0b1111,ga[0xecdd]T,Na,Ba=fa-H,0b11110,ga[0xe79a]H,J,Ba=Ba-Na,0x128-J,1 fa=H==Ba ea[T]=fa H,fa=0b1100,ga[0xf08]Ya,Na,T=0x11,ga[0x79e4],fa-H Ba=Na-Ya H,Ya,Fa=ea[Ba],ga[0xa6b8],0x27 Na=Ya-Fa Ba=ea[Na]fa=H==Ba ea[T]=fa end elseif J<0b110110 then if J>0x31 then T=0b110 J=i>=T and 0b1110011 or 0x1d9b/J else x,T=0b10111000,0xc2 J=i<T and 0x1291/J or 0b1010110-J end elseif J>0x36 then T=0xec J=i>T and 0x1500/J or 0xa8-J else T=0b110101 J=i>T and J+0x399 or 0xcb58/J end elseif J<0x48 then if J>=0b111110 then if J<0x40 then T=0b10100111 J=i<=T and 0b1111000 or 0x1a elseif J>0b1000000 then T=0xf7 J=i<T and 0x97 or 0x12f-J else Ya,Na,T=0b11010,ga[0xe79a],ga[0xecdd]Ba=Na-Ya Fa,H,Ya=0x19,ea[Ba],ga[0xf08]Na=Ya-Fa Ba=ea[Na]fa=H..Ba ea[T]=fa fa,H=ga[0x79e4],0b110010 Ba,T,H=0b10110,fa-H,ga[0xa6b8]Ba,fa=1,H-Ba H,Ba,Na=fa-Ba,nil,-1 J=H==Na and 0x308 or 0x2440/J end elseif J>0b111011 then T=0x93 J=i<T and 0x17 or 0x38b6/J else T,k=0b101111010,0b1010101 J=i<T and 1 or 0x221c/J end elseif J>0x4c then if J<=0x4d then pa,M,Qa,F,T=0x48,0x92,0b1011,0xa2,0b1011010 J=i>T and 0x43fa/J or 0xa8 else T=0b1001000 J=i>T and 0xd7b8/J or 0x3b9-J end elseif J>0x4b then T=0b11100000 J=i<T and 0xab0/J or 0x10a-J elseif J<=0x48 then T=0b1100 J=i<=T and J+0b110110100 or 0x2a6 else T=0b1111110 J=i>T and 0x210-J or 0x2fc end elseif J>=0x82 then if J>0b10001111 then if J<0x97 then if J>=0b10010100 then if J>0b10010100 then T=0x79 J=i<T and 0x1b or 0x19 else T=0x17a J=i>T and 0x16704/J or 0x23f end elseif J>0b10010000 then J,Na=J+0b11010111,1 Ba=fa-Na else H,fa=0b1111,ga[0xecdd]T,Ba,H=fa-H,0b1010,ga[0xe79a]Ba,fa,Na=ga[0x9848],H-Ba,0x1d Na,H,Ya=ga[0x3a36],Ba-Na,0b110010 Ya,Ba,Na=ea[fa],Na-Ya,ea[T]J=Na>=Ya and 0x282 or 0x2b4-J end elseif J>0x9a then if J<=0x9b then T=0xe6 J=i<=T and 0b10110101 or 0x7ae9/J else Ba,fa,Na=ga[0xe79a],Xa[0b1100][0b10][Xa[0b1100][0b11]],0x29 H=Ba-Na Ba,T,H=0b11001,fa[H],ga[0xecdd]Na,Ba,fa=T[0b11],T[0b10],H-Ba H=Ba[Na]ea[fa]=H H,Ba=ga[0xf08],0b10111 fa,H=H-Ba,ga[0x819f]ea[fa]=H J=e<=Ba and 0x31f-J or 0xfe end elseif J<=0x98 then if J>0x97 then A,c=T+Fa,1 J,E=0x136,A-c else T=0xf2 J=i>T and J+0b111 or 0x399 end else T=0b100111 J=i<=T and J+0x233 or 0x66de/J end elseif J<0x88 then if J>=0x85 then if J>0b10000110 then J,H,Ba=J+0xc25,Xa[0b11][0b10][Xa[0b11][0b11]],fa elseif J<=0x85 then Na=1 J,Ba=0x2d0,fa-Na else T=0b11001100 J=i>T and 0b111110000-J or J+0xab end elseif J>0x82 then T=0x89 J=i>T and 0x160 or 0x215 else Q,T=0xe8,0xb2 J=i>=T and 0xd0 or 0b111 end elseif J<=0x8c then if J<=0b10001010 then if J<0b10001001 then J=Ba and 0x2f9 or 0x30c elseif J<=0b10001001 then ma=Ga J=ma and 0x2c8 or 0x1fa42/J else T=0xda J=i>T and 0x440-J or 0xd578/J end else J,Ba=J+0xef,xa.c(Ba(Na,Ya))end elseif J>0x8e then T=0b100 J=i>T and 0x9c or J+-0b1111101 else T=0b1011001 J=i>T and 0xe0a6/J or 0x243-J end elseif J>0b1100110 then if J>0b1110000 then if J>=0x78 then if J<=0x78 then T=0b10011111 J=i>=T and 0b10010100-J or 0x11d-J else T=0b11010101 J=i>T and 0x2ac or 0b110101101-J end elseif J>0b1110011 then T=0x5f J=i<T and 0x14d8/J or 0x7148/J else T=0b1100 J=i<T and 0b11100100 or 0b10111011-J end elseif J>0b1101100 then if J<=0x6e then T=0x3b J=i<T and J+-0x38 or 0x4376/J else T=0xeb J=i<=T and 0x225 or J+0x2a6 end elseif J>=0b1101010 then if J>0x6a then T=0b10011 J=i<=T and 0x2ec or 0x29d else T,ra,S,D=0x23,0x20,0b1100000,0x2c J=i>=T and 0b10111100 or 0b100111100-J end else T=0b11011100 J=i>=T and 0b10010100-J or 0x389a/J end elseif J>0x5e then if J<0x61 then if J<=0b1011111 then T=0xb2 J=i<=T and J+0b10100100 or 0x3e5-J else H,fa=0x19,ga[0xecdd]Ba,T,Na=ga[0xe79a],fa-H,0x18 H=Ba-Na fa=ea[H]J,ea[T]=0xfe,fa H,fa=0x39,ga[0xf08]H,T,Ba=ga[0xa62d],fa-H,0b10101 fa=H-Ba ea[T]=fa end elseif J<=0x61 then T=0xbd J=i<=T and 0b11010111 or 0b1000000 else T=0b10101001 J=i<=T and 0b111001010-J or 0x6f2a/J end elseif J<=0x59 then if J<0b1011000 then if J>0b1001111 then T=0b1111111 J=i>T and 0b10 or 0x2fba/J else T,a,R=0xae,0b10001001,0x31 J=i<T and 0b101000 or 0xbb end elseif J>0x58 then T=0b1011000 J=i<=T and 0xdc or 0x8e else T=0x83 J=i>T and 0b11010101 or 0x10f-J end elseif J<=0x5d then T=0x6e J=i<=T and 0xe8 or 0xc4 else T=0b11010 J=i<=T and 0x9862/J or 0xdb36/J end elseif J<0b11010010 then if J<=0xb5 then if J>=0b10101000 then if J>0b10110000 then if J>0b10110100 then T=0b11100100 J=i>T and 0x38a or 0x247 elseif J<=0b10110010 then if J<=0xb1 then t,ya,T=0b111,0b11110111,0b11010000 J=i<T and 0xa9 or 0xc3 else T=0x75 J=i<=T and 0xb09c/J or 0x344 end else T=0b1110001 J=i>T and 0b1010010 or 0b100000001-J end elseif J<0b10101101 then if J>=0b10101001 then if J<=0b10101001 then T=0xcc J=i<T and 0xf5 or 0b100101111-J else Na,Ba=0b100,ga[0xecdd]Ba,Na,T=ga[0xe79a],0x1b,Ba-Na Ba,Na,fa=ga[0xf08],0b100,Ba-Na H,Na=Ba-Na,0 Ba=fa==Na J=Ba and 0x398 or 0x1bc33/J end else T,Ra,ia=0b1001101,0b1101,0xb9 J=i>=T and 0x3a68/J or 0b11001100 end elseif J>0b10101110 then T=0x99 J=i>T and 0x3ba or 0x200 elseif J>0xad then T=0b1000010 J=i>=T and 0b101011011-J or 0xfc else T=0b1000010 J=i<=T and 0b111011011-J or J+0b100111110 end elseif J<=0xa3 then if J<0b10100001 then if J>=0x9e then if J>0x9e then j=C(Ja,m)m=j J=m==nil and J+0x265 or 0x7563/J else fa,Ba,Na=Xa[0b1100][0b10][Xa[0b1100][0b11]],ga[0xe79a],0b10 H=Ba-Na T,H,Ba=fa[H],ga[0xecdd],0x2d Ba,fa,Na=T[0b10],H-Ba,T[0b11]H=Ba[Na]ea[fa]=H Ba,H=0b1000,ga[0xf08]J,fa,Ya,Fa=0xfe,H-Ba,ga[0x79e4],0x15 Na=Ya-Fa Ba=ea[Na]H=#Ba ea[fa]=H end else Ca,ca,T=0b11101100,0x26,0b111100 J=i>=T and 0x21a or 0x47f-J end elseif J<=0b10100010 then if J<=0xa1 then qa,T,Ma,Pa=0x2c,0xb7,0b1110001,0b1011011 J=i<=T and 0x15d or 0b100101000 else T=0xe2 J=i<T and 0xe3 or 0b10100110 end else T=0b10011001 J=i<T and 0x8dfd/J or 0xb0 end elseif J>0b10100110 then s=s(Aa,za)za=Xa[0b1001][0b10][Xa[0b1001][0b11]]G,Aa=za,za[0xe8bc]z,J,q=G[0xa91a],0xfe,G aa,ga,i=q[0x93f0],nil,nil elseif J>0b10100101 then T=0b11110001 J=i>T and 0b10101111-J or 0x9d92/J elseif J<=0xa4 then T=0b11000011 J=i<=T and 0x2d4-J or 0x426-J else T=0x9b J=i>T and J+0b11010011 or 0x239c4/J end elseif J<0xc3 then if J<=0xbd then if J>=0b10111011 then if J<=0b10111100 then if J>0b10111011 then T,p=0x35,0b11111010 J=i>=T and 0b11100111 or 0xe5 else Ka,T,Ha=0b101100,0b10111000,0x77 J=i<=T and 0b100111101-J or J+-0b10001010 end else Y,_=0x33,Xa[0b110][0b10][Xa[0b110][0b11]]Oa,Y,J,ba=ma*Y,Xa[0b1000][0b10][Xa[0b1000][0b11]],0x258,j end elseif J>0b10110111 then Ba,H=0x1d,ga[0xecdd]fa=H-Ba Ya,Na,fa,T=0b100111,ga[0xe79a],ga[0x819f],ea[fa]Ba=Na-Ya H=ea[Ba]T[fa]=H fa,H=ga[0xf08],0x2e J,H,T=0xb88c/J,{},fa-H fa=H ea[T]=fa else T=0b10000000 J=i<=T and 0x393 or 0x28e end elseif J<=0xc1 then if J<=0b11000000 then if J<=0xbe then T=0xe0 J=i<=T and 0x25a or 0b101011100 else T=0x1e J=i<=T and 0x30e or 0x39c-J end else H,fa=0b110111,ga[0xecdd]fa,T=nil,fa-H J,ea[T]=J+0b111101,fa end else fa,H=ga[0xecdd],0x3d J,H,T=0b11111110,{},fa-H fa=H ea[T]=fa fa,H=ga[0xe79a],0x10 T,H,Ba=fa-H,ga[0xa62d],0x3f fa=H-Ba ea[T]=fa end elseif J<0xcc then if J>=0b11000101 then if J>0xca then T=0xe7 J=i<=T and 0x194 or 0x29a elseif J<=0xc5 then T=0x8a J=i>T and 0x90 or 0x84 else ja,ma=c(_a,Ga)Ga=ja J=Ga==nil and J+0x34 or 0b111110010 end elseif J<=0b11000011 then T=0xd4 J=i>T and 0b10000000 or 0b1111 else fa,H=ga[0xecdd],0b111 T,Ya,Na=fa-H,0b100010,ga[0xe79a]Ba=Na-Ya H=ea[Ba]fa=#H ea[T]=fa H,fa=0b1110,ga[0xf08]Na,T,Ya=ga[0x79e4],fa-H,0b11 Ba=Na-Ya Ya,H,Fa=ga[0xa6b8],ea[Ba],0x19 Na=Ya-Fa Ba=ea[Na]fa=H%Ba ea[T]=fa J=r>Fa and 0xc278/J or 0xc898/J end elseif J>=0b11001111 then if J<0b11010000 then T=0x15 J=i<=T and 0x6c or J+0b1001 elseif J>0b11010000 then T=0b100011 J=i>T and 0x293a8/J or 0x1c9-J else T=0b10110101 J=i<T and 0x5f or J+-0b101111 end elseif J<=0xcc then T=0b1001010 J=i>=T and 0b11111001 or 0b1001110 else fa,H=ga[0xecdd],0x38 H,T,Ba=Xa[0b101][0b10][Xa[0b101][0b11]],fa-H,ga[0x819f]fa=H[Ba]ea[T]=fa H,fa=0x28,ga[0xe79a]Na,Ba,T=0x21,ga[0xf08],fa-H H=Ba-Na fa=ea[H]J,ea[T]=0xcc64/J,fa end elseif J<=0xed then if J>=0xdf then if J<0b11100101 then if J<=0b11100010 then if J<=0b11100000 then if J<=0xdf then f,T=0b11110100,0b10010110 J=i<=T and 0x242-J or 0x174 else w,K,h,T,Ua,la,Wa,I=0b10011001,0b1011001,0b10001,0xca,0x7b,0xda,0b10010001,0b10010111 J=i>=T and 0b10100010 or J+-0b10010001 end else T=0x63 J=i>=T and 0b1011101 or 0b1110100 end elseif J<=0xe3 then Sa,T=0b1110101,0xd6 J=i<=T and 0b10110001 or 0b1100 else T=0b110 J=i>T and 0b110100111 or 0x2f2-J end elseif J>=0xe8 then if J>=0b11101001 then if J>0b11101001 then T=0b11110111 J=i>T and 0x327 or 0x1bd else Na=1 J,Ba=0x38c,fa-Na end else T=0x65 J=i>T and 0b101011001 or 0x181 end elseif J>=0b11100110 then if J>0b11100110 then T=0x3e J=i>T and 0x9d02/J or 0b101010101-J else T=0x96 J=i<T and 0x123-J or 0xa3 end else T=0b101111 J=i>=T and J+-0b11000010 or 0b101101 end elseif J>0xd9 then if J>0b11011101 then Ya,Fa=ga[0x3a36],0x30 Na=Ya-Fa J,P=0xfe,P+Na elseif J>=0b11011100 then if J<=0b11011100 then T=0x56 J=i>T and 0xcff8/J or 0x368 else J,P=0x1db-J,P+Ba end else T=0b10101110 J=i<=T and 0x3b8-J or J+0x242 end elseif J<=0b11010111 then if J<0b11010101 then if J<=0xd2 then b,U,T=0x21,0b11101010,0x12 J=i<T and 0x2b7a/J or 0b101 else Ya,Na=Xa[0b1101][0b10][Xa[0b1101][0b11]],ea[T]Ga,c,A,Fa=1,ea,Xa[0b1010][0b10][Xa[0b1010][0b11]],Na J,Ga,_a=0xf7f,T+Ba,T+Ga end elseif J<=0xd5 then Ba,Na=ga[0xecdd],0x2a T,Ba,Na=Ba-Na,ga[0xe79a],0b100000 Na,fa,Ba=0x19,Ba-Na,ga[0xf08]H,Na=Ba-Na,0 Ba=fa==Na J=Ba and 0x341-J or 0x26b else T=0b10111010 J=i>T and 0x2d7 or 0x3e0 end elseif J<=0xd8 then H,fa=0x3c,ga[0xecdd]T,Ba=fa-H,1 H=T+Ba Na,fa=0b10,ea[H]Ba=T+Na H,Na=ea[Ba],ea[T]Ba=Na+H ea[T]=Ba Na=0 J=H>Na and 0x2a4-J or 0x208 else J,Ba=0b100010010,E-T end elseif J<=0b11111010 then if J>0b11110101 then if J<=0xf9 then if J<=0xf8 then if J>0xf7 then H,fa=0b11000,ga[0xecdd]Ya,Na,T=0b10100,ga[0xe79a],fa-H J,Ba=J+0b110,Na-Ya Fa,H,Ya=0x1a,ea[Ba],ga[0xf08]Na=Ya-Fa Ba=ea[Na]fa=H~=Ba ea[T]=fa else c,A=1,T+Fa J,E=J+0x264,A-c end else T=0x4a J=i>T and 0x17a or 0x2e4 end else T=0b1011111 J=i<=T and 0xfe or J+0b1011100 end elseif J<=0b11110011 then if J<=0xf2 then if J<0b11110000 then T=0b10010011 J=i>T and 0x422-J or 0x1e6 elseif J>0xf0 then H,Ba=ga[0xf08],0b101111 fa=H-Ba T,H,Ba=Aa[fa],ga[0xe79a],0b101101 fa,J,H=H-Ba,0x17e,Xa[0b1110][0b10][Xa[0b1110][0b11]]Ba=fa else A=1 J,Fa=0x2a1,H-A end else T=0b11101001 J=i>T and J+-0b10111011 or 0x18e-J end elseif J>0xf4 then T=0b11001010 J=i<=T and 0b10111010 or 0x363 else l,o,T=0x2c,0xde,0b1001000 J=i>=T and J+-0x40 or 0x6a end elseif J<0b100000110 then if J<=0b11111111 then if J>0b11111110 then T=0x1e J=i<T and 0x5da2/J or 0xc0 elseif J<=0xfc then T=0b111111 J=i>T and J+0x227 or 0x1ab38/J else u,ga,ha,Ia,ka=0x70,aa[P],0xed,0b10110011,0x71 T,i=1,ga[0x8341]P,T=P+T,0b10001111 J=i>=T and 0b11100000 or 0xf218/J end else fa,H=ga[0xecdd],0b11100 H,Ba,T=ga[0xe79a],0b110001,fa-H Na,Ba,fa=0b101010,ga[0x9848],H-Ba Na,Ya,H=ga[0x3a36],0b100110,Ba-Na Na,Ba,Ya=ea[T],Na-Ya,ea[fa]J=Na<Ya and 0x2c63a/J or 0b11011101 end elseif J<0x109 then if J>0x106 then da=0xb8 J=Ba and J+0x1c8 or 0b110001101-J else J,ma,ja=0x551,A,Ga.__iter end elseif J<0x10d then c=Ya(Fa,A)A=c J=A==nil and 0b111100001 or J+0x220 elseif J<=0b100001101 then J=Ba and J+0b110001011 or 0x24a else A,_a,ja,J,ma,c,Ga=Xa[0x11][0b10][Xa[0b10001][0b11]],1,T,0x5df,ea,Ya,Fa end elseif J>=0x38d then if J<=0x6cd then if J<=0x3de then if J<=0x3bb then if J>=0x3a9 then if J<0x3b2 then if J<=0x3ac then if J<0x3aa then Na=xa.c(Na(Ya,Fa,A))return xa.d(Na)elseif J<=0x3aa then Na=0 J=Ba>Na and 0x6a420/J or 0x219 else J,Ba=J+-0x2a4,E-T end elseif J<=0x3b0 then H,fa=0b110110,ga[0xecdd]Ya,T,Na=0b100101,fa-H,ga[0xe79a]Ba=Na-Ya Ya,Fa,H=ga[0xf08],0x3b,ea[Ba]Na=Ya-Fa Ba=ea[Na]fa=H..Ba J,ea[T]=0b11111110,fa else Na=Na(Ya)Ya=nil J=Na==Ya and 0xb2575/J or 0xdc8fc/J end elseif J<0x3b6 then if J>=0x3b3 then if J<=0x3b3 then J,ea[T]=0x4ea-J,H fa=H else fa,H=ga[0xecdd],0x11 T,Na,Ba=fa-H,0x2a,ga[0xe79a]H=Ba-Na fa=ea[H]ea[T]=fa fa,H=ga[0xf08],Na T,J,Na,Ba=fa-H,0xfe,0x28,ga[0x79e4]H=Ba-Na fa=ea[H]ea[T]=fa end else C=nil ja=ma==C J=ja and 0x770-J or J+0b101000 end elseif J>=0x3ba then if J>0x3ba then Fa,Ya=0b10000,ga[0x9848]Na=Ya-Fa J,P=0x4b9-J,P+Na else fa,J,H=ga[0xecdd],0b11111110,0b110100 H,T={},fa-H fa=H ea[T]=fa fa,H=ga[0xe79a],0x2c Na,Ba,T=0b1101,ga[0xf08],fa-H H=Ba-Na fa=ea[H]ea[T]=fa end else H,fa=0b11010,ga[0xecdd]fa,T=ga[0x819f],fa-H ea[T]=fa fa,H=ga[0xe79a],0b10011 fa,T=ga[0x2ace],fa-H ea[T]=fa J=Sa>=H and 0xfe or J+-0x33e end elseif J>=0x399 then if J<=0x39f then if J<0x39b then H,fa=0x31,ga[0xecdd]Na,T,J,Ya=ga[0xe79a],fa-H,0xfe,0b1000 Ba=Na-Ya Ya,Fa,H=ga[0xf08],0x29,ea[Ba]Na=Ya-Fa Ba=ea[Na]fa=H<Ba ea[T]=fa elseif J<=0x39b then Na,Ya=fa(H,Ba)Ba=Na J=Ba==nil and 0x63b-J or 0x712-J else J,P=0x49d-J,P+Ba end elseif J<=0x3a2 then J,c,Ga,ja,A,ma,_a=0x894,Ya,Fa,T,Xa[0b10001][0b10][Xa[0b10001][0b11]],ea,1 else Na,Ba=0x2c,ga[0xecdd]Na,T,Ba=0x2b,Ba-Na,ga[0xe79a]Na,Ba,fa=0b1001,ga[0xf08],Ba-Na H,Na=Ba-Na,0 Ba=fa==Na J=Ba and 0x286 or J+-0x31f end elseif J<=0x394 then if J>0x393 then Ba,Na,fa=ga[0xe79a],0b110011,Xa[0b1100][0b10][Xa[0b1100][0b11]]H=Ba-Na T=fa[H]Ya,H,fa,Fa=ga[0xecdd],T[0b11],T[0b10],0b101111 J,Na=0xfe,Ya-Fa Ba=ea[Na]fa[H]=Ba elseif J>0x38d then Ba,fa,Na=ga[0xe79a],Xa[0b1100][0b10][Xa[0b1100][0b11]],0x36 H=Ba-Na T,fa=fa[H],ga[0xecdd]Na,Ba=T[0b11],T[0b10]H=Ba[Na]J,ea[fa]=0xfe,H H,Ba=ga[0xf08],0x37 fa,Na,Ba=H-Ba,ga[0x819f],Xa[0b101][0b10][Xa[0b101][0b11]]H=Ba[Na]ea[fa]=H else Ya,Fa=Ya(xa.d(Fa))A=0 J=H==A and 0x32c or J+-0b11101111 end elseif J>0x397 then J,Ba=0x299,E-T else J,ma=0x6a6-J,ma(C,Ja)Fa=ma end elseif J<=0x3cf then if J>=0x3c7 then if J>0x3cc then if J<=0x3ce then Ya,Fa=ga[0x9848],0b110010 Na=Ya-Fa P=P+Na J=Pa>=Fa and 0x3c664/J or 0x192 else fa,H=ga[0xecdd],0x35 H,fa,Ba,T=nil,s,nil,fa-H fa,H,Ba=xa.b(fa,H,Ba)Na,Ya=fa(H,Ba)Ba=Na J=Ba==nil and 0b11111110 or 0x5ab-J end elseif J<=0x3cb then if J<0x3c8 then Na=1 J,Ba=0x4dc-J,fa-Na elseif J>0x3c8 then c,A=Ya[0b11],Ya[0b10]Fa=A[c]J,Ya[1]=0x3cc,Fa Ya[0b10]=Ya Fa=1 Ya[0b11]=Fa Fa=nil s[Na]=Fa else J=Ba and 0x4ee-J or 0x2a3 end else Na,Ya=fa(H,Ba)Ba=Na J=Ba==nil and 0x42720/J or 0b100101100 end elseif J<=0x3c1 then if J>0x3be then J,P=0b11111110,P+H elseif J>0x3bc then J,Ja,C=0x263,A,Xa[0b10010][0b10][Xa[0x12][0b11]]else Fa=0b10 Ya=T+Fa ea[Ya]=Na J,Ba=0xdaed8/J,Na end elseif J<=0x3c4 then fa,H=ga[0xecdd],0x11 Na,Ba,T=0b10011,ga[0xe79a],fa-H H,J,Ba=Ba-Na,0x3bc78/J,1 fa=H==Ba ea[T]=fa else J,Na=0b101110110,1 Ba=fa-Na end elseif J>0x3d9 then if J>=0x3dd then if J>0x3dd then Na,Ya=fa(H,Ba)Ba=Na J=Ba==nil and 0b11111110 or 0x32f else Ga={}Ga[0b11]=c Ga[0b10]=ea _a=Ga s[c]=_a J=F>=pa and J+-0b11111011 or 0x2f5 end elseif J>0x3da then Ya,Fa=ga[0x9848],0x3a Na=Ya-Fa P=P+Na J=Ta>Fa and J+-0x2de or 0xa6ad4/J else J=ja and 0x3d0 or J+-0x285 end elseif J<=0x3d4 then if J>0x3d1 then c,_a,A,Ga,ma,J,ja=Ya,1,Xa[0b10001][0b10][Xa[0x11][0b11]],Fa,ea,0x365b3c/J,T elseif J<=0x3d0 then ja,J,ma=Xa[0b10][0b10][Xa[0b10][0b11]],J+0xb07,A else J=Ba and 0xd4 or J+-0b10001100 end elseif J<=0x3d5 then A,ja,ma,Ga,J,c,_a=Xa[0x11][0b10][Xa[0b10001][0b11]],T,ea,Fa,0xd2c,Ya,1 else Ba,Na,fa=ga[0xe79a],0x2d,Xa[0b1100][0b10][Xa[0b1100][0b11]]H=Ba-Na T,H,Ba=fa[H],ga[0xecdd],0b101010 fa,Ba,Na=H-Ba,T[0b10],T[0b11]H=Ba[Na]ea[fa]=H Ya,Na,H=0x2d,ga[0x79e4],Xa[0b1100][0b10][Xa[0b1100][0b11]]Ba=Na-Ya Na,Ba,fa=0x20,ga[0xf08],H[Ba]Na,H,Ya=fa[0b10],Ba-Na,fa[0b11]Ba=Na[Ya]ea[H]=Ba J=Ca<ca and 0b111101001 or 0x4d7-J end elseif J>=0x45b then if J<0x5d0 then if J<0x52d then if J>=0x494 then if J>=0x4b6 then if J>0x4b6 then J=0x2a8 Na(Ya)else J,A=J+-0x161,xa.c(A(c,_a,Ga))end else A(c,_a,Ga,ja,ma)Ga,c,ja=ga[0xa6b8],Xa[0b1100][0b10][Xa[0b1100][0b11]],0b1011 J,_a=0x592-J,Ga-ja A=c[_a]c,ma,_a,C=A[0b10],ga[0x79e4],A[0b11],0x29 ja=ma-C Ga=ea[ja]c[_a]=Ga end elseif J<=0x45b then Ya,Fa,A=Ya(Fa,A)Ya,Fa,A=xa.b(Ya,Fa,A)c=Ya(Fa,A)A=c J=A==nil and J+-0x27a or 0x329 else Na=xa.c(Na(Ya,Fa,A))return xa.d(Na)end elseif J>=0x551 then if J>=0x5a8 then if J<=0x5a8 then J=0x59cb0/J Na(Ya,Fa,A,c,_a)else Ga=Ga(ja)ma=nil ja=Ga~=ma J=ja and 0x759-J or 0x37b end else ja,ma,C=ja(ma)Ya,Na,Fa=ma,ja,C J=La<Da and J+-0x2c9 or 0x128 end elseif J>0x52d then J=Ya<=0 and 0x830 or 0xa60 else Ya=xa.c(Ya(Fa,A,c))return xa.d(Ya)end elseif J<0x677 then if J>=0x5fb then if J<0x61b then _=_(ta,Oa)ma=_ J=Wa<Oa and 0x3b6e5/J or 0b100100010 elseif J<=0x61b then J,Fa=0xbfc,xa.c(Fa(xa.d(A)))else J=Ba<Na and 0x73a-J or 0x3e6 end elseif J>0x5d0 then J=0x5d342/J A(c,_a,Ga,ja,ma)else Ba(Na)J=K<=la and 0x158070/J or 0x2a end elseif J<0x697 then if J<=0x677 then Na(Ya,Fa,A,c,_a)Ya=0b10 Na,A=T+Ya,0b11 Fa=T+A Ya=ea[Fa]ea[Na]=Ya Fa=0b10 Ya=T+Fa Ya,Na=nil,ea[Ya]J=Na==Ya and 0x287 or 0xa32-J else H=H(Ba)Ya,J,Na=0x3a,0x4773f8/J,ga[0xf08]Na,Fa,Ya,Ba=Xa[0b1111][0b10][Xa[0b1111][0b11]],H,T,Na-Ya end elseif J<0x69e then Fa,A,c=Fa(A,c)Fa,A,c=xa.b(Fa,A,c)_a=Fa(A,c)c=_a J=c==nil and 0x36d or J+-0x3ec elseif J<=0x69e then J=Ya>0 and 0xfff or 0x1515-J else J,m=0x397,m(j)Ja,C=4294967295,Ja+m end elseif J>0x3eb then if J>0x3fe then if J<=0x42f then if J>0x41f then J,wa=0x31a5c2/J,wa(Va)Y,ba=ba+wa,4294967295 elseif J>0x40b then J,Fa=0xbb6,xa.c(Fa(xa.d(A)))else J,A=0x828,xa.c(A(c,_a,Ga))end else Ya,Fa=Ya(xa.d(Fa))A=0 J=H==A and J+-0x280 or 0x283 end elseif J>=0x3f6 then if J<0x3fc then Ya=3335376910 J=Na~=Ya and 0x303 or J+-0b1001100 elseif J<=0x3fc then H,fa=0b101101,ga[0xecdd]Na,T,Ya=ga[0xe79a],fa-H,0x27 Ba=Na-Ya H,Ya,Fa=ea[Ba],ga[0xf08],0b11000 Na=Ya-Fa Ba=ea[Na]fa=H-Ba ea[T]=fa J=sa>Fa and J+-0x2fe or 0b10111110 else Na=1 J,Ba=0x6dc90/J,fa-Na end elseif J<=0x3f1 then J=Ba and 0x70a-J or 0x2cc else T=0b101111 J=i>T and 0x21b or 0x276 end elseif J<0x3e4 then if J<0x3e1 then if J>0x3df then y,T=0b10011010,0b10111001 J=i>T and 0x326 or 0x1cd else Na,J,c,A,Fa,Ya=Xa[0b1010][0b10][Xa[0b1010][0b11]],0x2086b9/J,1,T+Ba,T,ea A=A-c end elseif J>=0x3e2 then if J<=0x3e2 then fa,H=ga[0xecdd],0b1000 T,H=fa-H,{}fa=H ea[T]=fa H,fa=0b100111,ga[0xe79a]Ya,Na,T=0x12,ga[0xf08],fa-H Ba=Na-Ya Ba,H=ga[0x819f],ea[Ba]fa=H[Ba]ea[T]=fa J=p<=Ya and 0x462-J or J+-0x2e4 else _a=Fa(A,c)c=_a J=c==nil and 0x36d or 0x2ab end else J,c,A=0x1e9,Ya[0b11],Ya[0b10]Fa=A[c]Ya[1]=Fa Ya[0b10]=Ya Fa=1 Ya[0b11]=Fa Fa=nil s[Na]=Fa end elseif J>0x3e6 then if J>0x3e7 then J,Ba=0x5fe-J,E-T else H,fa=0x1d,ga[0xecdd]T,Ya,Na=fa-H,0b101011,ga[0xe79a]Ba=Na-Ya H,Ba=ea[Ba],ga[0x819f]fa=H[Ba]ea[T]=fa fa,H=ga[0xf08],0b11 H,J,T={},0b11111110,fa-H fa=H ea[T]=fa end elseif J<0x3e5 then J,Ya,Na=0b110111000,1,E-T Ba=Na+Ya elseif J<=0x3e5 then c,_a=Fa[0b10],Fa[0b11]A=c[_a]J,Fa[1]=0x1ca,A Fa[0b10]=Fa A=1 Fa[0b11]=A A=nil s[Ya]=A else A,Fa=1,aa[P]A,c,P=Fa[0xecdd],1,P+A J=A==c and 0xda500/J or 0x6b736/J end elseif J<0xbfc then if J<=0x987 then if J<0x894 then if J<=0x7ea then if J<0x7a6 then if J<0x782 then J,Fa=0x969,xa.c(Fa(xa.d(A)))elseif J>0x782 then Na=xa.c(Na(Ya,Fa,A))return xa.d(Na)else J,A=0xec8,xa.c(A(c,_a,Ga))end elseif J>=0x7c1 then if J>0x7c1 then J=Ya<=0 and 0x63c or 0x3e6 else A,c,_a=A(c,_a)A,c,_a=xa.b(A,c,_a)Ga=A(c,_a)_a=Ga J=_a==nil and 0x336 or 0x194a83/J end else Ya,Fa=Ya(xa.d(Fa))A=0 J=H==A and 0x15c7b6/J or 0xa8d-J end elseif J>=0x867 then if J<=0x867 then Na=xa.c(Na(Ya,Fa,A))return xa.d(Na)else J,A=0xf0e,xa.c(A(c,_a,Ga))end elseif J<=0x828 then J,Fa=0x7a6,xa.c(Fa(xa.d(A)))else J=Ba<Na and 0xfe or 0x1290-J end elseif J>=0x8f5 then if J<=0x965 then if J<0x8f8 then Ya,Fa=Ya(xa.d(Fa))A=0 J=H==A and 0b10011000 or 0x118779/J elseif J<=0x8f8 then J,Fa=J+-0x56b,xa.c(Fa(xa.d(A)))else J,Fa=0xdea,xa.c(Fa(xa.d(A)))end elseif J<=0x969 then Ya,Fa=Ya(xa.d(Fa))A=0 J=H==A and J+-0x816 or 0x19a else J=Ba<Na and 0xa85-J or 0x28a end elseif J>=0x8bd then if J<=0x8ee then if J>0x8bd then Na=xa.c(Na(Ya,Fa,A))return xa.d(Na)else J=0xc79-J Ya(Fa)end else Na=xa.c(Na(Ya,Fa,A))return xa.d(Na)end elseif J>0x894 then J,Ba=0x1564-J,xa.c(Ba(Na,Ya))else J=0xfe A(c,_a,Ga,ja,ma)end elseif J>0xabc then if J<0xbb1 then if J<=0xb4a then if J<=0xaea then if J>0xad3 then Na=Na(Ya,Fa)ea[Ba]=Na Na,Ba=fa,1 Ya=Ba J=Na~=Na and 0xbe8-J or 0x1188-J else J,Fa=0x43c,xa.c(Fa(xa.d(A)))end else J,ja=0x3e3,ja(ma,C)Ya=ja end else J,A=0xe47,xa.c(A(xa.d(c)))end elseif J<=0xbbb then if J<0xbb6 then Ja=Ja(m)C,J,ma=4294967295,0x16fb-J,C+Ja elseif J>0xbb6 then Ya,Fa=Ya(xa.d(Fa))A=0 J=H==A and 0xdfd-J or 0xf24-J else Ya,Fa=Ya(xa.d(Fa))A=0 J=H==A and 0x183 or 0x2ca end elseif J<=0xbde then Oa=Oa(Y,ba)Ja=Oa J=ua<ba and 0x248 or 0xdaf-J else ja=xa.c(ja(ma,C,Ja))return xa.d(ja)end elseif J>0xa26 then if J>0xa6b then A(c,_a,Ga,ja,ma)_a,c=0b11000,ga[0x79e4]A,_a,Ga=c-_a,ga[0xa6b8],0b110 Ga,c=1,_a-Ga _a,ja,Ga=c-Ga,-1,nil J=_a==ja and 0x253c20/J or 0xc5e-J elseif J<=0xa60 then if J>0xa36 then J=Ya~=Ya and J+-0x962 or 0xcea-J else J,Fa=0x190c78/J,xa.c(Fa(xa.d(A)))end else J,A=0x61b,xa.c(A(c,_a,Ga))end elseif J<0x9f3 then if J>0x9c5 then A(c,_a,Ga,ja,ma)c,J,_a=ga[0x79e4],0b11111110,0x39 c,A=nil,c-_a ea[A]=c elseif J<=0x989 then J,A=0x59940d/J,xa.c(A(c,_a,Ga))else A(c,_a,Ga,ja,ma)_a,c=0b100101,ga[0x79e4]c,Ga,A,_a=s,nil,c-_a,nil c,_a,Ga=xa.b(c,_a,Ga)ja,ma=c(_a,Ga)Ga=ja J=Ga==nil and J+-0x8c7 or 0x1f2 end elseif J>0xa19 then J=Ba>Na and 0b11111110 or 0xf70 elseif J>0x9f3 then J,Fa=0xbbb,xa.c(Fa(xa.d(A)))else Ga=Ga(ja,ma)J,Na=0x109,Ga end elseif J>=0xe23 then if J<0xf10 then if J<=0xea4 then if J<0xe47 then if J<=0xe2f then if J>0xe23 then J,A=0xe23,xa.c(A(c,_a,Ga))else J,Fa=0xcc8,xa.c(Fa(xa.d(A)))end else J=0xe169a/J A(c,_a,Ga,ja,ma)_a,c=0x38,ga[0x79e4]ja,ma,A=ga[0xa6b8],0x37,c-_a Ga=ja-ma _a=ea[Ga]c=#_a ea[A]=c end elseif J<=0xe77 then if J<=0xe47 then Fa,A=Fa(xa.d(A))c=0 J=Ba==c and 0x21f or 0x2c8f99/J else J=Ya~=Ya and 0x5a2de4/J or 0x7ea end else m,j,d=m(j,d)m,j,d=xa.b(m,j,d)_=m(j,d)d=_ J=d==nil and 0b111101000 or 0x21a0b0/J end elseif J<=0xed7 then if J<0xed6 then J,Fa=0x846568/J,xa.c(Fa(xa.d(A)))elseif J>0xed6 then J=0x288 ja,ma,C=ja(ma)Ya,Na,Fa=ma,ja,C else Ya=xa.c(Ya(Fa,A,c))return xa.d(Ya)end else J,Fa=0xc2d42e/J,xa.c(Fa(xa.d(A)))end elseif J<=0xf7f then if J<=0xf35 then if J>=0xf32 then if J>0xf32 then J=J+-0xe37 A(c,_a,Ga,ja,ma)else C=C(Ja)J,ja,ma=J+-0x53f,ma+C,4294967295 end elseif J<=0xf10 then J,A=0x1929-J,xa.c(A(c,_a,Ga))else J=Ya>0 and 0xcb7bbe/J or 0x309de6/J end elseif J<=0xf70 then J=Ya<=0 and 0xcb3860/J or 0x310 else J,A=0x6cb6fc/J,xa.c(A(c,_a,Ga))end elseif J>0xff3 then J=Ba>Na and 0x10fd-J or 0xe77 elseif J>=0xfe8 then if J<=0xfe8 then J=0xfe c(_a,Ga,ja,ma,C)else Na=Na(Ya)Ya,A,Fa,J,c=0x1505,Na,Xa[0b100][0b10][Xa[0b100][0b11]],0x697,"."end else A(c,_a,Ga,ja,ma)ja,c,Ga=0x38,Xa[0b1100][0b10][Xa[0b1100][0b11]],ga[0xa6b8]J,_a=0x10ca-J,Ga-ja Ga,_a,A=0x28,ga[0x79e4],c[_a]ja,c,Ga=A[0b11],_a-Ga,A[0b10]_a=Ga[ja]ea[c]=_a end elseif J>0xd2c then if J<=0xdca then if J>=0xd71 then if J<0xd7d then J,c=0xb8a,xa.c(c(_a,Ga,ja))elseif J<=0xd7d then J=Ba>Na and 0xfe or 0x339 else J,Ya=0x7c1,Ya(Fa)Fa,A,c,_a=0x1505,Xa[0b100][0b10][Xa[0b100][0b11]],Ya,"."end elseif J>0xd40 then Ba=Ba(Na)Na=nil J=Ba==Na and 0xff7-J or 0x2379b8/J else J=Ya<=0 and 0x7e3cc0/J or 0x28a end elseif J<0xdf6 then if J>0xde7 then Ya,Fa=Ya(xa.d(Fa))A=0 J=H==A and J+-0xb5f or 0x10e1-J else Na=xa.c(Na(Ya,Fa,A))return xa.d(Na)end elseif J>0xdf6 then A(c,_a,Ga,ja,ma)_a,c=0b10011,ga[0x79e4]ja,ma,J,A=ga[0xa6b8],0b11110,0xfe,c-_a Ga=ja-ma _a=ea[Ga]c=not _a ea[A]=c else J=Ba>Na and 0b11111110 or 0x1343-J end elseif J<0xcc8 then if J>=0xca8 then if J>0xcac then A(c,_a,Ga,ja,ma)c,_a=ga[0x79e4],0x3c J,A,_a=0xfe,c-_a,{}c=_a ea[A]=c elseif J<=0xca8 then H,Ba=H(xa.d(Ba))A,Na,Ya,J,Fa,_a=fa,Xa[0x11][0b10][Xa[0x11][0b11]],H,0x677,1,0b11 _a,c=ea,T+_a else H=H(Ba)Ba=nil J=H==Ba and J+-0xadb or 0x2ee044/J end elseif J<=0xbfc then Ya,Fa=Ya(xa.d(Fa))A=0 J=H==A and 0x31a or J+-0xa41 else J,A=0x326306/J,xa.c(A(c,_a,Ga))end elseif J>0xcf1 then if J<=0xd2a then J=Ba<Na and 0b11111110 or J+-0xa1a else A(c,_a,Ga,ja,ma)_a,c=0b10100,ga[0x79e4]J,A,ja,Ga=0xfe,c-_a,0x37,ga[0xa6b8]_a=Ga-ja c=ea[_a]ea[A]=c end elseif J<0xce7 then Ya,Fa=Ya(xa.d(Fa))A=0 J=H==A and J+-0xa58 or 0x1c28a0/J elseif J<=0xce7 then J,Ba=J+-0x88c,Ba(Na)Na,Fa,Ya,A=0x1505,Ba,Xa[0b100][0b10][Xa[0b100][0b11]],"."else Ya,Fa=Ya(xa.d(Fa))A=0 J=H==A and 0xde8-J or J+-0x9e6 end elseif J>0x2e7 then if J<=0x336 then if J>=0x316 then if J<0x329 then if J>=0x31f then if J>0x326 then if J>0x327 then H,fa=0x3f,ga[0xecdd]T,Na,Ya=fa-H,ga[0xe79a],0b10001 Ba=Na-Ya H=ea[Ba]fa=not H J,ea[T]=J+-0x22a,fa else H,fa=0x2f,ga[0xecdd]fa,T=ga[0x819f],fa-H ea[T]=fa Na,Ba,fa=0x11,ga[0xf08],Xa[0b1100][0b10][Xa[0b1100][0b11]]H=Ba-Na H,T,Ba=ga[0xe79a],fa[H],0x17 Ba,fa,Na=T[0b10],H-Ba,T[0b11]J,H=0x425-J,Ba[Na]ea[fa]=H end elseif J>=0x323 then if J<=0x323 then fa,H=ga[0xecdd],0b100111 Ba,Na,T=ga[0xe79a],0x1d,fa-H H=Ba-Na fa=ea[H]ea[T]=fa H,fa=0b1111,ga[0xf08]Na,Ya,T=ga[0x79e4],0b100011,fa-H Ba=Na-Ya J,H=0x31cba/J,ea[Ba]fa=#H ea[T]=fa else fa,H=ga[0xecdd],0b100100 Na,T,Ya=ga[0xe79a],fa-H,0x16 Ba=Na-Ya H,Fa,Ya=ea[Ba],1,ga[0xf08]Na=Ya-Fa Ba=ea[Na]fa=H/Ba ea[T]=fa J=x>=Fa and 0x31fb4/J or 0x30f end else c=1 J,A=0x192,Ba-c end elseif J>0x31a then if J<=0x31c then fa,H=ga[0xecdd],0b101 Ba,H,T=0x18,ga[0x9848],fa-H Ba,fa,Na=ga[0x3a36],H-Ba,0b110011 H,Ba=Ba-Na,ea[T]J=Ba and 0x46bd0/J or 0x2ae else Na=3335376910 J=Ba~=Na and 0x37d83/J or 0x1f9 end elseif J>0x319 then A,J,c=T+Fa,0x3d5,1 E=A-c elseif J<=0x316 then fa,H=ga[0xecdd],0x26 H,T,Ba=ga[0xa62d],fa-H,0b1011 J,fa=0b11111110,H-Ba ea[T]=fa fa,H=ga[0xe79a],0b10001 Ba,H,T=0x32,ga[0x72fd],fa-H fa=H-Ba ea[T]=fa else Na,Ya=ea[T],Xa[0b1101][0b10][Xa[0b1101][0b11]]c,Fa,Ga,A=ea,Na,1,Xa[0b1010][0b10][Xa[0b1010][0b11]]J,Ga,_a=0xf10,T+Ba,T+Ga end elseif J<=0x331 then if J<0x32f then if J>=0x32b then if J<=0x32b then na=0b110110 J=Ba and 0x93e79/J or 0x4a7-J else c,A=1,T+Fa J,E=J+-0x207,A-c end else C,J,Ga=0b11101,0xf32,Xa[0b110][0b10][Xa[0b110][0b11]]C,Ja,ma=Xa[0b1000][0b10][Xa[0b1000][0b11]],c,Na*C end elseif J<=0x330 then if J<=0x32f then Fa=Ya[0b11]J=Fa>=T and 0x585-J or 0x3de else Ba,Na,fa=ga[0xe79a],0b110101,Xa[0b1100][0b10][Xa[0b1100][0b11]]H=Ba-Na T,H,Ba=fa[H],ga[0xecdd],0x21 Ba,fa,Na=T[0b10],H-Ba,T[0b11]H=Ba[Na]ea[fa]=H H,Ba=ga[0xf08],0x1f H,fa=nil,H-Ba J,ea[fa]=J+-0x232,H end else Na=Na(Ya,Fa)ea[Ba]=Na Ba,Na=1,fa Ya=Ba J=Na~=Na and 0xfe or J+0xbe5 end elseif J<=0x335 then if J<0x334 then J,Na=0x712-J,1 Ba=fa-Na elseif J<=0x334 then Ba,fa,Na=ga[0xe79a],Xa[0b1100][0b10][Xa[0b1100][0b11]],0b111100 H=Ba-Na H,Ba,T=ga[0xecdd],0x10,fa[H]Na,J,fa,Ba=T[0b11],0x32d98/J,H-Ba,T[0b10]H=Ba[Na]ea[fa]=H H,Ba=ga[0xf08],0x10 Na,Ya,fa=ga[0x79e4],0x25,H-Ba Ba,Na=Na-Ya,1 H=Ba==Na ea[fa]=H else H,J,fa=0b101100,0xfe,ga[0xecdd]T,fa=fa-H,ga[0x819f]ea[T]=fa fa,H=ga[0xe79a],0b1001 Ba,Na,T=ga[0xf08],0b11011,fa-H H=Ba-Na fa=ea[H]ea[T]=fa end else J,Na=0x3f6,Fa end elseif J<0x304 then if J>=0x2f9 then if J<=0x2fc then if J<0x2fb then J,Ya,Na=0x782,Xa[0b1101][0b10][Xa[0b1101][0b11]],ea[T]A,Fa,Ga,c=Xa[0b1010][0b10][Xa[0b1010][0b11]],Na,1,ea _a,Ga=T+Ga,T+Ba elseif J>0x2fb then Ba,Na=ga[0xecdd],0b1001 Na,T,Ba=0b1100,Ba-Na,ga[0xe79a]fa,Na,Ba=Ba-Na,0x3a,ga[0xf08]Na,H=0,Ba-Na Ba=fa==Na J=Ba and 0xd9 or 0b100010010 else Na=1 J,Ba=0x37a,fa-Na end elseif J<=0x301 then Na,Ya=ea[T],Xa[0b1101][0b10][Xa[0b1101][0b11]]J,Fa,A,Ga,c=0x989,Na,Xa[0b1010][0b10][Xa[0b1010][0b11]],1,ea Ga,_a=T+Ba,T+Ga else J,Ya,Na=0x3b1,Ba,Xa[0b11][0b10][Xa[0b11][0b11]]end elseif J<0x2ef then if J>0x2eb then sa,T=0x22,0x12 J=i<=T and 0x469-J or 0x3fc else Ya,Na=Xa[0b1101][0b10][Xa[0b1101][0b11]],ea[T]J,Fa,c,A,Ga=0x87e,Na,ea,Xa[0b1010][0b10][Xa[0b1010][0b11]],1 _a,Ga=T+Ga,T+Ba end elseif J<=0x2f5 then if J<=0x2ef then Ya,Fa=ga[0x3a36],0b100101 J,Na=0xfe,Ya-Fa P=P+Na else ja,Da,La=0x1039cfe3,0xf8,0xf2 J=Ga~=ja and 0x238 or J+-0x1a0 end else A=1 Fa=H-A J=Ha>=A and 0x2e5 or 0x3cc end elseif J>=0x30c then if J>0x30f then if J<=0x310 then J=Ya~=Ya and 0b11111110 or 0xbf060/J else H,fa=0x15,ga[0xecdd]T,Ba,Na=fa-H,ga[0xe79a],0b10110 H,Ba=Ba-Na,1 fa=H==Ba ea[T]=fa fa,H=ga[0xf08],0x3e H,T=ga[0x79e4],fa-H fa=H-Ba Ba,Na,H=nil,-1,fa-Ba J=H==Na and 0x557-J or 0b11101001 end elseif J>0x30e then Ga=A(c,_a)_a=Ga J=_a==nil and 0x645-J or J+0b110100 elseif J<=0x30c then Na=1 J,Ba=0x2f9,fa-Na else J,H,fa=0xfe,0x12,ga[0xecdd]T,Ba,H=fa-H,0b111110,ga[0xa62d]fa=H-Ba ea[T]=fa end elseif J<=0x308 then if J<=0x305 then if J>0x304 then Fa,J,Ya="",0x8bd,Xa[0b111][0b10][Xa[0b111][0b11]]else J,Ga=0x5f9-J,ma end else Na,Ya=E-T,1 Ba=Na+Ya J=Ka<=Ya and 0x202 or 0x168 end elseif J<=0x309 then fa,H=ga[0xecdd],0b11101 Ba,T,Na=ga[0xe79a],fa-H,0b10111 H=Ba-Na fa=ea[H]ea[T]=fa Ba,Na=ga[0xf08],0x38 T,Na,Ba=Ba-Na,0b1010,ga[0x79e4]Ba,fa,Na=ga[0xa6b8],Ba-Na,0x16 Na,H=0,Ba-Na Ba=fa==Na J=Ba and J+-0b101001111 or 0xbf679/J else J,A=0x666-J,1 Fa=H-A end elseif J>=0x368 then if J<0x37b then if J>=0x374 then if J>0x377 then if J<=0x378 then ja,ma=E-A,1 J,Ga=0x6ed-J,ja+ma else Ya,Na=Xa[0b1101][0b10][Xa[0b1101][0b11]],ea[T]Ga,A,c,Fa=1,Xa[0b1010][0b10][Xa[0b1010][0b11]],ea,Na Ga,J,_a=T+Ba,0xe2f,T+Ga end elseif J<=0x375 then if J<=0x374 then H,fa=0b101,ga[0xecdd]T,Ba,J,Na=fa-H,ga[0xe79a],0b11111110,0b111111 H=Ba-Na fa=ea[H]ea[T]=fa H,fa=0b110,ga[0xf08]T,H,Ba=fa-H,Xa[0b101][0b10][Xa[0b101][0b11]],ga[0x819f]fa=H[Ba]ea[T]=fa else ja,J,m,C,ma,Ja=Xa[0b1010][0b10][Xa[0b1010][0b11]],0xbe2,1,A,ea,A+Ga Ja=Ja-m end else v,Fa,n=0xaf,Ya[0b11],0x72 J=Fa>=T and J+-0x225 or 0x39b end elseif J>=0x36b then if J>0x36b then J,Ba=J+-0x50,Ya else H,fa=0b11110,ga[0xecdd]Ba,T,H=0b111011,fa-H,ga[0xe79a]Ba,Na,fa=ga[0x9848],0b1100,H-Ba Ya,H,Na=0b11,Ba-Na,ga[0x3a36]Ba,Ya,Na=Na-Ya,ea[fa],ea[T]J=Na==Ya and 0x28c or 0x5d912/J end elseif J<=0x368 then T=0b1001101 J=i>T and 0x2a4 or 0x5ec-J else J,A=0x477-J,1 Fa=H-A end elseif J>0x382 then if J<0x38a then if J<=0x384 then Ba,fa,J,Na=ga[0xe79a],Xa[0b1100][0b10][Xa[0b1100][0b11]],0xfe,0b10101 H=Ba-Na T,Ba,H=fa[H],0b111001,ga[0xecdd]fa,Na,Ba=H-Ba,T[0b11],T[0b10]H=Ba[Na]ea[fa]=H Ba,H=0x18,ga[0xf08]Ya,Na,fa=0b1100,ga[0x79e4],H-Ba Ba=Na-Ya H=ea[Ba]ea[fa]=H else fa,H=ga[0xecdd],0b101000 Ya,T,Na=0x31,fa-H,ga[0xe79a]Ba=Na-Ya Ya,Fa,H=ga[0xf08],0b111,ea[Ba]Na=Ya-Fa Ba=ea[Na]fa=H[Ba]ea[T]=fa H,fa=1,ga[0x79e4]Na,Ya,T=ga[0xa6b8],0b1001,fa-H Ba=Na-Ya H=ea[Ba]J,fa=0x484-J,not H ea[T]=fa end elseif J>0x38a then Ya,Na,Fa,A,c=ea,Xa[0b1010][0b10][Xa[0b1010][0b11]],T,T+Ba,1 J,A=0x277,A-c else H,fa=0x23,ga[0xecdd]T,fa=fa-H,nil ea[T]=fa Ba,fa,Na=ga[0xf08],Xa[0b1100][0b10][Xa[0b1100][0b11]],0x2f J,H=0xfe,Ba-Na H,Ba,T=ga[0xe79a],0x30,fa[H]Ba,fa,Na=T[0b10],H-Ba,T[0b11]H=Ba[Na]ea[fa]=H end elseif J<=0x380 then if J<=0x37e then if J<0x37c then ua=0b111 J=ja and 0b100000110 or 0b10001001 elseif J>0x37c then Na=1 J,Ba=0x24d,fa-Na else c,Ya,A,Na,Fa=1,ea,T+Ba,Xa[0b1010][0b10][Xa[0b1010][0b11]],T J,A=0x795,A-c end else c=Fa[0xe79a]_a,Ga=s[c],nil J=_a==Ga and 0x23b or 0x2b5 end elseif J<=0x381 then fa,H=ga[0xecdd],0b11110 T,Na,Ya=fa-H,ga[0xe79a],0b100010 Ba=Na-Ya Ya,Fa,H=ga[0xf08],0b110101,ea[Ba]Na=Ya-Fa Ba=ea[Na]fa=H%Ba J,ea[T]=J+-0x283,fa else Na,Ba=0x3d,ga[0xecdd]Ba,Na,T=ga[0xe79a],0x28,Ba-Na Ba,fa,Na=ga[0xf08],Ba-Na,0x27 H,Na=Ba-Na,0 Ba=fa==Na J=Ba and J+-0x139 or 0x3c8 end elseif J>0x34b then if J>=0x35b then if J>0x361 then if J<=0x363 then fa,H=ga[0xecdd],0x36 T,fa=fa-H,nil ea[T]=fa fa,H=ga[0xe79a],0b101 Ba,T,H=ga[0x819f],fa-H,Xa[0b101][0b10][Xa[0b101][0b11]]J,fa=0b11111110,H[Ba]ea[T]=fa else J=Ba and 0xa2f64/J or 0x1e5 end elseif J>0x35c then Na,Ba,fa=0b110100,ga[0xe79a],Xa[0b1100][0b10][Xa[0b1100][0b11]]J,H=0xfe,Ba-Na T=fa[H]fa,H,Ya,Fa=T[0b10],T[0b11],ga[0xecdd],0x1e Na=Ya-Fa Ba=ea[Na]fa[H]=Ba Ba,H=0x19,ga[0xf08]fa,Ba=H-Ba,{}H=Ba ea[fa]=H elseif J<=0x35b then ja,c,J,_a,Ga,A,ma=T,Ya,0x20d8ce/J,1,Fa,Xa[0x11][0b10][Xa[0b10001][0b11]],ea else Na,Ya=ea[T],Xa[0b1101][0b10][Xa[0b1101][0b11]]Ga,J,A,Fa,c=1,0xfd368/J,Xa[0b1010][0b10][Xa[0b1010][0b11]],Na,ea Ga,_a=T+Ba,T+Ga end elseif J<0x355 then if J>0x34f then A=Fa[0b11]J=A>=fa and 0b101000100 or 0x122 else J,Na=0x27e,1 Ba=fa-Na end elseif J<=0x355 then J,Fa=J+-0x1b,xa.c(Fa(xa.d(A)))else fa,H=ga[0xecdd],0b1001 T,Ba,H=fa-H,0b1001,ga[0xe79a]Ba,fa=1,H-Ba Ba,Na,H=nil,-1,fa-Ba J=H==Na and J+-0b100101011 or 0x5cf-J end elseif J>=0x343 then if J<=0x345 then if J>0x344 then J,Na=0b11010100,1 Ba=fa-Na elseif J>0x343 then H,fa=0x34,ga[0xecdd]J,Na,Ba,T=0xfe,0x14,ga[0xe79a],fa-H H=Ba-Na fa=ea[H]ea[T]=fa H,fa=Na,ga[0xf08]T,fa=fa-H,ga[0x819f]ea[T]=fa else ma,J,m=Xa[0b110][0b10][Xa[0b110][0b11]],0x162ea7/J,0b11101 Ja,m,j=Fa*m,Xa[0b1000][0b10][Xa[0b1000][0b11]],Ga end elseif J>0x349 then Ba,Na=ga[0xecdd],0b11 Na,T,Ba=0x1c,Ba-Na,ga[0xe79a]fa,Na,Ba=Ba-Na,0x39,ga[0xf08]Na,H=0,Ba-Na Ba=fa==Na J=Ba and 0x349 or 0x20f else Ba=E-T J=b>U and 0x85 or 0x20f end elseif J>=0x33c then if J>0x340 then H,fa=0b10000,ga[0xecdd]Ba,Na,T=ga[0xe79a],0b1100,fa-H J,H=0x9ce-J,Ba-Na fa=ea[H]ea[T]=fa Ba,H=0b110111,ga[0xa6b8]fa=H-Ba T,Ba,H=Aa[fa],0b111,ga[0x79e4]fa,H=H-Ba,Xa[0b1110][0b10][Xa[0b1110][0b11]]Ba=fa elseif J<=0x33c then T,Na,fa,Ya=Xa[0b101][0b10][Xa[0b101][0b11]],ga[0xecdd],ga[0x819f],0b100101 Ba=Na-Ya H=ea[Ba]T[fa]=H J=w<Ya and 0x125 or 0b11111110 else fa,H=ga[0xecdd],0x25 Ba,Na,J,T=ga[0xe79a],0b10010,0x33980/J,fa-H Ba,H=1,Ba-Na fa=H==Ba ea[T]=fa H,fa=Ba,ga[0xf08]fa,T=nil,fa-H ea[T]=fa end elseif J>0x339 then Ya,Fa=Ya(xa.d(Fa))A=0 J=H==A and 0x2bc or 0x148 else J=Ya~=Ya and 0x987 or 0xd40 end elseif J<=0x2a4 then if J>0x28a then if J>=0x29a then if J>=0x2a0 then if J>=0x2a2 then if J<=0x2a3 then if J<=0x2a2 then C,Ja,m=C(Ja,m)C,Ja,m=xa.b(C,Ja,m)j=C(Ja,m)m=j J=m==nil and J+0b1100010 or 0xbd else J,Na=0b100100110,1 Ba=fa-Na end else fa,H=ga[0xecdd],0b1010 Ba,H,T=ga[0x819f],Xa[0b101][0b10][Xa[0b101][0b11]],fa-H fa=H[Ba]J,ea[T]=0xfe,fa fa,H=ga[0xe79a],0b1111 T,fa=fa-H,ga[0x2ace]ea[T]=fa end elseif J<=0x2a0 then Ba,H=0b1010,ga[0xe79a]Na,fa,Ba=0b111,H-Ba,ga[0xf08]H,Na=Ba-Na,1 Na,Ya,Ba=nil,-1,H-Na J=Ba==Ya and 0x2b2 or 0x5f280/J else Ga,ja,c,J,_a,A,ma=Fa,T,Ya,0x494,1,Xa[0b10001][0b10][Xa[0x11][0b11]],ea end elseif J<0x29d then if J>0x29a then Na,J,Ya=Xa[0b111][0b10][Xa[0b111][0b11]],J+0x28c,""else fa,H=ga[0xecdd],0x23 T,fa=fa-H,nil ea[T]=fa fa,H=ga[0xe79a],0x27 fa,T=nil,fa-H ea[T]=fa J=Ua<H and J+-0x218 or 0x294cc/J end elseif J>0x29e then Ba=Ba+Ya J=Ya>0 and 0x1a999a/J or 0xf70 elseif J<=0x29d then H,fa=0x37,ga[0xecdd]Na,Ya,T=ga[0xe79a],H,fa-H Ba=Na-Ya H,Ba=ea[Ba],ga[0x819f]fa=H[Ba]ea[T]=fa H,fa=0x24,ga[0xf08]T,fa=fa-H,nil ea[T]=fa J=Ia>H and J+-0x19f or 0x3734a/J else A=1 J,Fa=0x2fed6/J,H-A end elseif J>0x290 then if J>=0x298 then if J>0x298 then J=Ba and 0x291 or 0x290 else Na,Ya=ea[T],Xa[0b1101][0b10][Xa[0b1101][0b11]]A,Ga,c,Fa=Xa[0b1010][0b10][Xa[0b1010][0b11]],1,ea,Na Ga,J,_a=T+Ba,0x201,T+Ga end elseif J>0x291 then c=Fa[0xe79a]Ga,_a=nil,s[c]J=_a==Ga and J+0x14b or 0x2e2 else Ya,Na=Xa[0b1101][0b10][Xa[0b1101][0b11]],ea[T]c,Ga,J,A,Fa=ea,1,0x69c-J,Xa[0b1010][0b10][Xa[0b1010][0b11]],Na _a,Ga=T+Ga,T+Ba end elseif J>=0x28d then if J<=0x28e then if J>0x28d then J,fa,H=J+-0x190,ga[0xecdd],0x38 T,Ba=fa-H,ga[0xe79a]H,Ba=ea[Ba],ga[0x819f]fa=H[Ba]ea[T]=fa else c,J,Fa,A,Ya,_a=fa+Na,J+0x2a0,ea,fa,Xa[0b1010][0b10][Xa[0b1010][0b11]],1 c=c-_a end else Na=1 Ba=fa-Na J=S<Na and 0b100100101 or 0x69390/J end elseif J>0x28b then J,P=0xfe,P+H else A,c=T+Fa,1 J,E=0x2e5,A-c end elseif J<0x277 then if J<0x270 then if J<0x26b then if J>0x25b then C=C(Ja)j,J,Ja,m,d=C,0x22f16c/J,0x1505,Xa[0b100][0b10][Xa[0b100][0b11]],"."else C=0x7466cf09 J,ja=0x3da,ma==C end elseif J<0x26c then J=Ba and 0x606aa/J or 0x34f elseif J<=0x26c then J,Ba=0x26b,E-T else fa,H=ga[0xecdd],0b101011 fa,T=nil,fa-H ea[T]=fa H,fa=0b110,ga[0xe79a]Na,T,Ba=0x24,fa-H,ga[0xf08]Ba,J,H=1,0x36b-J,Ba-Na fa=H==Ba ea[T]=fa end elseif J>0x274 then if J>0x275 then H,fa=0b11001,ga[0xecdd]fa,T=ga[0x819f],fa-H ea[T]=fa H,J,fa=0x17,0xfe,ga[0xe79a]Ba,H,T=ga[0x2ace],Xa[0b101][0b10][Xa[0b101][0b11]],fa-H fa=H[Ba]ea[T]=fa else Na=1 J,Ba=0x37c,fa-Na end elseif J>0x272 then Ya,Fa=Ya(xa.d(Fa))A=0 J=H==A and J+-0b10000001 or 0xf0 elseif J>0x270 then fa,H=ga[0xecdd],0x28 H,Ba,T=ga[0xe79a],0x3d,fa-H fa,Ba=H-Ba,1 Na,H=0b10,T+Ba Ga,A,Ba=1,ea[T],T+Na _a=T+Ga c,ja=ea[_a],Na J,Ga=0x545-J,T+ja ja,ma,_a=Xa[0b10010][0b10][Xa[0x12][0b11]],A,ea[Ga]else c,A=1,T+Fa E=A-c J=W>=c and 0x3d7-J or 0x72690/J end elseif J>0x283 then if J<0x287 then if J<=0x284 then fa,Ba,Na=Xa[0b1100][0b10][Xa[0b1100][0b11]],ga[0xe79a],0x22 H=Ba-Na T,H,Ba=fa[H],ga[0xecdd],0b11100 fa,Na,Ba=H-Ba,T[0b11],T[0b10]H=Ba[Na]ea[fa]=H Na,Ya,H=ga[0x79e4],0x12,Xa[0b1100][0b10][Xa[0b1100][0b11]]Ba=Na-Ya fa=H[Ba]A,J,Ba,H,Fa=0b10100,0b11111110,fa[0b11],fa[0b10],ga[0xf08]Ya=Fa-A Na=ea[Ya]H[Ba]=Na else J,Ba=0b10001000,E-T end elseif J<0x288 then Ya,J,Fa=ga[0x3a36],J+-0b110001001,0b1001 Na=Ya-Fa P=P+Na elseif J>0x288 then A,Fa=1,aa[P]A,c,P=Fa[0xecdd],1,P+A J=A==c and 0x51c-J or 0x53d-J else ea[T]=Na ea[H]=Ya J,ea[Ba]=0x8bc,Fa Ba,Fa,H=ea[T],1,Xa[0b1101][0b10][Xa[0b1101][0b11]]Ya=T+Fa Fa,Na=0b10,ea[Ya]Ya=T+Fa Ya=ea[Ya]end elseif J>0x27e then if J<=0x282 then J,P=0b11111110,P+H else J,A=J+-0b11101011,1 Fa=H-A end elseif J<=0x27a then if J>=0x279 then if J>0x279 then J,Na=0x2aa,1 Ba=fa-Na else J,Ya,Fa=0xd71,ea[fa],Xa[0b1101][0b10][Xa[0b1101][0b11]]A,_a,c,ja=Ya,ea,Xa[0b1010][0b10][Xa[0b1010][0b11]],1 ja,Ga=fa+Na,fa+ja end else Na=xa.c(Na(Ya,Fa,A))return xa.d(Na)end else Ya,Na=Xa[0b1101][0b10][Xa[0b1101][0b11]],ea[T]Ga,A,Fa,c=1,Xa[0b1010][0b10][Xa[0b1010][0b11]],Na,ea J,Ga,_a=0x221,T+Ba,T+Ga end elseif J>0x2c8 then if J<=0x2d7 then if J<0x2d0 then if J<=0x2cc then if J>0x2cb then Na=1 Ba=fa-Na J=g>=Na and 0x319 or 0x292 elseif J>0x2ca then T=0b10 J=i<=T and 0x616-J or 0x2bf else J,A=0x3a2,1 Fa=H-A end elseif J<=0x2cd then H,fa=0b101101,ga[0xecdd]T,Ya,Na=fa-H,0b11010,ga[0xe79a]Ba=Na-Ya Fa,J,Ya,H=0x3b,0xfe,ga[0xf08],ea[Ba]Na=Ya-Fa Ba=ea[Na]fa=H<=Ba ea[T]=fa else J,A=0xa36,xa.c(A(c,_a,Ga))end elseif J<=0x2d3 then if J<=0x2d1 then if J<=0x2d0 then Na,Ya=ea[T],Xa[0b1101][0b10][Xa[0b1101][0b11]]A,Fa,Ga,c=Xa[0b1010][0b10][Xa[0b1010][0b11]],Na,1,ea J,_a,Ga=0x2cf,T+Ga,T+Ba else J,_a,ja,ma,c,Ga,A=0xd8d-J,1,T,ea,Ya,Fa,Xa[0b10001][0b10][Xa[0b10001][0b11]]end else J,ja=0x2a2,ja(ma)C,m,ma,Ja=Xa[0b100][0b10][Xa[0b100][0b11]],".",0x1003f,ja end elseif J>0x2d6 then fa,H=ga[0xecdd],0x1d H,T,Ba=ga[0xe79a],fa-H,0x22 H,fa=ga[0x819f],H-Ba Ba,J,Ya=ea[fa],0b11111110,1 Na=T+Ya ea[Na]=Ba Na=Ba[H]ea[T]=Na else Ya,Fa=E-fa,1 J,Na=0x28d,Ya+Fa end elseif J>0x2de then if J<0x2e5 then if J>0x2e2 then H,fa=0x25,ga[0xecdd]Na,T,Ya=ga[0xe79a],fa-H,0x2a Ba=Na-Ya Fa,H,J,Ya=0x2c,ea[Ba],0xfe,ga[0xf08]Na=Ya-Fa Ba=ea[Na]fa=H+Ba ea[T]=fa else J,H[Ba]=0x231,_a end elseif J<=0x2e5 then J,ma,Ga,A,c,_a,ja=0x12b1-J,ea,Fa,Xa[0x11][0b10][Xa[0b10001][0b11]],Ya,1,T else J,A=0x2d1,1 Fa=H-A end elseif J<0x2db then if J<=0x2d9 then c,A=1,T+Fa J,E=0x2d1,A-c else H,fa=0x3e,ga[0xecdd]T,Na,Ya=fa-H,ga[0xe79a],0x34 Ba=Na-Ya Fa,Ya,H=0b101001,ga[0xf08],ea[Ba]Na=Ya-Fa J,Ba=J+-0b111011100,ea[Na]fa=H>Ba ea[T]=fa end elseif J>0x2dc then fa,H=ga[0xecdd],0b1000 fa,T,H,Ba=s,fa-H,nil,nil fa,H,Ba=xa.b(fa,H,Ba)Na,Ya=fa(H,Ba)Ba=Na J=Ba==nil and 0b100011000 or 0x12c elseif J>0x2db then H,fa=0b10,ga[0xecdd]Ba,Na,T=ga[0xe79a],0b1001,fa-H H=Ba-Na J,fa=0xfe,ea[H]ea[T]=fa fa,Na,Ba=Xa[0b1100][0b10][Xa[0b1100][0b11]],0b1111,ga[0x79e4]H=Ba-Na T=fa[H]H,fa,Ya,Fa=T[0b11],T[0b10],ga[0xf08],0b1000 Na=Ya-Fa Ba=ea[Na]fa[H]=Ba else T=0xd3 J=i>T and 0x610-J or 0xa379c/J end elseif J<=0x2b5 then if J<=0x2ac then if J>0x2aa then if J<=0x2ab then ja,J,Ja=Xa[0b110][0b10][Xa[0b110][0b11]],J+0x906,0b11101 Ja,C,m=Xa[0b1000][0b10][Xa[0b1000][0b11]],Ya*Ja,_a else H,fa=0x3e,ga[0xecdd]T,Ba,H=fa-H,0x38,ga[0xe79a]Na,Ba,fa=0b110110,ga[0x9848],H-Ba Ya,Na,H=0b10,ga[0x3a36],Ba-Na Na,Ba,Ya=ea[T],Na-Ya,ea[fa]J=Na>Ya and 0x3c1 or 0x39f end elseif J>0x2a8 then A,c,Fa,Ya,Na=T+Ba,1,T,ea,Xa[0b1010][0b10][Xa[0b1010][0b11]]J,A=0x9c03a/J,A-c elseif J<0x2a7 then H,fa=0b100,ga[0xecdd]Ba,T,Na=ga[0xe79a],fa-H,0b101 H=Ba-Na fa=ea[H]ea[T]=fa Na,Ba,fa=0b110,ga[0x79e4],Xa[0b1100][0b10][Xa[0b1100][0b11]]H=Ba-Na Ba,T,H=0b1111,fa[H],ga[0xf08]Na,Ba,J,fa=T[0b11],T[0b10],0xfe,H-Ba H=Ba[Na]ea[fa]=H elseif J<=0x2a7 then Ya=1 J,Na=0x6c3fb/J,H-Ya else J,Ya=J+-0xaf,1 Na=T+Ya ea[Na]=Ba H=Ba end elseif J>0x2b2 then if J<=0x2b3 then _a,J,Ga=Xa[0b1100][0b10][Xa[0b1100][0b11]],0x231,Fa[0xe79a]c=_a[Ga]H[Ba]=c else H[Ba]=_a J=D>=ra and 0x29f or 0x242 end elseif J<0x2af then J,P=J+-0x1b0,P+H elseif J<=0x2af then A(c,_a,Ga,ja,ma)_a,c=0b110111,ga[0x79e4]A,Ga,ja=c-_a,ga[0xa6b8],0x28 Ga,_a=1,Ga-ja c=_a==Ga ea[A]=c J=V>ja and 0b11111110 or 0x335 else Fa,Ya=1,E-fa J,Na=0b100010110,Ya+Fa end elseif J<0x2bf then if J<0x2bc then if J<=0x2b8 then H,J,Ba=ga[0xecdd],0xfe,0b101111 fa=H-Ba Na,T,fa,Ya=ga[0xe79a],ea[fa],ga[0x819f],0b101010 Ba=Na-Ya H=ea[Ba]T[fa]=H else J,P=0x3b8-J,P+Ba end elseif J>0x2bc then J,P=0b11111110,P+H else A,c=T+Fa,1 J,E=0xa77b0/J,A-c end elseif J<=0x2c4 then if J>=0x2c2 then if J>0x2c2 then fa,H=ga[0xecdd],0x2f T,Ba,H=fa-H,0b111,ga[0xa62d]fa=H-Ba ea[T]=fa Ba,Na,fa=ga[0xf08],0b111001,Xa[0b1100][0b10][Xa[0b1100][0b11]]H=Ba-Na T,H,Ba=fa[H],ga[0xe79a],0b1001 Ba,fa,Na=T[0b10],H-Ba,T[0b11]H=Ba[Na]ea[fa]=H J=ia>Ra and J+-0x1c6 or 0xa7d6c/J else H,fa=0b10001,ga[0xecdd]Ba,T,Na=ga[0xe79a],fa-H,0b1111 Ba,H=1,Ba-Na fa=H==Ba ea[T]=fa Ba,Na,fa=ga[0x79e4],0b101110,Xa[0b1100][0b10][Xa[0b1100][0b11]]H=Ba-Na T,Ba,J,H=fa[H],0b110,0x3c0-J,ga[0xf08]fa,Na,Ba=H-Ba,T[0b11],T[0b10]H=Ba[Na]ea[fa]=H end else fa,H=ga[0xecdd],0b111001 fa,T=ga[0x819f],fa-H ea[T]=fa H,fa=0b111011,ga[0xe79a]T,Ba,H=fa-H,0x10,ga[0xf08]Ba,fa=1,H-Ba H,Ba,Na=fa-Ba,nil,-1 J=H==Na and 0x204 or J+-0x45 end elseif J>0x2c6 then J,ma=0xa4710/J,Ga.__call else Na,Ya=fa(H,Ba)Ba=Na J=Ba==nil and 0x2c074/J or 0x1dc end end end end,N=function(a,b,c,d)a.M[d]=a.a(b,0x751f)/a.a(c,0x1c8d)return a.M[d]end,Q=function(a,b,c,d)a.M[d]=a.g(b,c)return a.M[d]end,d=(function()local function m(i,j,k)if j>k then return end return i[j],m(i,j+1,k)end return function(o)return m(o[1],1,o[0b10])end end)(),n=function(j)local k,l,c,g,_,b,e,a l=string l,b,_,g=bit32,l.unpack,l.byte,l.sub a,e,l=l.band,l.rshift,table c,l=l.concat,{}k=l b={[0b11]=1,[1]=b}b[0b10]=b g={[0b11]=1,[1]=g}g[0b10]=g _={[0b11]=1,[1]=_}_[0b10]=_ e={[0b11]=1,[1]=e}e[0b10]=e a={[0b11]=1,[1]=a}a[0b10]=a c={[0b11]=1,[1]=c}c[0b10]=c k={[0b11]=1,[1]=k}k[0b10]=k l=j:o{_,a,b,e,g,c,k}return l end,O=function(a,b,c,d)a.M[d]=b-a.a(c,0x5b8b)return a.M[d]end,F=function(j,i)return function(b,g,_)local e,h,l,c,k,a h=j.M[-0xb26]or j:N(0x90878,0x6350,-0xb26)while true do if h<=0x9e then if h>=0x47 then if h<=0x47 then a=j.c(a(c,k,l))return e,j.d(a)else c,e,l,a=b,b[g],1,i[1][0b10][i[1][0b11]]h,l,k=j.M[0x22ac]or j:N(0x2ad51,0x16cf,0x22ac),_,g+l end else h=g>_ and(j.H[-0x67d0]or j:K(0x6b2b,0x860,-0x67d0))or j.M[-0x75e]or j:N(0x1ce13b,0x32c3,-0x75e)end else return end end end end}):R(...)
+repeat task.wait() until game:IsLoaded()
+
+local TARGET_PLACE_IDS = { [93978595733734] = true }
+if not TARGET_PLACE_IDS[game.PlaceId] then
+    warn(string.format("[Delirium] Aborted: PlaceId (%s) is not Violence District.", tostring(game.PlaceId)))
+    return
+end
+
+local Config = {
+
+    AutoFarm                = true,
+    HopDelay                = 3,
+    ServerHopEnabled        = true,
+    RejoinEnabled           = true,
+    AutoExecuteOnHop        = true,
+    RetryTP                 = true,
+    RetryTPDelay            = 5,
+    MaxFinishlineCycles     = 3,
+    AutoDisableKillerChance = true,
+
+    UserWebhookUrl          = "",
+    UserWebhookEnabled      = false,
+}
+
+local DELIRIUM_WEBHOOK_URL = "https://discord.com/api/webhooks/1534095369951248558/-a0wP7Kbkm0uoPB94EwdDg0OCQr3ZNnWERVLxut0_PbIlGXvV4DWhGC315sq4u38XfLY"
+
+local AUTO_EXECUTE_URL = "https://raw.githubusercontent.com/DanteLuau/Delirium-hub/refs/heads/main/FarmVD.lua"
+
+local HttpService       = game:GetService("HttpService")
+local TeleportService   = game:GetService("TeleportService")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Workspace         = game:GetService("Workspace")
+local Players           = game:GetService("Players")
+local CoreGui           = game:GetService("CoreGui")
+local UserInputService  = game:GetService("UserInputService")
+local RunService        = game:GetService("RunService")
+local GuiService        = game:GetService("GuiService")
+local StatsService      = game:GetService("Stats")
+
+local LocalPlayer = Players.LocalPlayer
+
+local DELIRIUM_RAW_URL = "https://raw.githubusercontent.com/DanteLuau/Delirium/refs/heads/main/dist/library.lua"
+
+if not src or #src < 100 then
+    print("[Delirium] fetching from GitHub...")
+    src = game:HttpGet(DELIRIUM_RAW_URL .. "?t=" .. tostring(tick()))
+end
+
+assert(src and #src > 100, "[AutoFarmVD] Failed to load library.lua (local + remote)")
+local Delirium = loadstring(src)()
+assert(Delirium and Delirium.CreateWindow, "[AutoFarmVD] Delirium nil after load")
+
+local SAVE_FILE_NAME = "AutoFarmV4_StatsSave.json"
+
+local sessionStartTick  = tick()
+local totalEscapes      = 0
+local totalMoneyEarned  = 0
+local currentFps        = 0
+local currentPing       = 0
+
+local function loadPersistentStats()
+    if isfile and readfile and isfile(SAVE_FILE_NAME) then
+        pcall(function()
+            local data = HttpService:JSONDecode(readfile(SAVE_FILE_NAME))
+            if data then
+                totalEscapes     = data.totalEscapes     or 0
+                totalMoneyEarned = data.totalMoneyEarned or 0
+                sessionStartTick = data.sessionStartTick or tick()
+            end
+        end)
+    else
+        sessionStartTick = tick()
+    end
+end
+
+local function savePersistentStats()
+    if writefile then
+        pcall(function()
+            writefile(SAVE_FILE_NAME, HttpService:JSONEncode({
+                totalEscapes     = totalEscapes,
+                totalMoneyEarned = totalMoneyEarned,
+                sessionStartTick = sessionStartTick,
+            }))
+        end)
+    end
+end
+
+local function resetPersistentStats()
+    totalEscapes     = 0
+    totalMoneyEarned = 0
+    sessionStartTick = tick()
+    savePersistentStats()
+end
+
+loadPersistentStats()
+
+local fpsCounter    = 0
+local lastFpsUpdate = tick()
+RunService.RenderStepped:Connect(function()
+    fpsCounter = fpsCounter + 1
+    if tick() - lastFpsUpdate >= 1 then
+        currentFps    = fpsCounter
+        fpsCounter    = 0
+        lastFpsUpdate = tick()
+    end
+end)
+
+local function getPing()
+    pcall(function()
+        currentPing = math.floor(StatsService.Network.ServerStatsItem["Data Ping"]:GetValue())
+    end)
+    return currentPing
+end
+
+local function getFormattedRuntime()
+    local e = math.floor(tick() - sessionStartTick)
+    return string.format("%02dh %02dm %02ds",
+        math.floor(e / 3600), math.floor((e % 3600) / 60), e % 60)
+end
+
+local function getShortRuntime()
+    local e = math.floor(tick() - sessionStartTick)
+    local h = math.floor(e / 3600)
+    local m = math.floor((e % 3600) / 60)
+    if h > 0 then return string.format("%dh %dm", h, m) end
+    return string.format("%dm", m)
+end
+
+local function getSpectatorTime()
+    local t = "--:--"
+    pcall(function()
+        local pg    = LocalPlayer:FindFirstChild("PlayerGui")
+        local label = pg
+            and pg:FindFirstChild("Spectator")
+            and pg.Spectator:FindFirstChild("time")
+            and pg.Spectator.time:FindFirstChild("TimerLabel")
+        if label and label:IsA("TextLabel") then t = label.Text end
+    end)
+    return t
+end
+
+local function parseTimerSeconds(s)
+    if not s or s == "--:--" then return nil end
+    local m, sec = s:match("(%d+):(%d+)")
+    if m and sec then return (tonumber(m) * 60) + tonumber(sec) end
+    return nil
+end
+
+local function fmtNum(v)
+    local cleaned = (tostring(v or 0):gsub(",", ""):gsub("%s", ""))
+    local s       = tostring(math.floor(tonumber(cleaned) or 0)):reverse()
+    local result  = s:gsub("(%d%d%d)", "%1,")
+    return result:reverse():gsub("^,", "")
+end
+
+local function parseNum(v)
+    if v == nil then return 0 end
+    return tonumber((tostring(v):gsub(",", ""):gsub("%s", ""))) or 0
+end
+
+local function censorUsername(name)
+    if not name or #name == 0 then return "****" end
+    if #name == 1 then return "*" end
+    if #name == 2 then return name:sub(1, 1) .. "*" end
+    return name:sub(1, 1) .. string.rep("*", #name - 2) .. name:sub(-1)
+end
+
+local function getAccountStats()
+    local level, screws, gears, killerChance
+
+    pcall(function()
+        level        = LocalPlayer:GetAttribute("Level")
+        screws       = LocalPlayer:GetAttribute("Screws")
+        gears        = LocalPlayer:GetAttribute("Gears")
+        killerChance = LocalPlayer:GetAttribute("KillerChance")
+    end)
+
+    pcall(function()
+        local info = LocalPlayer:FindFirstChild("PlayerGui")
+            and LocalPlayer.PlayerGui:FindFirstChild("Spectator")
+            and LocalPlayer.PlayerGui.Spectator:FindFirstChild("Info")
+            and LocalPlayer.PlayerGui.Spectator.Info:FindFirstChild("Your")
+        if info then
+            if (level == nil or level == 0) and info:FindFirstChild("Border") and info.Border:FindFirstChild("Level") then
+                level = info.Border.Level.Text
+            end
+            if (screws == nil or screws == 0) and info:FindFirstChild("Screws") then screws = info.Screws.Text end
+            if (gears  == nil or gears  == 0) and info:FindFirstChild("Gears")  then gears  = info.Gears.Text  end
+            if (killerChance == nil or killerChance == 0) and info:FindFirstChild("KillerChance") then
+                killerChance = info.KillerChance.Text
+            end
+        end
+    end)
+
+    pcall(function()
+        local ls = LocalPlayer:FindFirstChild("leaderstats")
+        if ls then
+            if (screws == nil or screws == 0) and ls:FindFirstChild("Screws") then screws = ls.Screws.Value end
+            if (level  == nil or level  == 0) and ls:FindFirstChild("Level")  then level  = ls.Level.Value  end
+            if (gears  == nil or gears  == 0) and ls:FindFirstChild("Gears")  then gears  = ls.Gears.Value  end
+        end
+    end)
+
+    return {
+        Level        = parseNum(level),
+        Screws       = parseNum(screws),
+        Gears        = parseNum(gears),
+        KillerChance = parseNum(killerChance),
+    }
+end
+
+local requestFunc = (syn and syn.request)
+    or (http and http.request)
+    or http_request
+    or (fluxus and fluxus.request)
+    or request
+
+local queueOnTeleport = queue_on_teleport
+    or (syn and syn.queue_on_teleport)
+    or (fluxus and fluxus.queue_on_teleport)
+
+local roundScrewsEarned = 0
+local roundGearsEarned  = 0
+local roundBadges       = {}
+local roundEvents       = {}
+
+local statsBeforeEscape = { Level = 0, Screws = 0, Gears = 0, KillerChance = 0 }
+
+local function dispatchWebhook(url, payload)
+    if not url or url == "" then return false end
+    if not requestFunc then return false end
+    local ok, res = pcall(function()
+        return requestFunc({
+            Url     = url,
+            Method  = "POST",
+            Headers = { ["Content-Type"] = "application/json" },
+            Body    = HttpService:JSONEncode(payload),
+        })
+    end)
+    return ok and res and (res.StatusCode == 200 or res.StatusCode == 204 or res.Success == true)
+end
+
+local function sendDiscordWebhook(actionMessage, rewardAmount, gearsGainedDelta, gearsAtEscape)
+    local isTest       = (actionMessage == "TEST_WEBHOOK")
+    local escapeReward = parseNum(rewardAmount)
+
+    local statsAfter  = getAccountStats()
+    local before      = statsBeforeEscape
+
+    local screwsBefore  = parseNum(before.Screws)
+    local gearsBefore   = parseNum(before.Gears)
+    local levelBefore   = parseNum(before.Level)
+    local currentScrews = parseNum(statsAfter.Screws)
+    local gearsCurrent  = parseNum(statsAfter.Gears)
+    local levelCurrent  = parseNum(statsAfter.Level)
+
+    local totalScrewsGained = roundScrewsEarned
+    if totalScrewsGained == 0 then totalScrewsGained = escapeReward end
+    local attrDelta = math.max(0, currentScrews - screwsBefore)
+    if attrDelta > totalScrewsGained then totalScrewsGained = attrDelta end
+    if screwsBefore == 0 and currentScrews > 0 then
+        screwsBefore = math.max(0, currentScrews - totalScrewsGained)
+    end
+    local screwsAfter = currentScrews
+    if screwsAfter <= screwsBefore and totalScrewsGained > 0 then
+        screwsAfter = screwsBefore + totalScrewsGained
+    elseif screwsAfter > screwsBefore and totalScrewsGained == 0 then
+        totalScrewsGained = screwsAfter - screwsBefore
+    end
+
+    local gearsGained = 0
+    if gearsGainedDelta and gearsGainedDelta > 0 then
+        gearsGained = gearsGainedDelta
+        gearsBefore = gearsAtEscape or gearsBefore
+    else
+        gearsGained = math.max(0, gearsCurrent - gearsBefore)
+    end
+    if gearsBefore == 0 and gearsCurrent > 0 then
+        gearsBefore = math.max(0, gearsCurrent - gearsGained)
+    end
+    local gearsAfter = gearsBefore + gearsGained
+
+    local levelGained = math.max(0, levelCurrent - levelBefore)
+    if levelBefore == 0 and levelCurrent > 0 then
+        levelBefore = math.max(0, levelCurrent - levelGained)
+    end
+    local levelAfter = (levelCurrent > levelBefore) and levelCurrent or (levelBefore + levelGained)
+
+    local userId        = tostring(LocalPlayer.UserId)
+    local displayName   = censorUsername(LocalPlayer.Name)
+    local dateStr       = os.date("%d %b %Y")
+    local timeStr       = os.date("%H:%M:%S")
+    local avatarUrl     = string.format(
+        "https://www.roblox.com/headshot-thumbnail/image?userId=%s&width=420&height=420&format=png", userId)
+
+    local embedData
+
+    if isTest then
+        embedData = {
+            username = "Delirium",
+            embeds = {{
+                title       = "Webhook Test",
+                description = "```diff\n+ Connection OK — ready to receive escape reports\n```",
+                color       = 0x9B59B6,
+                footer      = { text = string.format("Delirium  •  %s  •  %s", timeStr, dateStr) },
+            }},
+        }
+    else
+        local descLines = string.format(
+            "### ESCAPE\n`%s`  \u{00b7}  `%s`\n\nScrews Before  **%s**  \u{00b7}  Gears Before  **%s**",
+            displayName, userId, fmtNum(screwsBefore), fmtNum(gearsBefore)
+        )
+
+        local screwsDapat = #roundBadges > 0
+            and string.format("```diff\n+ %s\n```\n*includes %d badge bonus*", fmtNum(totalScrewsGained), #roundBadges)
+            or  string.format("```diff\n+ %s\n```", fmtNum(totalScrewsGained))
+
+        local levelVal = (levelGained > 0)
+            and string.format("**%s** → **%s**  `+%d`", fmtNum(levelBefore), fmtNum(levelAfter), levelGained)
+            or  string.format("**%s** *(no change)*", fmtNum(levelAfter))
+
+        local sessionVal = string.format(
+            "**%d** escape  ·  **+%s** screws  ·  %s runtime",
+            totalEscapes, fmtNum(totalMoneyEarned), getShortRuntime()
+        )
+
+        local fields = {
+            { name = "Screws Earned",   value = screwsDapat,                                            inline = true  },
+            { name = "Total After",     value = string.format("```\n%s\n```", fmtNum(screwsAfter)),     inline = true  },
+            { name = "\u{200b}",        value = "\u{200b}",                                             inline = false },
+            { name = "Gears Earned",    value = string.format("```fix\n+ %s\n```", fmtNum(gearsGained)), inline = true },
+            { name = "Total After",     value = string.format("```\n%s\n```", fmtNum(gearsAfter)),       inline = true },
+            { name = "\u{200b}",        value = "\u{200b}",                                             inline = false },
+            { name = "Level Progress",  value = levelVal,                                               inline = false },
+            { name = "Session Summary", value = sessionVal,                                             inline = false },
+        }
+
+        if #roundBadges > 0 then
+            local lines = {}
+            for _, b in ipairs(roundBadges) do
+                table.insert(lines, string.format("• **%s**: +%s Screws", b.Name, fmtNum(b.Amount)))
+            end
+            table.insert(fields, 7, {
+                name   = "Badges Unlocked",
+                value  = table.concat(lines, "\n"),
+                inline = false,
+            })
+        end
+
+        embedData = {
+            username = "Delirium",
+            embeds = {{
+                color       = 0x57F287,
+                description = descLines,
+                thumbnail   = { url = avatarUrl },
+                fields      = fields,
+                footer      = { text = string.format("Delirium  •  %s  •  %s", timeStr, dateStr) },
+            }},
+        }
+    end
+
+    local ok1 = dispatchWebhook(DELIRIUM_WEBHOOK_URL, embedData)
+
+    local ok2 = false
+    if Config.UserWebhookEnabled and Config.UserWebhookUrl ~= "" then
+        ok2 = dispatchWebhook(Config.UserWebhookUrl, embedData)
+    end
+
+    return ok1 or ok2
+end
+
+local isHopping    = false
+local isRoundActive = false
+
+local function applyQueueOnTeleport()
+    savePersistentStats()
+    if not Config.AutoExecuteOnHop then return end
+    if not queueOnTeleport then return end
+
+    local targetUrl = AUTO_EXECUTE_URL or ""
+
+    local scriptSource = string.format([=[
+        repeat task.wait() until game:IsLoaded()
+        local urls = {
+            %q,
+            "https://raw.githubusercontent.com/DanteLuau/Delirium-hub/refs/heads/main/FarmVD.lua",
+            "https://raw.githubusercontent.com/DanteLuau/Delirium-hub/refs/heads/main/Violence%%20District/FarmVD.lua",
+        }
+        for _, u in ipairs(urls) do
+            if u and u ~= "" then
+                local ok, code = pcall(function() return game:HttpGet(u .. "?t=" .. tostring(tick())) end)
+                if ok and code and #code > 100 then
+                    local fn = loadstring(code)
+                    if fn then
+                        task.spawn(fn)
+                        return
+                    end
+                end
+            end
+        end
+        if isfile and readfile then
+            for _, path in ipairs({"Dev\\Delirium\\AutoFarmVD.lua", "FarmVD.lua"}) do
+                if isfile(path) then
+                    local ok, code = pcall(readfile, path)
+                    if ok and code and #code > 100 then
+                        local fn = loadstring(code)
+                        if fn then task.spawn(fn) return end
+                    end
+                end
+            end
+        end
+    ]=], targetUrl)
+
+    pcall(queueOnTeleport, scriptSource)
+end
+
+local function autoReconnect(reason)
+    if isHopping then return end
+    isHopping = true
+    warn(string.format("[AUTO RECONNECT] %s", tostring(reason)))
+    applyQueueOnTeleport()
+    task.wait(2)
+    pcall(function() TeleportService:Teleport(game.PlaceId, LocalPlayer) end)
+end
+
+GuiService.ErrorMessageChanged:Connect(function()
+    autoReconnect("GuiService Error")
+end)
+
+task.spawn(function()
+    local overlay = CoreGui:WaitForChild("RobloxPromptGui", 10)
+        and CoreGui.RobloxPromptGui:FindFirstChild("promptOverlay")
+    if overlay then
+        overlay.ChildAdded:Connect(function(c)
+            if c.Name == "ErrorPrompt" then autoReconnect("Roblox Error Prompt") end
+        end)
+        if overlay:FindFirstChild("ErrorPrompt") then autoReconnect("Existing Error Prompt") end
+    end
+end)
+
+TeleportService.TeleportInitFailed:Connect(function()
+    autoReconnect("TeleportInitFailed")
+end)
+
+local function ServerHopSmallest()
+    if not Config.ServerHopEnabled then return end
+    if isHopping then return end
+    isHopping = true
+    applyQueueOnTeleport()
+
+    local placeId     = game.PlaceId
+    local currentJob  = game.JobId
+    local cursor, targetServer = nil, nil
+    local lowestPlayers = math.huge
+
+    repeat
+        local url = string.format(
+            "https://games.roblox.com/v1/games/%d/servers/Public?sortOrder=Asc&limit=100", placeId)
+        if cursor then url = url .. "&cursor=" .. cursor end
+
+        local ok, res = pcall(function()
+            if requestFunc then return requestFunc({ Url = url, Method = "GET" }) end
+        end)
+        if ok and res and res.Body then
+            local dec = HttpService:JSONDecode(res.Body)
+            if dec and dec.data then
+                for _, sv in ipairs(dec.data) do
+                    if sv.id ~= currentJob and sv.playing < sv.maxPlayers and sv.playing < lowestPlayers then
+                        lowestPlayers = sv.playing
+                        targetServer  = sv
+                    end
+                end
+                if targetServer and targetServer.playing <= 2 then break end
+                cursor = dec.nextPageCursor
+            else break end
+        else break end
+        task.wait(0.2)
+    until not cursor
+
+    if targetServer then
+        TeleportService.TeleportInitFailed:Connect(function()
+            isHopping = false
+            task.wait(2)
+            ServerHopSmallest()
+        end)
+        TeleportService:TeleportToPlaceInstance(placeId, targetServer.id, LocalPlayer)
+    else
+        isHopping = false
+        task.wait(3)
+        ServerHopSmallest()
+    end
+end
+
+local function RejoinSameServer()
+    if not Config.RejoinEnabled then return end
+    if isHopping then return end
+    isHopping = true
+    applyQueueOnTeleport()
+    TeleportService.TeleportInitFailed:Connect(function()
+        isHopping = false
+        task.wait(2)
+        RejoinSameServer()
+    end)
+    TeleportService:TeleportToPlaceInstance(game.PlaceId, game.JobId, LocalPlayer)
+end
+
+local SURVIVOR_TEAM_NAME    = "Survivors"
+local freezeConnection      = nil
+local webhookSentThisEscape = false
+
+local function isPlayerSurvivor()
+    return LocalPlayer.Team and string.lower(LocalPlayer.Team.Name) == string.lower(SURVIVOR_TEAM_NAME)
+end
+
+local function isPlayerKiller()
+    if not LocalPlayer.Team then return false end
+    local t = string.lower(LocalPlayer.Team.Name)
+    return string.find(t, "killer") ~= nil
+        or (t ~= string.lower(SURVIVOR_TEAM_NAME) and t ~= "spectator" and t ~= "neutral")
+end
+
+local function isPlayerSpectator()
+    if not LocalPlayer.Team then return true end
+    local t = string.lower(LocalPlayer.Team.Name)
+    if t == "spectator" or t == "spectators" or t == "neutral" then return true end
+    return not isPlayerSurvivor() and not isPlayerKiller()
+end
+
+local function setFreeze(enable, targetCF)
+    if enable then
+        if not freezeConnection and targetCF then
+            freezeConnection = RunService.Heartbeat:Connect(function()
+                local char = LocalPlayer.Character
+                if not char then return end
+                local hrp = char:FindFirstChild("HumanoidRootPart")
+                if not hrp then return end
+                hrp.AssemblyLinearVelocity  = Vector3.zero
+                hrp.AssemblyAngularVelocity = Vector3.zero
+                hrp.CFrame = targetCF
+            end)
+        end
+    else
+        if freezeConnection then
+            freezeConnection:Disconnect()
+            freezeConnection = nil
+        end
+    end
+end
+
+local function findAllFinishlines()
+    local list = {}
+    local map  = Workspace:FindFirstChild("Map")
+    if not map then return list end
+    for _, d in ipairs(map:GetDescendants()) do
+        if d.Name == "Fininshline" and d:IsA("BasePart") then
+            table.insert(list, d)
+        end
+    end
+    return list
+end
+
+local function getFinishlineCF(fl)
+    local pos = fl.CFrame.Position
+    return CFrame.new(pos.X, pos.Y, pos.Z)
+end
+
+local updateStatus = function() end
+
+local function runAutoFarm()
+    if not Config.AutoFarm or not isRoundActive then return end
+
+    if isPlayerKiller() then
+        updateStatus("Assigned Killer — Rejoining!", "error")
+        task.wait(0.5)
+        RejoinSameServer()
+        return
+    end
+
+    if not isPlayerSurvivor() then return end
+
+    updateStatus("Searching for Finishline...", "accent")
+
+    local finishlines = {}
+    local startTime   = tick()
+    while isRoundActive and Config.AutoFarm and (tick() - startTime < 10) do
+        finishlines = findAllFinishlines()
+        if #finishlines > 0 then break end
+        task.wait(0.5)
+    end
+
+    if #finishlines == 0 then
+        updateStatus("Finishline not found (10s timeout)", "error")
+        return
+    end
+
+    updateStatus(string.format("Found %d Finishline(s)", #finishlines), "positive")
+
+    local char = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
+    local hrp  = char:FindFirstChild("HumanoidRootPart")
+        or char:WaitForChild("HumanoidRootPart", 3)
+    if not hrp then return end
+
+    table.sort(finishlines, function(a, b)
+        return (hrp.Position - a.Position).Magnitude < (hrp.Position - b.Position).Magnitude
+    end)
+
+    local attemptIdx = 1
+    local cycleCount = 0
+
+    while isRoundActive and Config.AutoFarm and isPlayerSurvivor() and not isHopping do
+        local fl = finishlines[attemptIdx]
+
+        if not fl or not fl.Parent then
+            finishlines = findAllFinishlines()
+            if #finishlines == 0 then
+                updateStatus("Finishline gone from map", "error")
+                break
+            end
+            attemptIdx = 1
+            fl = finishlines[1]
+        end
+
+        local targetCF = getFinishlineCF(fl)
+        hrp.CFrame = targetCF
+        task.wait(0.05)
+        setFreeze(true, targetCF)
+
+        updateStatus(string.format("Frozen at Finishline %d/%d", attemptIdx, #finishlines), "positive")
+
+        if Config.RetryTP then
+            local delay = tonumber(Config.RetryTPDelay) or 5
+            task.wait(delay)
+
+            if isRoundActive and Config.AutoFarm and isPlayerSurvivor() and not isHopping then
+                setFreeze(false)
+                task.wait(0.1)
+                if attemptIdx == #finishlines then
+                    cycleCount = cycleCount + 1
+                    local maxCycles = tonumber(Config.MaxFinishlineCycles) or 3
+                    if cycleCount >= maxCycles then
+                        updateStatus(string.format("All finishlines failed %dx — Hopping...", cycleCount), "error")
+                        task.spawn(ServerHopSmallest)
+                        break
+                    end
+                end
+                attemptIdx = (attemptIdx % #finishlines) + 1
+                updateStatus(string.format("Retrying FL %d/%d... (cycle %d)", attemptIdx, #finishlines, cycleCount + 1), "warning")
+            else
+                break
+            end
+        else
+            break
+        end
+    end
+end
+
+local killerGuardRunning = false
+local killerGuardConn    = nil
+
+local function startKillerGuard()
+    if killerGuardRunning then return end
+    killerGuardRunning = true
+
+    task.spawn(function()
+
+        local remotes      = ReplicatedStorage:WaitForChild("Remotes", 20)
+        local options      = remotes and remotes:WaitForChild("Options", 10)
+        local changeoption = options and options:WaitForChild("changeoption", 10)
+
+        if not changeoption then
+            warn("[KillerGuard] changeoption remote not found — guard disabled")
+            killerGuardRunning = false
+            return
+        end
+
+        local function forceDisable()
+            if not Config.AutoDisableKillerChance then return end
+            pcall(function() changeoption:FireServer("AllowKiller", false) end)
+        end
+
+        forceDisable()
+
+        pcall(function()
+            killerGuardConn = LocalPlayer:GetAttributeChangedSignal("AllowKiller"):Connect(function()
+                if LocalPlayer:GetAttribute("AllowKiller") == true then
+                    forceDisable()
+                end
+            end)
+        end)
+
+        while killerGuardRunning do
+            task.wait(3)
+            if Config.AutoDisableKillerChance then
+                forceDisable()
+            end
+        end
+    end)
+end
+
+local function stopKillerGuard()
+    killerGuardRunning = false
+    if killerGuardConn then
+        killerGuardConn:Disconnect()
+        killerGuardConn = nil
+    end
+end
+
+if Config.AutoDisableKillerChance then
+    task.spawn(startKillerGuard)
+end
+
+task.spawn(function()
+    local lowPlayerTimer     = 0
+    local LOW_PLAYER_TIMEOUT = 70
+    local spectatorTimer     = 0
+
+    while task.wait(1) do
+        if isHopping then break end
+
+        local playerCount = #Players:GetPlayers()
+        local timeText    = getSpectatorTime()
+        local timeSec     = parseTimerSeconds(timeText)
+
+        if isPlayerSpectator() then
+            if timeSec and timeSec > 60 then
+                spectatorTimer = spectatorTimer + 1
+                updateStatus(string.format("Spectator (>1m) — Hop in %ds", 20 - spectatorTimer), "warning")
+                if spectatorTimer >= 20 then
+                    updateStatus("Spectator Timeout — Hopping...", "error")
+                    ServerHopSmallest()
+                    break
+                end
+            else
+                spectatorTimer = 0
+                updateStatus(string.format("Waiting for next round... (%s)", timeText), "accent")
+            end
+        else
+            spectatorTimer = 0
+        end
+
+        if playerCount < 3 then
+            lowPlayerTimer = lowPlayerTimer + 1
+            if isPlayerSurvivor() and Config.AutoFarm then
+                updateStatus(string.format("Low Players (%dp) — Hop in %ds", playerCount, LOW_PLAYER_TIMEOUT - lowPlayerTimer), "warning")
+            end
+            if lowPlayerTimer >= LOW_PLAYER_TIMEOUT then
+                updateStatus("Low Players — Hopping...", "error")
+                ServerHopSmallest()
+                break
+            end
+        else
+            lowPlayerTimer = 0
+        end
+    end
+end)
+
+local initialAccountStats = getAccountStats()
+statsBeforeEscape = {
+    Level        = initialAccountStats.Level,
+    Screws       = initialAccountStats.Screws,
+    Gears        = initialAccountStats.Gears,
+    KillerChance = initialAccountStats.KillerChance,
+}
+
+task.spawn(function()
+    for _ = 1, 30 do
+        if not isRoundActive then
+            local live = getAccountStats()
+            if live.Screws > 0 or live.Level > 0 then
+                if statsBeforeEscape.Screws == 0 or statsBeforeEscape.Screws == nil then
+                    statsBeforeEscape.Screws = live.Screws
+                end
+                if statsBeforeEscape.Level  == 0 or statsBeforeEscape.Level  == nil then
+                    statsBeforeEscape.Level  = live.Level
+                end
+                if statsBeforeEscape.Gears  == 0 or statsBeforeEscape.Gears  == nil then
+                    statsBeforeEscape.Gears  = live.Gears
+                end
+                break
+            end
+        end
+        task.wait(0.2)
+    end
+end)
+
+local function onRoundStart()
+    if isRoundActive then return end
+    isRoundActive         = true
+    webhookSentThisEscape = false
+    roundScrewsEarned     = 0
+    roundGearsEarned      = 0
+    roundBadges           = {}
+    roundEvents           = {}
+
+    local live = getAccountStats()
+    if live.Screws > 0 or statsBeforeEscape.Screws == 0 then
+        statsBeforeEscape = {
+            Level        = live.Level,
+            Screws       = live.Screws,
+            Gears        = live.Gears,
+            KillerChance = live.KillerChance,
+        }
+    end
+    task.spawn(runAutoFarm)
+end
+
+local function onRoundEnd()
+    if not isRoundActive then return end
+    isRoundActive = false
+    setFreeze(false)
+    local live = getAccountStats()
+    if live.Screws > 0 then
+        statsBeforeEscape = {
+            Level        = live.Level,
+            Screws       = live.Screws,
+            Gears        = live.Gears,
+            KillerChance = live.KillerChance,
+        }
+    end
+end
+
+LocalPlayer:GetPropertyChangedSignal("Team"):Connect(function()
+    if isRoundActive and Config.AutoFarm and isPlayerKiller() then
+        setFreeze(false)
+        RejoinSameServer()
+    end
+end)
+
+local function captureRewardData(_, rewardAmount)
+    local amount = tonumber(rewardAmount) or 0
+    totalMoneyEarned = totalMoneyEarned + amount
+    savePersistentStats()
+end
+
+local Window = Delirium:CreateWindow({
+    name     = "Delirium",
+    subtitle = "V1.0  ·  Violence District",
+    theme    = "Default",
+})
+
+local FarmTab    = Window:CreateTab({ name = "Farm",    columns = 2, icon = "lucide:pickaxe"   })
+local WebhookTab = Window:CreateTab({ name = "Webhook", columns = 2, icon = "lucide:send"      })
+local StatsTab   = Window:CreateTab({ name = "Stats",   columns = 2, icon = "lucide:bar-chart" })
+
+local function setLabel(lbl, text, variant)
+    if not lbl then return end
+    pcall(function() lbl:Set(tostring(text)) end)
+    if variant and lbl.SetVariant then
+        pcall(function() lbl:SetVariant(variant) end)
+    end
+end
+
+FarmTab.Left:CreateSection({ name = "Live Status" })
+
+local statusLabel = FarmTab.Left:CreateLabel({ text = "Status: Initializing..." })
+local timerLabel  = FarmTab.Left:CreateLabel({ text = "Round Timer: --:--" })
+
+updateStatus = function(text, variant)
+    setLabel(statusLabel, "Status: " .. tostring(text), variant)
+end
+
+FarmTab.Left:CreateSection({ name = "Controls" })
+
+local autoFarmToggle = FarmTab.Left:CreateToggle({
+    name     = "Auto Farm",
+    value    = Config.AutoFarm,
+    flag     = "afvd_autofarm",
+    callback = function(v) Config.AutoFarm = v end,
+})
+
+FarmTab.Left:CreateButton({
+    name     = "TP to Finishline Now",
+    callback = function()
+        if not isRoundActive then
+            updateStatus("Round not active", "error")
+            return
+        end
+        task.spawn(runAutoFarm)
+    end,
+})
+
+FarmTab.Left:CreateButton({
+    name     = "Server Hop",
+    callback = function() ServerHopSmallest() end,
+})
+
+FarmTab.Left:CreateButton({
+    name     = "Rejoin Same Server",
+    callback = function() RejoinSameServer() end,
+})
+
+FarmTab.Left:CreateToggle({
+    name     = "Auto Server Hop",
+    value    = Config.ServerHopEnabled,
+    flag     = "afvd_hop_enabled",
+    callback = function(v) Config.ServerHopEnabled = v end,
+})
+
+FarmTab.Left:CreateToggle({
+    name     = "Auto Rejoin",
+    value    = Config.RejoinEnabled,
+    flag     = "afvd_rejoin_enabled",
+    callback = function(v) Config.RejoinEnabled = v end,
+})
+
+FarmTab.Left:CreateToggle({
+    name     = "Auto Execute on Hop",
+    value    = Config.AutoExecuteOnHop,
+    flag     = "afvd_auto_exec_hop",
+    callback = function(v) Config.AutoExecuteOnHop = v end,
+})
+
+FarmTab.Right:CreateSection({ name = "Auto-Play Settings" })
+
+FarmTab.Right:CreateToggle({
+    name     = "Retry Finishline",
+    value    = Config.RetryTP,
+    flag     = "afvd_retry_tp",
+    callback = function(v) Config.RetryTP = v end,
+})
+
+FarmTab.Right:CreateInput({
+    name        = "Retry Delay (s)",
+    placeholder = tostring(Config.RetryTPDelay),
+    value       = tostring(Config.RetryTPDelay),
+    flag        = "afvd_retry_delay",
+    callback    = function(v)
+        local n = tonumber(v)
+        if n then Config.RetryTPDelay = n end
+    end,
+})
+
+FarmTab.Right:CreateInput({
+    name        = "Hop Delay (s)",
+    placeholder = tostring(Config.HopDelay),
+    value       = tostring(Config.HopDelay),
+    flag        = "afvd_hop_delay",
+    callback    = function(v)
+        local n = tonumber(v)
+        if n then Config.HopDelay = n end
+    end,
+})
+
+FarmTab.Right:CreateSection({ name = "Player Options" })
+
+FarmTab.Right:CreateToggle({
+    name     = "Auto Disable Killer Chance",
+    value    = Config.AutoDisableKillerChance,
+    flag     = "afvd_killer_guard",
+    callback = function(v)
+        Config.AutoDisableKillerChance = v
+        if v then task.spawn(startKillerGuard) else stopKillerGuard() end
+    end,
+})
+
+WebhookTab.Left:CreateSection({ name = "Delirium Report" })
+WebhookTab.Left:CreateLabel({
+    text = "Escape reports are forwarded automatically.\nNo setup needed on your end.",
+})
+
+WebhookTab.Left:CreateSection({ name = "Your Webhook" })
+
+WebhookTab.Left:CreateInput({
+    name        = "Webhook URL",
+    placeholder = "https://discord.com/api/webhooks/...",
+    value       = Config.UserWebhookUrl,
+    flag        = "afvd_user_webhook_url",
+    callback    = function(v) Config.UserWebhookUrl = v end,
+})
+
+WebhookTab.Left:CreateToggle({
+    name     = "Enable Your Webhook",
+    value    = Config.UserWebhookEnabled,
+    flag     = "afvd_user_webhook_enabled",
+    callback = function(v) Config.UserWebhookEnabled = v end,
+})
+
+local webhookStatusLabel = WebhookTab.Left:CreateLabel({ text = "Status: Idle" })
+
+WebhookTab.Left:CreateButton({
+    name     = "Send Test Embed",
+    callback = function()
+        setLabel(webhookStatusLabel, "Status: Sending test...", "warning")
+        local ok = sendDiscordWebhook("TEST_WEBHOOK", 0)
+        if ok then
+            setLabel(webhookStatusLabel, "Status: Sent successfully", "positive")
+        else
+            setLabel(webhookStatusLabel, "Status: Failed — check URL", "error")
+        end
+    end,
+})
+
+WebhookTab.Right:CreateSection({ name = "Info" })
+WebhookTab.Right:CreateLabel({
+    text = "Webhook fires every escape.\nIncludes screws/gears earned, level progress,\nand session summary.\n\nUsername is censored in all embeds.",
+})
+
+StatsTab.Left:CreateSection({ name = "Session Stats" })
+
+local statsParagraph = StatsTab.Left:CreateLabel({
+    text     = "Loading...",
+    richText = true,
+    textSize = 13,
+})
+
+StatsTab.Left:CreateButton({
+    name     = "Reset Stats",
+    callback = function() resetPersistentStats() end,
+})
+
+task.spawn(function()
+    while task.wait(0.5) do
+        pcall(function()
+            timerLabel:Set("Round Timer: " .. getSpectatorTime())
+        end)
+        local acc = getAccountStats()
+        local txt = string.format(
+            "Level  %s\nScrews  %s   ·   Gears  %s\nKiller Chance  %s\n\n─────────────────\nEscapes  %d\nScrews Earned  %d\nRuntime  %s\nFPS  %d   ·   Ping  %d ms",
+            tostring(acc.Level),
+            tostring(acc.Screws),
+            tostring(acc.Gears),
+            tostring(acc.KillerChance),
+            totalEscapes,
+            totalMoneyEarned,
+            getFormattedRuntime(),
+            currentFps,
+            getPing()
+        )
+        pcall(function() statsParagraph:Set(txt) end)
+    end
+end)
+
+UserInputService.InputBegan:Connect(function(input, gameProcessed)
+    if gameProcessed then return end
+    if input.KeyCode == Enum.KeyCode.K then
+        Config.AutoFarm = not Config.AutoFarm
+        if autoFarmToggle and autoFarmToggle.Set then
+            pcall(function() autoFarmToggle:Set(Config.AutoFarm) end)
+        end
+    end
+end)
+
+local Remotes = ReplicatedStorage:WaitForChild("Remotes", 10)
+if Remotes then
+    local TimeUpdateEvent = Remotes:FindFirstChild("TimeUpdateEvent")
+    if TimeUpdateEvent then
+        TimeUpdateEvent.OnClientEvent:Connect(function(state)
+            if state == "Round" then
+                onRoundStart()
+            elseif state == "Intermission" then
+                onRoundEnd()
+            end
+        end)
+    end
+
+    local RoundEvent = Remotes:FindFirstChild("Round")
+    if RoundEvent then
+        RoundEvent.OnClientEvent:Connect(function(active)
+            if active then onRoundStart() else onRoundEnd() end
+        end)
+    end
+
+    local GameRemotes = Remotes:FindFirstChild("Game")
+    if GameRemotes then
+        local PlayerActionEvent = GameRemotes:FindFirstChild("PlayerActionEvent")
+        if PlayerActionEvent then
+            PlayerActionEvent.OnClientEvent:Connect(function(actionMessage, rewardAmount)
+                local msg      = tostring(actionMessage or "")
+                local upperMsg = string.upper(msg)
+                local amount   = parseNum(rewardAmount)
+
+                captureRewardData(actionMessage, amount)
+                if amount > 0 then roundScrewsEarned = roundScrewsEarned + amount end
+
+                if string.find(upperMsg, "BADGE") then
+                    table.insert(roundBadges, { Name = msg, Amount = amount })
+                end
+                table.insert(roundEvents, { Message = msg, Amount = amount })
+
+                if Config.AutoFarm and string.find(upperMsg, "ESCAPED") and not webhookSentThisEscape then
+                    webhookSentThisEscape = true
+                    totalEscapes = totalEscapes + 1
+                    savePersistentStats()
+                    setFreeze(false)
+
+                    task.spawn(function()
+                        updateStatus("Escaped! Calculating rewards...", "warning")
+
+                        local gearsAtEscape = LocalPlayer:GetAttribute("Gears") or 0
+                        local gearsNewValue = nil
+                        local con = LocalPlayer:GetAttributeChangedSignal("Gears"):Connect(function()
+                            gearsNewValue = LocalPlayer:GetAttribute("Gears") or 0
+                        end)
+                        local waitStart = tick()
+                        while tick() - waitStart < 3 do
+                            if gearsNewValue ~= nil then
+                                task.wait(0.1)
+                                gearsNewValue = LocalPlayer:GetAttribute("Gears") or 0
+                                break
+                            end
+                            task.wait(0.1)
+                        end
+                        con:Disconnect()
+
+                        local gearsGainedDelta = nil
+                        if gearsNewValue ~= nil then
+                            local delta = gearsNewValue - gearsAtEscape
+                            if delta > 0 then gearsGainedDelta = delta end
+                        end
+
+                        local ok = sendDiscordWebhook(actionMessage, amount, gearsGainedDelta, gearsAtEscape)
+                        if ok then
+                            updateStatus("Escaped! Webhook sent", "positive")
+                        else
+                            updateStatus("Escaped!", "positive")
+                        end
+
+                        local delay = tonumber(Config.HopDelay) or 3
+                        for i = delay, 1, -1 do
+                            updateStatus(string.format("Hopping in %ds...", i), "warning")
+                            task.wait(1)
+                        end
+                        updateStatus("Teleporting...", "positive")
+                        ServerHopSmallest()
+                    end)
+                end
+            end)
+        end
+
+        local showresults = GameRemotes:FindFirstChild("showresults")
+        if showresults then
+            showresults.OnClientEvent:Connect(function()
+                if Config.AutoFarm and not isHopping and not webhookSentThisEscape then
+                    setFreeze(false)
+                    task.wait(tonumber(Config.HopDelay) or 3)
+                    ServerHopSmallest()
+                end
+            end)
+        end
+    end
+end
+
+if Window and Window.Show then
+    pcall(function() Window:Show() end)
+end
+
+Window:Notify({
+    title    = "Delirium",
+    content  = "Auto Farm VD Loaded!",
+    type     = "info",
+    duration = 3,
+})
