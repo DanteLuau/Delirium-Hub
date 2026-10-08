@@ -2066,7 +2066,7 @@ function RefiningSystem.ProcessCycle()
                     if ok and res then
                         RefiningSettings.TotalClaimed = RefiningSettings.TotalClaimed + 1
                         if RefiningSystem.OnStatsUpdated then RefiningSystem.OnStatsUpdated() end
-                        Notify({ Title = "Pemurnian",
+                        Notify({ Title = "Refinining",
                             Message = string.format("Slot %s dikumpulkan! Total: %d", slotKey, RefiningSettings.TotalClaimed),
                             Type = "success", Duration = 2.5 })
                         task.wait(0.35)
@@ -2098,8 +2098,8 @@ function RefiningSystem.ProcessCycle()
                     RefiningSettings.TotalStarted = RefiningSettings.TotalStarted + 1
                     if RefiningSystem.OnStatsUpdated then RefiningSystem.OnStatsUpdated() end
                     local name = string.gsub(p.OreId, "^Ore_", "")
-                    Notify({ Title = "Pemurnian",
-                        Message = string.format("Memurnikan: %s (D: %.1f + %.1f, rata-rata %.1f)",
+                    Notify({ Title = "Refining",
+                        Message = string.format("Refining: %s (D: %.1f + %.1f, rata-rata %.1f)",
                             name, p.OreA.Density, p.OreB.Density, p.Score),
                         Type = "info", Duration = 2.5 })
                     task.wait(0.35)
@@ -2277,7 +2277,7 @@ function MiscSystem.GiveLoveToAll(notify)
     local fns = ReplicatedStorage:FindFirstChild("GameRemoteFunctions")
     local fn = fns and fns:FindFirstChild("GiveLoveFunction")
     if not fn then
-        if notify then Notify({ Title = "Kasih Love",
+        if notify then Notify({ Title = "Auto Love",
             Message = "Remote GiveLoveFunction tidak ditemukan",
             Type = "error", Duration = 3 }) end
         return 0, 0, "Remote tidak ditemukan"
@@ -2328,10 +2328,10 @@ function MiscSystem.GiveLoveToAll(notify)
     end
     if notify then
         if ageMsg then
-            Notify({ Title = "Kasih Love Dibatasi", Message = ageMsg,
+            Notify({ Title = "Auto Love", Message = ageMsg,
                 Type = "warning", Duration = 4 })
         elseif liked > 0 then
-            Notify({ Title = "Kasih Love",
+            Notify({ Title = "Auto Love",
                 Message = string.format("Selesai! Sudah like %d Player. (%d sudah di-like)", liked, alreadyLiked),
                 Type = "success", Duration = 3.5 })
         end
@@ -4347,8 +4347,8 @@ local function _H_checkNewTreaters(treaters)
             local dist = _H_distTo(p)
             local distStr = (dist == math.huge) and "? studs" or string.format("%.0f studs", dist)
             Notify({
-                Title   = "🎃 Pemberi Datang!",
-                Message = string.format("%s (@%s) lagi nargetin lo! [%s]",
+                Title   = "Trick or Treater",
+                Message = string.format("%s (@%s) lagi nyariin kamu [%s]",
                     p.DisplayName, p.Name, distStr),
                 Type     = "info",
                 Duration = 10,
@@ -4386,10 +4386,10 @@ local function _H_onHeartbeat(dt)
 
         if _HCfg.ESP_ENABLED and targetPlayer then
             if not _HEsp[targetPlayer] then
-                _H_addESP(targetPlayer, _HCfg.COLOR_MY_TARGET, "Trick or Treater")
+                _H_addESP(targetPlayer, _HCfg.COLOR_MY_TREATER, "Candy Giver")
             end
             local obj = _HEsp[targetPlayer]
-            _H_updateESP(targetPlayer, obj, _HCfg.COLOR_MY_TARGET, "Trick or Treater")
+            _H_updateESP(targetPlayer, obj, _HCfg.COLOR_MY_TREATER, "Candy Giver")
         end
 
         if _HCfg.TREATER_ESP_ENABLED then
@@ -4397,7 +4397,7 @@ local function _H_onHeartbeat(dt)
                 if p == targetPlayer then continue end
                 if not _HTreaterEsp[p] then _H_addTreaterESP(p) end
                 local obj = _HTreaterEsp[p]
-                _H_updateESP(p, obj, _HCfg.COLOR_MY_TREATER, "Candy Giver")
+                _H_updateESP(p, obj, _HCfg.COLOR_MY_TARGET, "Trick or Treater")
             end
         end
         _H_checkNewTreaters(treaters)
@@ -4556,7 +4556,7 @@ local function _FG_AddESP(giver, friendName)
     hl.Adornee             = c
     hl.Parent              = c
 
-    local tag = string.format("🍬 GIVER → %s", friendName)
+    local tag = string.format("Candy Giver %s", friendName)
     local bb  = _FG_MakeBillboard(hrp, "FG_BB", tag)
 
     local conns = {}
@@ -5151,8 +5151,8 @@ local function _H_SJ_startAutoWalk()
                             if distHome > (_HSJ.ReturnReach or 6) then
                                 if Notify then
                                     Notify({ Title = "AutoWalk",
-                                        Message = done and "Permen diterima — balik ke titik."
-                                                       or  "Timeout — balik ke titik.",
+                                        Message = done and "Candy Received — balik ke titik yang di saved."
+                                                       or  "Timeout — balik ke titik yang di saved.",
                                         Type = "info", Duration = 2 })
                                 end
                                 pcall(_H_SJ_walkToPos, homePos)
@@ -5350,7 +5350,7 @@ local IV_FPSBooster = SecMainPerf:CreateToggle({
     callback = function(v) MiscSystem.SetFPSBooster(v) end,
 })
 SecMainPerf:CreateLabel({
-    text = "<b>FPS Booster</b>\nMatikan partikel, dan Lighting. Auto-restore saat dimatikan.",
+    text = "<b>FPS Booster</b>\nMatikan partikel, dan Lighting. Auto-restore saat dimatikan. ada bug, ESP jadi tidak nampil. <b>FIX SOON</b>",
 })
 
 local SecFishAutomation = TabFishing.Left:CreateSection({ name = "Automation" })
@@ -5719,7 +5719,7 @@ local IV_ToT_SJEnabled = SecToTSJ:CreateToggle({
 })
 
 local IV_ToT_AutoWalk = SecToTSJ:CreateToggle({
-    name = "Auto Walk to Target", value = false,
+    name = "Auto Walk to Target", value = true,
     callback = function(v) if HalloweenESP then HalloweenESP.SetAutoWalk(v) end end,
 })
 
@@ -5757,7 +5757,7 @@ local function ToT_UpdateRPLabel()
 end
 
 SecToTSJ:CreateButton({
-    name = "Set Return Point (posisi sekarang)",
+    name = "Set Return Point",
     callback = function()
         local hrp = Utils.GetHumanoidRootPart()
         if not hrp then
@@ -6380,7 +6380,7 @@ NoclipToggle = SecMiscPlayers:CreateToggle({
 })
 
 local IV_AntiSlide = SecMiscPlayers:CreateToggle({
-    name = "Disable Sliding", value = false,
+    name = "Disable Sliding", value = true,
     callback = function(v)
         if v then _AntiSlide_Start() else _AntiSlide_Stop() end
     end,
@@ -6389,7 +6389,7 @@ SecMiscPlayers:CreateLabel({
     text = "Matikan efek merosot ketika menaiki tanjakan. fitur aneh tapi berguna ya gak?",
 })
 
-local SecGhostHunt = TabMisc.Left:CreateSection({ name = "GhostHunt ESP" })
+local SecGhostHunt = TabHalloween.Left:CreateSection({ name = "GhostHunt ESP" })
 
 SecGhostHunt:CreateToggle({
     name = "Ghost ESP", value = false,
@@ -6405,7 +6405,7 @@ SecGhostHunt:CreateToggle({
 })
 
 SecGhostHunt:CreateLabel({
-    text = "Highlight + tracer ke Ghost1–Ghost5 di workspace.GhostHunt.\nAuto-detect saat event spawn.",
+    text = "Highlight Ghost di map.\nAuto-detect saat event spawn. <b>INI MASI NEBAK YA KARNA GA SEMPET BUAT KARNA SEHARI CUMA 5 MENIT</b>\njadi report aja kalo ga works",
 })
 
 local SecMiscTeleport = TabMisc.Right:CreateSection({ name = "Teleport Manager" })
@@ -6591,6 +6591,7 @@ if getgenv then getgenv().IndoVoice_Unload = IndoVoice_Unload end
 UpdateClaimLoop()
 
 AntiAFK.Start()
+_AntiSlide_Start()
 if HalloweenESP then
     HalloweenESP.SetESP(true)
     HalloweenESP.SetTreaterESP(true)
@@ -6598,6 +6599,7 @@ if HalloweenESP then
     ToT_SJ_on = true
     HalloweenESP.SetSkipJoin("Skip", true)
     HalloweenESP.SetReturnToStart(true)
+    HalloweenESP.SetAutoWalk(true)
 end
 
 Window:Notify({
