@@ -5059,6 +5059,33 @@ local function _H_UnequipToT()
     end
 end
 
+local _HAutoHoldEnabled = false
+local _HAutoHoldThread  = nil
+
+local function _H_startAutoHold()
+    if _HAutoHoldThread then return end
+    _HAutoHoldThread = task.spawn(function()
+        while _HAutoHoldEnabled do
+            local char = _LocalPlayer_H.Character
+            local hum  = char and char:FindFirstChildOfClass("Humanoid")
+            if hum and hum.Health > 0 and not _H_GetToTEquipped() then
+                _H_EquipToT()
+            end
+            task.wait(2)
+        end
+        _HAutoHoldThread = nil
+    end)
+end
+
+local function _H_stopAutoHold()
+    _HAutoHoldEnabled = false
+    if _HAutoHoldThread then
+        pcall(task.cancel, _HAutoHoldThread)
+        _HAutoHoldThread = nil
+    end
+    _H_UnequipToT()
+end
+
 local function _H_FindCandyGiver()
     local treaters = _H_findMyTreaters()
     return treaters[1]
@@ -5222,6 +5249,10 @@ HalloweenESP = {
         _HAutoGiveEnabled = v
         if v then _H_startAutoGive() else _H_stopAutoGive() end
     end,
+    SetAutoHold      = function(v)
+        _HAutoHoldEnabled = v and true or false
+        if _HAutoHoldEnabled then _H_startAutoHold() else _H_stopAutoHold() end
+    end,
     SetSkipJoin      = function(mode, enabled)
         _HSJ.Mode    = (mode == "Join") and "Join" or "Skip"
         _HSJ.Enabled = enabled and true or false
@@ -5265,6 +5296,7 @@ HalloweenESP = {
         _HSJ.Enabled  = false
         _HSJ.AutoWalk = false
         _H_stopAutoGive()
+        _H_stopAutoHold()
         _H_SJ_stopSkip()
         _H_SJ_stopWalk()
         _H_SJ_stopAutoWalk()
@@ -5701,6 +5733,18 @@ local IV_ToT_AutoGive = SecHalloweenAutoGive:CreateToggle({
         if HalloweenESP then HalloweenESP.SetAutoGive(v) end
     end,
 })
+
+local IV_ToT_AutoHold = SecHalloweenAutoGive:CreateToggle({
+    name = "Auto Hold Trick or Treat", value = false,
+    callback = function(v)
+        if HalloweenESP then HalloweenESP.SetAutoHold(v) end
+    end,
+})
+SecHalloweenAutoGive:CreateLabel({
+    text = "<b>Auto Hold Tool</b>\nSelalu pegang Tool <b>Trick or Treat</b>. "
+        .. "Auto re-equip setelah respawn atau setelah selesai auto-walk.",
+})
+
 SecHalloweenAutoGive:CreateLabel({
     text = "Otomatis kasih permen ke Treater di jarak dekat. auto pick langsung berikan Candy.",
 })
@@ -6521,6 +6565,9 @@ local function IndoVoice_Unload()
         AutoSell.StopFishLoop()
         AutoSell.StopOreLoop()
         AutoSellRuntime.IsBusy = false
+    end)
+    pcall(function()
+        if HalloweenESP then HalloweenESP.Stop() end
     end)
     pcall(function() AutoFavFishRuntime.IsBusy = false end)
     pcall(function() AutoFavOreRuntime.IsBusy = false end)
