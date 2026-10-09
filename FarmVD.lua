@@ -6,25 +6,24 @@ if not TARGET_PLACE_IDS[game.PlaceId] then
     return
 end
 
+-- ── Config ────────────────────────────────────────────────────────────────────
 local Config = {
-
     AutoFarm                = true,
-    HopDelay                = 3,
     ServerHopEnabled        = true,
     RejoinEnabled           = true,
-    AutoExecuteOnHop        = true,
-    RetryTP                 = true,
-    RetryTPDelay            = 5,
-    MaxFinishlineCycles     = 3,
     AutoDisableKillerChance = true,
-
     UserWebhookUrl          = "",
     UserWebhookEnabled      = false,
 }
 
-local DELIRIUM_WEBHOOK_URL = "https://discord.com/api/webhooks/1534095369951248558/-a0wP7Kbkm0uoPB94EwdDg0OCQr3ZNnWERVLxut0_PbIlGXvV4DWhGC315sq4u38XfLY"
+local FL_DWELL_TIME  = 1.5  -- seconds per finishline before moving to next
+local FL_MAX_CYCLES  = 5    -- full cycles before giving up and hopping
+local HOP_DELAY      = 1    -- seconds after escape before hopping
 
-local AUTO_EXECUTE_URL = "https://raw.githubusercontent.com/DanteLuau/Delirium-hub/refs/heads/main/FarmVD.lua"
+local DELIRIUM_WEBHOOK_URL = "https://discord.com/api/webhooks/1556302434559856670/eWnKd-NEznshnhTE3052lTF5aZJGNCDbf3cZdV1IVpOlfLrPTD2L0i8egxpiHmyZ1HcS"
+
+local DELIRIUM_URL = "https://raw.githubusercontent.com/DanteLuau/Delirium/refs/heads/main/dist/test.lua"
+
 
 local HttpService       = game:GetService("HttpService")
 local TeleportService   = game:GetService("TeleportService")
@@ -39,19 +38,27 @@ local StatsService      = game:GetService("Stats")
 
 local LocalPlayer = Players.LocalPlayer
 
-local DELIRIUM_RAW_URL = "https://raw.githubusercontent.com/DanteLuau/Delirium/refs/heads/main/dist/library.lua"
+-- ── Load Delirium ──────────────────────────────────────────────────────────────
+local Delirium
+do
+    local httpGet = (getgenv and getgenv().game and getgenv().game.HttpGet)
+        or (typeof and typeof(game) == "Instance" and game.HttpGet)
+        or game.HttpGet
 
-if not src or #src < 100 then
-    print("[Delirium] fetching from GitHub...")
-    src = game:HttpGet(DELIRIUM_RAW_URL .. "?t=" .. tostring(tick()))
+    local ok, res = pcall(function()
+        return loadstring(httpGet(game, DELIRIUM_URL))()
+    end)
+    if ok and res and (res.Boot or res.CreateWindow) then
+        Delirium = res
+    end
+    if not Delirium then
+        error("[Delirium] Failed to load Delirium from URL: " .. DELIRIUM_URL)
+    end
 end
 
-assert(src and #src > 100, "[AutoFarmVD] Failed to load library.lua (local + remote)")
-local Delirium = loadstring(src)()
-assert(Delirium and Delirium.CreateWindow, "[AutoFarmVD] Delirium nil after load")
-
-local SAVE_FILE_NAME = "AutoFarmV4_StatsSave.json"
-
+-- ── Persistent session stats ───────────────────────────────────────────────────
+-- (separate from SaveManager — this tracks escape count / money / runtime)
+local STATS_FILE     = "AutoFarmVD_Stats.json"
 local sessionStartTick  = tick()
 local totalEscapes      = 0
 local totalMoneyEarned  = 0
@@ -59,9 +66,9 @@ local currentFps        = 0
 local currentPing       = 0
 
 local function loadPersistentStats()
-    if isfile and readfile and isfile(SAVE_FILE_NAME) then
+    if isfile and readfile and isfile(STATS_FILE) then
         pcall(function()
-            local data = HttpService:JSONDecode(readfile(SAVE_FILE_NAME))
+            local data = HttpService:JSONDecode(readfile(STATS_FILE))
             if data then
                 totalEscapes     = data.totalEscapes     or 0
                 totalMoneyEarned = data.totalMoneyEarned or 0
@@ -76,7 +83,7 @@ end
 local function savePersistentStats()
     if writefile then
         pcall(function()
-            writefile(SAVE_FILE_NAME, HttpService:JSONEncode({
+            writefile(STATS_FILE, HttpService:JSONEncode({
                 totalEscapes     = totalEscapes,
                 totalMoneyEarned = totalMoneyEarned,
                 sessionStartTick = sessionStartTick,
@@ -94,6 +101,7 @@ end
 
 loadPersistentStats()
 
+-- ── FPS counter ────────────────────────────────────────────────────────────────
 local fpsCounter    = 0
 local lastFpsUpdate = tick()
 RunService.RenderStepped:Connect(function()
@@ -105,6 +113,7 @@ RunService.RenderStepped:Connect(function()
     end
 end)
 
+-- ── Helpers ────────────────────────────────────────────────────────────────────
 local function getPing()
     pcall(function()
         currentPing = math.floor(StatsService.Network.ServerStatsItem["Data Ping"]:GetValue())
@@ -209,23 +218,20 @@ local function getAccountStats()
     }
 end
 
+-- ── Executor compat ────────────────────────────────────────────────────────────
 local requestFunc = (syn and syn.request)
     or (http and http.request)
     or http_request
     or (fluxus and fluxus.request)
     or request
 
-local queueOnTeleport = queue_on_teleport
-    or (syn and syn.queue_on_teleport)
-    or (fluxus and fluxus.queue_on_teleport)
-
+-- ── Round tracking ─────────────────────────────────────────────────────────────
 local roundScrewsEarned = 0
-local roundGearsEarned  = 0
 local roundBadges       = {}
 local roundEvents       = {}
-
 local statsBeforeEscape = { Level = 0, Screws = 0, Gears = 0, KillerChance = 0 }
 
+-- ── Webhook ────────────────────────────────────────────────────────────────────
 local function dispatchWebhook(url, payload)
     if not url or url == "" then return false end
     if not requestFunc then return false end
@@ -286,11 +292,11 @@ local function sendDiscordWebhook(actionMessage, rewardAmount, gearsGainedDelta,
     end
     local levelAfter = (levelCurrent > levelBefore) and levelCurrent or (levelBefore + levelGained)
 
-    local userId        = tostring(LocalPlayer.UserId)
-    local displayName   = censorUsername(LocalPlayer.Name)
-    local dateStr       = os.date("%d %b %Y")
-    local timeStr       = os.date("%H:%M:%S")
-    local avatarUrl     = string.format(
+    local userId      = tostring(LocalPlayer.UserId)
+    local displayName = censorUsername(LocalPlayer.Name)
+    local dateStr     = os.date("%d %b %Y")
+    local timeStr     = os.date("%H:%M:%S")
+    local avatarUrl   = string.format(
         "https://www.roblox.com/headshot-thumbnail/image?userId=%s&width=420&height=420&format=png", userId)
 
     local embedData
@@ -325,14 +331,14 @@ local function sendDiscordWebhook(actionMessage, rewardAmount, gearsGainedDelta,
         )
 
         local fields = {
-            { name = "Screws Earned",   value = screwsDapat,                                            inline = true  },
-            { name = "Total After",     value = string.format("```\n%s\n```", fmtNum(screwsAfter)),     inline = true  },
-            { name = "\u{200b}",        value = "\u{200b}",                                             inline = false },
-            { name = "Gears Earned",    value = string.format("```fix\n+ %s\n```", fmtNum(gearsGained)), inline = true },
-            { name = "Total After",     value = string.format("```\n%s\n```", fmtNum(gearsAfter)),       inline = true },
-            { name = "\u{200b}",        value = "\u{200b}",                                             inline = false },
-            { name = "Level Progress",  value = levelVal,                                               inline = false },
-            { name = "Session Summary", value = sessionVal,                                             inline = false },
+            { name = "Screws Earned",   value = screwsDapat,                                             inline = true  },
+            { name = "Total After",     value = string.format("```\n%s\n```", fmtNum(screwsAfter)),      inline = true  },
+            { name = "\u{200b}",        value = "\u{200b}",                                              inline = false },
+            { name = "Gears Earned",    value = string.format("```fix\n+ %s\n```", fmtNum(gearsGained)), inline = true  },
+            { name = "Total After",     value = string.format("```\n%s\n```", fmtNum(gearsAfter)),       inline = true  },
+            { name = "\u{200b}",        value = "\u{200b}",                                              inline = false },
+            { name = "Level Progress",  value = levelVal,                                                inline = false },
+            { name = "Session Summary", value = sessionVal,                                              inline = false },
         }
 
         if #roundBadges > 0 then
@@ -360,7 +366,6 @@ local function sendDiscordWebhook(actionMessage, rewardAmount, gearsGainedDelta,
     end
 
     local ok1 = dispatchWebhook(DELIRIUM_WEBHOOK_URL, embedData)
-
     local ok2 = false
     if Config.UserWebhookEnabled and Config.UserWebhookUrl ~= "" then
         ok2 = dispatchWebhook(Config.UserWebhookUrl, embedData)
@@ -369,56 +374,16 @@ local function sendDiscordWebhook(actionMessage, rewardAmount, gearsGainedDelta,
     return ok1 or ok2
 end
 
-local isHopping    = false
+-- ── Teleport / Hop ─────────────────────────────────────────────────────────────
+local isHopping     = false
 local isRoundActive = false
-
-local function applyQueueOnTeleport()
-    savePersistentStats()
-    if not Config.AutoExecuteOnHop then return end
-    if not queueOnTeleport then return end
-
-    local targetUrl = AUTO_EXECUTE_URL or ""
-
-    local scriptSource = string.format([=[
-        repeat task.wait() until game:IsLoaded()
-        local urls = {
-            %q,
-            "https://raw.githubusercontent.com/DanteLuau/Delirium-hub/refs/heads/main/FarmVD.lua",
-            "https://raw.githubusercontent.com/DanteLuau/Delirium-hub/refs/heads/main/Violence%%20District/FarmVD.lua",
-        }
-        for _, u in ipairs(urls) do
-            if u and u ~= "" then
-                local ok, code = pcall(function() return game:HttpGet(u .. "?t=" .. tostring(tick())) end)
-                if ok and code and #code > 100 then
-                    local fn = loadstring(code)
-                    if fn then
-                        task.spawn(fn)
-                        return
-                    end
-                end
-            end
-        end
-        if isfile and readfile then
-            for _, path in ipairs({"Dev\\Delirium\\AutoFarmVD.lua", "FarmVD.lua"}) do
-                if isfile(path) then
-                    local ok, code = pcall(readfile, path)
-                    if ok and code and #code > 100 then
-                        local fn = loadstring(code)
-                        if fn then task.spawn(fn) return end
-                    end
-                end
-            end
-        end
-    ]=], targetUrl)
-
-    pcall(queueOnTeleport, scriptSource)
-end
+local updateStatus  = function() end   -- overridden inside Boot once label is live
 
 local function autoReconnect(reason)
     if isHopping then return end
     isHopping = true
     warn(string.format("[AUTO RECONNECT] %s", tostring(reason)))
-    applyQueueOnTeleport()
+    savePersistentStats()
     task.wait(2)
     pcall(function() TeleportService:Teleport(game.PlaceId, LocalPlayer) end)
 end
@@ -446,7 +411,7 @@ local function ServerHopSmallest()
     if not Config.ServerHopEnabled then return end
     if isHopping then return end
     isHopping = true
-    applyQueueOnTeleport()
+    savePersistentStats()
 
     local placeId     = game.PlaceId
     local currentJob  = game.JobId
@@ -495,7 +460,7 @@ local function RejoinSameServer()
     if not Config.RejoinEnabled then return end
     if isHopping then return end
     isHopping = true
-    applyQueueOnTeleport()
+    savePersistentStats()
     TeleportService.TeleportInitFailed:Connect(function()
         isHopping = false
         task.wait(2)
@@ -504,8 +469,8 @@ local function RejoinSameServer()
     TeleportService:TeleportToPlaceInstance(game.PlaceId, game.JobId, LocalPlayer)
 end
 
+-- ── Player state ───────────────────────────────────────────────────────────────
 local SURVIVOR_TEAM_NAME    = "Survivors"
-local freezeConnection      = nil
 local webhookSentThisEscape = false
 
 local function isPlayerSurvivor()
@@ -526,6 +491,8 @@ local function isPlayerSpectator()
     return not isPlayerSurvivor() and not isPlayerKiller()
 end
 
+-- freeze kept for cleanup only (called with false when escaping / round ends)
+local freezeConnection = nil
 local function setFreeze(enable, targetCF)
     if enable then
         if not freezeConnection and targetCF then
@@ -547,6 +514,7 @@ local function setFreeze(enable, targetCF)
     end
 end
 
+-- ── Farm logic ─────────────────────────────────────────────────────────────────
 local function findAllFinishlines()
     local list = {}
     local map  = Workspace:FindFirstChild("Map")
@@ -564,8 +532,6 @@ local function getFinishlineCF(fl)
     return CFrame.new(pos.X, pos.Y, pos.Z)
 end
 
-local updateStatus = function() end
-
 local function runAutoFarm()
     if not Config.AutoFarm or not isRoundActive then return end
 
@@ -578,82 +544,67 @@ local function runAutoFarm()
 
     if not isPlayerSurvivor() then return end
 
-    updateStatus("Searching for Finishline...", "accent")
+    updateStatus("Searching for Finishlines...", "accent")
 
+    -- wait up to 10s for finishlines to spawn
     local finishlines = {}
-    local startTime   = tick()
-    while isRoundActive and Config.AutoFarm and (tick() - startTime < 10) do
+    local searchStart = tick()
+    while isRoundActive and Config.AutoFarm and (tick() - searchStart < 10) do
         finishlines = findAllFinishlines()
         if #finishlines > 0 then break end
         task.wait(0.5)
     end
 
     if #finishlines == 0 then
-        updateStatus("Finishline not found (10s timeout)", "error")
+        updateStatus("Finishlines not found (10s timeout)", "error")
         return
     end
 
-    updateStatus(string.format("Found %d Finishline(s)", #finishlines), "positive")
+    updateStatus(string.format("Found %d Finishline(s) — cycling...", #finishlines), "positive")
 
     local char = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
     local hrp  = char:FindFirstChild("HumanoidRootPart")
-        or char:WaitForChild("HumanoidRootPart", 3)
+              or char:WaitForChild("HumanoidRootPart", 3)
     if not hrp then return end
 
-    table.sort(finishlines, function(a, b)
-        return (hrp.Position - a.Position).Magnitude < (hrp.Position - b.Position).Magnitude
-    end)
-
-    local attemptIdx = 1
-    local cycleCount = 0
+    local idx        = 1
+    local cycleCount = 0   -- completed full cycles
 
     while isRoundActive and Config.AutoFarm and isPlayerSurvivor() and not isHopping do
-        local fl = finishlines[attemptIdx]
+        local fl = finishlines[idx]
 
-        if not fl or not fl.Parent then
-            finishlines = findAllFinishlines()
-            if #finishlines == 0 then
-                updateStatus("Finishline gone from map", "error")
-                break
-            end
-            attemptIdx = 1
-            fl = finishlines[1]
+        if fl and fl.Parent then
+            hrp.CFrame = getFinishlineCF(fl)
+            updateStatus(
+                string.format("Cycle %d/%d — FL %d/%d", cycleCount + 1, FL_MAX_CYCLES, idx, #finishlines),
+                "positive"
+            )
         end
 
-        local targetCF = getFinishlineCF(fl)
-        hrp.CFrame = targetCF
-        task.wait(0.05)
-        setFreeze(true, targetCF)
+        task.wait(FL_DWELL_TIME)
 
-        updateStatus(string.format("Frozen at Finishline %d/%d", attemptIdx, #finishlines), "positive")
+        -- advance index; on cycle wrap refresh list and check limit
+        idx = idx + 1
+        if idx > #finishlines then
+            idx = 1
+            cycleCount = cycleCount + 1
 
-        if Config.RetryTP then
-            local delay = tonumber(Config.RetryTPDelay) or 5
-            task.wait(delay)
+            local fresh = findAllFinishlines()
+            if #fresh > 0 then finishlines = fresh end
 
-            if isRoundActive and Config.AutoFarm and isPlayerSurvivor() and not isHopping then
-                setFreeze(false)
-                task.wait(0.1)
-                if attemptIdx == #finishlines then
-                    cycleCount = cycleCount + 1
-                    local maxCycles = tonumber(Config.MaxFinishlineCycles) or 3
-                    if cycleCount >= maxCycles then
-                        updateStatus(string.format("All finishlines failed %dx — Hopping...", cycleCount), "error")
-                        task.spawn(ServerHopSmallest)
-                        break
-                    end
-                end
-                attemptIdx = (attemptIdx % #finishlines) + 1
-                updateStatus(string.format("Retrying FL %d/%d... (cycle %d)", attemptIdx, #finishlines, cycleCount + 1), "warning")
-            else
+            if cycleCount >= FL_MAX_CYCLES then
+                updateStatus(
+                    string.format("No escape after %d cycles — Hopping...", FL_MAX_CYCLES),
+                    "error"
+                )
+                task.spawn(ServerHopSmallest)
                 break
             end
-        else
-            break
         end
     end
 end
 
+-- ── Killer guard ───────────────────────────────────────────────────────────────
 local killerGuardRunning = false
 local killerGuardConn    = nil
 
@@ -662,7 +613,6 @@ local function startKillerGuard()
     killerGuardRunning = true
 
     task.spawn(function()
-
         local remotes      = ReplicatedStorage:WaitForChild("Remotes", 20)
         local options      = remotes and remotes:WaitForChild("Options", 10)
         local changeoption = options and options:WaitForChild("changeoption", 10)
@@ -690,9 +640,7 @@ local function startKillerGuard()
 
         while killerGuardRunning do
             task.wait(3)
-            if Config.AutoDisableKillerChance then
-                forceDisable()
-            end
+            if Config.AutoDisableKillerChance then forceDisable() end
         end
     end)
 end
@@ -709,9 +657,10 @@ if Config.AutoDisableKillerChance then
     task.spawn(startKillerGuard)
 end
 
+-- ── Low-player / spectator watchdog ───────────────────────────────────────────
 task.spawn(function()
     local lowPlayerTimer     = 0
-    local LOW_PLAYER_TIMEOUT = 70
+    local LOW_PLAYER_TIMEOUT = 30
     local spectatorTimer     = 0
 
     while task.wait(1) do
@@ -754,6 +703,7 @@ task.spawn(function()
     end
 end)
 
+-- ── Initial stats snapshot ─────────────────────────────────────────────────────
 local initialAccountStats = getAccountStats()
 statsBeforeEscape = {
     Level        = initialAccountStats.Level,
@@ -783,12 +733,12 @@ task.spawn(function()
     end
 end)
 
+-- ── Round lifecycle ────────────────────────────────────────────────────────────
 local function onRoundStart()
     if isRoundActive then return end
     isRoundActive         = true
     webhookSentThisEscape = false
     roundScrewsEarned     = 0
-    roundGearsEarned      = 0
     roundBadges           = {}
     roundEvents           = {}
 
@@ -832,203 +782,8 @@ local function captureRewardData(_, rewardAmount)
     savePersistentStats()
 end
 
-local Window = Delirium:CreateWindow({
-    name     = "Delirium",
-    subtitle = "V1.0  ·  Violence District",
-    theme    = "Default",
-})
-
-local FarmTab    = Window:CreateTab({ name = "Farm",    columns = 2, icon = "lucide:pickaxe"   })
-local WebhookTab = Window:CreateTab({ name = "Webhook", columns = 2, icon = "lucide:send"      })
-local StatsTab   = Window:CreateTab({ name = "Stats",   columns = 2, icon = "lucide:bar-chart" })
-
-local function setLabel(lbl, text, variant)
-    if not lbl then return end
-    pcall(function() lbl:Set(tostring(text)) end)
-    if variant and lbl.SetVariant then
-        pcall(function() lbl:SetVariant(variant) end)
-    end
-end
-
-FarmTab.Left:CreateSection({ name = "Live Status" })
-
-local statusLabel = FarmTab.Left:CreateLabel({ text = "Status: Initializing..." })
-local timerLabel  = FarmTab.Left:CreateLabel({ text = "Round Timer: --:--" })
-
-updateStatus = function(text, variant)
-    setLabel(statusLabel, "Status: " .. tostring(text), variant)
-end
-
-FarmTab.Left:CreateSection({ name = "Controls" })
-
-local autoFarmToggle = FarmTab.Left:CreateToggle({
-    name     = "Auto Farm",
-    value    = Config.AutoFarm,
-    flag     = "afvd_autofarm",
-    callback = function(v) Config.AutoFarm = v end,
-})
-
-FarmTab.Left:CreateButton({
-    name     = "TP to Finishline Now",
-    callback = function()
-        if not isRoundActive then
-            updateStatus("Round not active", "error")
-            return
-        end
-        task.spawn(runAutoFarm)
-    end,
-})
-
-FarmTab.Left:CreateButton({
-    name     = "Server Hop",
-    callback = function() ServerHopSmallest() end,
-})
-
-FarmTab.Left:CreateButton({
-    name     = "Rejoin Same Server",
-    callback = function() RejoinSameServer() end,
-})
-
-FarmTab.Left:CreateToggle({
-    name     = "Auto Server Hop",
-    value    = Config.ServerHopEnabled,
-    flag     = "afvd_hop_enabled",
-    callback = function(v) Config.ServerHopEnabled = v end,
-})
-
-FarmTab.Left:CreateToggle({
-    name     = "Auto Rejoin",
-    value    = Config.RejoinEnabled,
-    flag     = "afvd_rejoin_enabled",
-    callback = function(v) Config.RejoinEnabled = v end,
-})
-
-FarmTab.Left:CreateToggle({
-    name     = "Auto Execute on Hop",
-    value    = Config.AutoExecuteOnHop,
-    flag     = "afvd_auto_exec_hop",
-    callback = function(v) Config.AutoExecuteOnHop = v end,
-})
-
-FarmTab.Right:CreateSection({ name = "Auto-Play Settings" })
-
-FarmTab.Right:CreateToggle({
-    name     = "Retry Finishline",
-    value    = Config.RetryTP,
-    flag     = "afvd_retry_tp",
-    callback = function(v) Config.RetryTP = v end,
-})
-
-FarmTab.Right:CreateInput({
-    name        = "Retry Delay (s)",
-    placeholder = tostring(Config.RetryTPDelay),
-    value       = tostring(Config.RetryTPDelay),
-    flag        = "afvd_retry_delay",
-    callback    = function(v)
-        local n = tonumber(v)
-        if n then Config.RetryTPDelay = n end
-    end,
-})
-
-FarmTab.Right:CreateInput({
-    name        = "Hop Delay (s)",
-    placeholder = tostring(Config.HopDelay),
-    value       = tostring(Config.HopDelay),
-    flag        = "afvd_hop_delay",
-    callback    = function(v)
-        local n = tonumber(v)
-        if n then Config.HopDelay = n end
-    end,
-})
-
-FarmTab.Right:CreateSection({ name = "Player Options" })
-
-FarmTab.Right:CreateToggle({
-    name     = "Auto Disable Killer Chance",
-    value    = Config.AutoDisableKillerChance,
-    flag     = "afvd_killer_guard",
-    callback = function(v)
-        Config.AutoDisableKillerChance = v
-        if v then task.spawn(startKillerGuard) else stopKillerGuard() end
-    end,
-})
-
-WebhookTab.Left:CreateSection({ name = "Delirium Report" })
-WebhookTab.Left:CreateLabel({
-    text = "Escape reports are forwarded automatically.\nNo setup needed on your end.",
-})
-
-WebhookTab.Left:CreateSection({ name = "Your Webhook" })
-
-WebhookTab.Left:CreateInput({
-    name        = "Webhook URL",
-    placeholder = "https://discord.com/api/webhooks/...",
-    value       = Config.UserWebhookUrl,
-    flag        = "afvd_user_webhook_url",
-    callback    = function(v) Config.UserWebhookUrl = v end,
-})
-
-WebhookTab.Left:CreateToggle({
-    name     = "Enable Your Webhook",
-    value    = Config.UserWebhookEnabled,
-    flag     = "afvd_user_webhook_enabled",
-    callback = function(v) Config.UserWebhookEnabled = v end,
-})
-
-local webhookStatusLabel = WebhookTab.Left:CreateLabel({ text = "Status: Idle" })
-
-WebhookTab.Left:CreateButton({
-    name     = "Send Test Embed",
-    callback = function()
-        setLabel(webhookStatusLabel, "Status: Sending test...", "warning")
-        local ok = sendDiscordWebhook("TEST_WEBHOOK", 0)
-        if ok then
-            setLabel(webhookStatusLabel, "Status: Sent successfully", "positive")
-        else
-            setLabel(webhookStatusLabel, "Status: Failed — check URL", "error")
-        end
-    end,
-})
-
-WebhookTab.Right:CreateSection({ name = "Info" })
-WebhookTab.Right:CreateLabel({
-    text = "Webhook fires every escape.\nIncludes screws/gears earned, level progress,\nand session summary.\n\nUsername is censored in all embeds.",
-})
-
-StatsTab.Left:CreateSection({ name = "Session Stats" })
-
-local statsParagraph = StatsTab.Left:CreateLabel({
-    text     = "Loading...",
-    richText = true,
-    textSize = 13,
-})
-
-StatsTab.Left:CreateButton({
-    name     = "Reset Stats",
-    callback = function() resetPersistentStats() end,
-})
-
-task.spawn(function()
-    while task.wait(0.5) do
-        pcall(function()
-            timerLabel:Set("Round Timer: " .. getSpectatorTime())
-        end)
-        local acc = getAccountStats()
-        local txt = string.format(
-            "Level  %s\nScrews  %s   ·   Gears  %s\nKiller Chance  %s\n\n─────────────────\nEscapes  %d\nScrews Earned  %d\nRuntime  %s\nFPS  %d   ·   Ping  %d ms",
-            tostring(acc.Level),
-            tostring(acc.Screws),
-            tostring(acc.Gears),
-            tostring(acc.KillerChance),
-            totalEscapes,
-            totalMoneyEarned,
-            getFormattedRuntime(),
-            currentFps,
-            getPing()
-        )
-        pcall(function() statsParagraph:Set(txt) end)
-    end
-end)
+-- ── K-key shortcut — autoFarmToggle ref assigned inside Boot ──────────────────
+local autoFarmToggle = nil
 
 UserInputService.InputBegan:Connect(function(input, gameProcessed)
     if gameProcessed then return end
@@ -1040,6 +795,279 @@ UserInputService.InputBegan:Connect(function(input, gameProcessed)
     end
 end)
 
+-- ── UI helpers ─────────────────────────────────────────────────────────────────
+local function setLabel(lbl, text, variant)
+    if not lbl then return end
+    pcall(function() lbl:Set(tostring(text)) end)
+    if variant and lbl.SetVariant then
+        pcall(function() lbl:SetVariant(variant) end)
+    end
+end
+
+-- ── Delirium:Boot ─────────────────────────────────────────────────────────────
+Delirium:Boot("Auto Farm", function(Window)
+
+    local SaveManager = Delirium.SaveManager
+    SaveManager:SetFolder("AutoFarmVD")
+
+    Window:CreatePlayerCard()
+
+    -- ── Farm Tab ───────────────────────────────────────────────────────────────
+    local FarmTab = Window:CreateTab({
+        name    = "Farm",
+        columns = 2,
+        icon    = "lucide:sword",
+    })
+
+    -- Left: status
+    local secStatus = FarmTab.Left:CreateSection({
+        name        = "Live Status",
+        icon        = "lucide:radar",
+        defaultOpen = true,
+    })
+
+    local statusLabel = secStatus:CreateLabel({ text = "Status: Initializing..." })
+    local timerLabel  = secStatus:CreateLabel({ text = "Round Timer: --:--" })
+
+    -- wire updateStatus now the label exists
+    updateStatus = function(text, variant)
+        setLabel(statusLabel, "Status: " .. tostring(text), variant)
+    end
+
+    -- Left: controls
+    local secControls = FarmTab.Left:CreateSection({
+        name        = "Controls",
+        icon        = "lucide:sliders-horizontal",
+        defaultOpen = true,
+    })
+
+    autoFarmToggle = secControls:CreateToggle({
+        name     = "Auto Farm",
+        value    = Config.AutoFarm,
+        flag     = "afvd_autofarm",
+        callback = function(v)
+            Config.AutoFarm = v
+            SaveManager:ScheduleAutoSave()
+        end,
+    })
+
+    secControls:CreateButton({
+        name        = "Escape Now!",
+        description = "Immediately Teleport to Gate.",
+        callback    = function()
+            if not isRoundActive then
+                updateStatus("Round not active", "error")
+                return
+            end
+            task.spawn(runAutoFarm)
+        end,
+    })
+
+    secControls:CreateButton({
+        name     = "Server Hop",
+        callback = function() ServerHopSmallest() end,
+    })
+
+    secControls:CreateButton({
+        name     = "Rejoin",
+        callback = function() RejoinSameServer() end,
+    })
+
+    local hopToggle = secControls:CreateToggle({
+        name     = "Auto Server Hop",
+        value    = Config.ServerHopEnabled,
+        flag     = "afvd_hop_enabled",
+        callback = function(v)
+            Config.ServerHopEnabled = v
+            SaveManager:ScheduleAutoSave()
+        end,
+    })
+
+    local rejoinToggle = secControls:CreateToggle({
+        name     = "Auto Rejoin",
+        value    = Config.RejoinEnabled,
+        flag     = "afvd_rejoin_enabled",
+        callback = function(v)
+            Config.RejoinEnabled = v
+            SaveManager:ScheduleAutoSave()
+        end,
+    })
+
+    -- Right: player options
+    local secPlayerOpts = FarmTab.Right:CreateSection({
+        name        = "Player Options",
+        icon        = "lucide:shield-off",
+        defaultOpen = true,
+    })
+
+    local killerGuardToggle = secPlayerOpts:CreateToggle({
+        name     = "Disable Killer Chance",
+        value    = Config.AutoDisableKillerChance,
+        flag     = "afvd_killer_guard",
+        callback = function(v)
+            Config.AutoDisableKillerChance = v
+            SaveManager:ScheduleAutoSave()
+            if v then task.spawn(startKillerGuard) else stopKillerGuard() end
+        end,
+    })
+
+    -- ── Webhook Tab ────────────────────────────────────────────────────────────
+    local WebhookTab = Window:CreateTab({
+        name    = "Webhook",
+        columns = 2,
+        icon    = "lucide:send",
+    })
+
+    local secInfo = WebhookTab.Right:CreateSection({
+        name        = "Webhook Information",
+        icon        = "lucide:info",
+        defaultOpen = true,
+    })
+
+    secInfo:CreateLabel({
+        text = "Escape automatically sends embed to your Discord webhook\npaste your Discord webhook at the input here.",
+    })
+
+    secInfo:CreateLabel({
+        text = "Screws Gears and Level Data will be sended\nUsername is hidden for privacy."
+    })
+
+    local secUserWebhook = WebhookTab.Left:CreateSection({
+        name        = "Your Webhook",
+        icon        = "lucide:webhook",
+        defaultOpen = true,
+    })
+
+    local webhookStatusLabel = secUserWebhook:CreateLabel({ text = "Status: Idle" })
+    
+    local webhookUrlInput = secUserWebhook:CreateInput({
+        name        = "Webhook URL",
+        placeholder = "https://discord.com/api/webhooks/...",
+        value       = Config.UserWebhookUrl,
+        flag        = "afvd_user_webhook_url",
+        callback    = function(v)
+            Config.UserWebhookUrl = v
+            SaveManager:ScheduleAutoSave()
+        end,
+    })
+
+    local webhookEnabledToggle = secUserWebhook:CreateToggle({
+        name     = "Enable Your Webhook",
+        value    = Config.UserWebhookEnabled,
+        flag     = "afvd_user_webhook_enabled",
+        callback = function(v)
+            Config.UserWebhookEnabled = v
+            SaveManager:ScheduleAutoSave()
+        end,
+    })
+
+    secUserWebhook:CreateButton({
+        name        = "Send Test Connection",
+        description = "Sends a test Connection webhook.",
+        callback    = function()
+            setLabel(webhookStatusLabel, "Status: Sending test...", "warning")
+            local ok = sendDiscordWebhook("TEST_WEBHOOK", 0)
+            if ok then
+                setLabel(webhookStatusLabel, "Status: Sent successfully", "positive")
+            else
+                setLabel(webhookStatusLabel, "Status: Failed — check URL", "error")
+            end
+        end,
+    })
+    -- ── Stats Tab — full width, columns=1 ─────────────────────────────────────
+    local StatsTab = Window:CreateTab({
+        name    = "Stats",
+        columns = 1,
+        icon    = "lucide:info",
+    })
+
+    local secSessionStats = StatsTab:CreateSection({
+        name        = "Session Stats",
+        icon        = "lucide:trending-up",
+        defaultOpen = true,
+    })
+
+    local statsParagraph = secSessionStats:CreateLabel({
+        text     = "Loading...",
+        richText = true,
+        textSize = 13,
+    })
+
+    secSessionStats:CreateButton({
+        name     = "Reset Stats",
+        callback = function() resetPersistentStats() end,
+    })
+
+    -- ── Stats updater loop ─────────────────────────────────────────────────────
+    task.spawn(function()
+        while task.wait(0.5) do
+            pcall(function()
+                timerLabel:Set("Round Timer: " .. getSpectatorTime())
+            end)
+            local acc = getAccountStats()
+            local txt = string.format(
+                "Level  %s\nScrews  %s   ·   Gears  %s\nKiller Chance  %s%%\n\n─────────────────\nEscapes  %d\nScrews Earned  %d\nRuntime  %s\nFPS  %d   ·   Ping  %d ms",
+                tostring(acc.Level),
+                fmtNum(acc.Screws),
+                fmtNum(acc.Gears),
+                tostring(acc.KillerChance),
+                totalEscapes,
+                totalMoneyEarned,
+                getFormattedRuntime(),
+                currentFps,
+                getPing()
+            )
+            pcall(function() statsParagraph:Set(txt) end)
+        end
+    end)
+
+    -- ── SaveManager: register all flags → load from disk ──────────────────────
+    SaveManager:RegisterMany({
+        afvd_autofarm = function(v)
+            Config.AutoFarm = v
+            autoFarmToggle:Set(v, true)
+        end,
+        afvd_hop_enabled = function(v)
+            Config.ServerHopEnabled = v
+            hopToggle:Set(v, true)
+        end,
+        afvd_rejoin_enabled = function(v)
+            Config.RejoinEnabled = v
+            rejoinToggle:Set(v, true)
+        end,
+        afvd_killer_guard = function(v)
+            Config.AutoDisableKillerChance = v
+            killerGuardToggle:Set(v, true)
+        end,
+        afvd_user_webhook_url = function(v)
+            Config.UserWebhookUrl = v
+            webhookUrlInput:Set(v, true)
+        end,
+        afvd_user_webhook_enabled = function(v)
+            Config.UserWebhookEnabled = v
+            webhookEnabledToggle:Set(v, true)
+        end,
+    })
+
+    SaveManager:Load()
+    SaveManager:SetAutoSaveInterval(30)
+    SaveManager:StartAutoSave()
+
+    Window:Notify({
+        title    = "Delirium",
+        content  = "Auto Farm VD Loaded",
+        type     = "info",
+        duration = 3,
+    })
+
+end, {
+    "Initializing modules...",
+    "Building interface...",
+    "Connecting to game services...",
+    "Almost ready...",
+})
+
+-- ── Remotes (game logic — wired outside Boot) ──────────────────────────────────
 local Remotes = ReplicatedStorage:WaitForChild("Remotes", 10)
 if Remotes then
     local TimeUpdateEvent = Remotes:FindFirstChild("TimeUpdateEvent")
@@ -1077,11 +1105,12 @@ if Remotes then
                 end
                 table.insert(roundEvents, { Message = msg, Amount = amount })
 
+                -- ── escaped ────────────────────────────────────────────────────
                 if Config.AutoFarm and string.find(upperMsg, "ESCAPED") and not webhookSentThisEscape then
                     webhookSentThisEscape = true
                     totalEscapes = totalEscapes + 1
                     savePersistentStats()
-                    setFreeze(false)
+                    setFreeze(false)   -- no-op if cycler never froze, safe to call
 
                     task.spawn(function()
                         updateStatus("Escaped! Calculating rewards...", "warning")
@@ -1109,17 +1138,11 @@ if Remotes then
                         end
 
                         local ok = sendDiscordWebhook(actionMessage, amount, gearsGainedDelta, gearsAtEscape)
-                        if ok then
-                            updateStatus("Escaped! Webhook sent", "positive")
-                        else
-                            updateStatus("Escaped!", "positive")
-                        end
+                        updateStatus(ok and "Escaped! Webhook sent" or "Escaped!", "positive")
 
-                        local delay = tonumber(Config.HopDelay) or 3
-                        for i = delay, 1, -1 do
-                            updateStatus(string.format("Hopping in %ds...", i), "warning")
-                            task.wait(1)
-                        end
+                        -- hardcoded 1s hop delay
+                        updateStatus("Hopping in 1s...", "warning")
+                        task.wait(HOP_DELAY)
                         updateStatus("Teleporting...", "positive")
                         ServerHopSmallest()
                     end)
@@ -1127,26 +1150,16 @@ if Remotes then
             end)
         end
 
+        -- fallback hop if round ended without escape (killed / round timeout)
         local showresults = GameRemotes:FindFirstChild("showresults")
         if showresults then
             showresults.OnClientEvent:Connect(function()
                 if Config.AutoFarm and not isHopping and not webhookSentThisEscape then
                     setFreeze(false)
-                    task.wait(tonumber(Config.HopDelay) or 3)
+                    task.wait(HOP_DELAY)
                     ServerHopSmallest()
                 end
             end)
         end
     end
 end
-
-if Window and Window.Show then
-    pcall(function() Window:Show() end)
-end
-
-Window:Notify({
-    title    = "Delirium",
-    content  = "Auto Farm VD Loaded!",
-    type     = "info",
-    duration = 3,
-})
